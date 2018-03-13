@@ -21,21 +21,21 @@ This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. T
 
 **Director: [Dr. Richard W. Evans](https://sites.google.com/site/rickecon/) [(rwevans@uchicago.edu)](mailto:rwevans@uchicago.edu).** The Director and Founder of the OSM Lab is [Richard W. Evans](https://sites.google.com/site/rickecon/). Dr. Evans is a Senior Lecturer at the University of Chicago and a Fellow at the Becker Friedman Institute. He is also an economist with the Open Source Policy Center, and is a steering committee member of [QuantEcon](https://quantecon.org/).
 
-**Logistics and finances: Grace Hammond, Becker Friedman Institute [(gohammond@uchicago.edu)](mailto:gohammond@uchicago.edu)**: Grace Hammond is the Associate Director for Operations, Programs, and Finance at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
+**Logistics and finances: Cara Cook, Becker Friedman Institute [(caracook@uchicago.edu)](mailto:caracook@uchicago.edu)**: Cara Cook is the Senior Events Manager at the Becker Friedman Institute. She coordinates the student and instructor travel, housing, and financial matters.
 
 **Instructors.** The OSM Lab has excellent instructors and presenters from economics, math, and computation. Below is a list of this year's instructors and presenters in alphabetical order by last name. To see what they teach and when, check the respective [math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math), [econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ), and [computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation) detailed schedule pages.
 
-Senior Instructors and Presenters
+Senior Instructors and Presenters (in alphabetical order)
 * [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/), Johns Hopkins University
+* [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
 * [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
-* [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Brigham Young University
-* [Thomas Sargent](http://www.tomsargent.com/), New York University
+* [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Congressional Budget Office
 * [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), University of Zurich and Hoover Institution
-* [Karl Schmedders](http://www.business.uzh.ch/en/professorships/qba/members/schmedders.html), University of Zurich
 * [John Stachurski](http://johnstachurski.net/), Australia National University
+* [Matthew White](https://lerner.udel.edu/faculty-staff-directory/matthew-n-white/), University of Delaware
 
 Graduate Instructors
 * TBA
@@ -56,75 +56,75 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-6-18  | M   | Intro Measure Thry | Overlapping generations |              |  |
-6-19  | T   |              |                         | Python intro, standard library |     |
-6-20  | W   | Intro Measure Thry | Overlapping generations |              |     |
-6-21  | Th  |              |                         | Object oriented programming |     |
-6-22  | F   | Intro Measure Thry | Overlapping generations |              |     |
+6-18  | M   | Intro Measure Thry | Dynamic programming |              |  |
+6-19  | T   |              |                           | Python intro, standard library |     |
+6-20  | W   | Intro Measure Thry | Dynamic programming |              |     |
+6-21  | Th  |              |                           | Object oriented programming |     |
+6-22  | F   | Intro Measure Thry | Dynamic programming |              |     |
 
 ### Week 2
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-6-25  | M   | Inner product spaces | Dynamic programming |                     |     |
-6-26  | T   |                      |                     | Data visualization  |     |
-6-27  | W   | Inner product spaces | Dynamic programming |                     |   |
-6-28  | Th  |                      |                     | Pandas |     |
-6-29  | F   | Inner product spaces | Dynamic programming |                     |     |
+6-25  | M   | Inner product spaces | Stochastic processes |                      |     |
+6-26  | T   |                      |                      | Data visualization   |     |
+6-27  | W   | Inner product spaces | Ergodicity           |                      |   |
+6-28  | Th  |                      |                      | Pandas, data methods |     |
+6-29  | F   | Inner product spaces | Stationarity         |                      |     |
 
 ### Week 3
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-2  | M   | Spectral theory | Firm dynamics |   |     |
-7-3  | T   |                     |  | TBA  |     |
-7-4  | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY       |                      |     |
-7-5  | Th  |                     |                     | Sparse matrices, SVD |     |
-7-6  | F   | Spectral theory     | Firm dynamics       |                      |   |
+7-2  | M   | Spectral theory     | Overlapping generations models |   |     |
+7-3  | T   |                     |                                | QR decomposition, SVD  |     |
+7-4  | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY            |                      |     |
+7-5  | Th  |                     |                                | Numerical diff., integr. |     |
+7-6  | F   | Spectral theory     | Overlapping generations models |                      |   |
 
 ### Week 4
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-10  | M   | Continuous optimization | Firm dynamics              |                     |     |
-7-11  | T   |                         |                            | Data visualization  |     |
-7-12  | W   | Continuous optimization | Structural estimation: MLE |                     | [Lars Hansen](http://larspeterhansen.org/) |
-7-13  | Th  |                         |                            | Root find, minimize |     |
-7-14  | F   | Convex analysis         | Structural estimation: GMM |                     |     |
+7-9   | M   | Continuous optimization | Structural estimation: MLE |                     |     |
+7-10  | T   |                         |                            | High performance computing |     |
+7-11  | W   | Continuous optimization | Structural estimation: GMM |                     |   |
+7-12  | Th  |                         |                            | High performance computing |     |
+7-13  | F   | Convex analysis         | Structural estimation: SMM |                     |     |
 
 ### Week 5
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-17  | M   | Convex analysis     | Structural estimation: SMM |                  |     |
-7-18  | T   |                     |                            | Large data       |     |
-7-19  | W   | Convex analysis     | DSGE modeling              |                  |     |
-7-20  | Th  |                     |                            | High dimensional approx. |     |
-7-21  | F   | Linear optimization | DSGE linear approximation  |                  | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) "HPC in Economics" |
+7-16  | M   | Convex analysis     | DSGE modeling              |                  |     |
+7-17  | T   |                     |                            | High performance computing |     |
+7-18  | W   | Convex analysis     | DSGE linear approximation  |                  |     |
+7-19  | Th  |                     |                            | High performance computing |     |
+7-20  | F   | Linear optimization | DSGE Perturbation methods  |                  |   |
 
 ### Week 6
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-24  | M   | Linear optimization    | Perturbation methods      |                      |     |
-7-25  | T   |                        |                           | HPC/parallel compute |     |
-7-26  | W   | Linear optimization    | Filtering and cyclicality |                      |     |
-7-27  | Th  |                        |                           | HPC/parallel compute |     |
-7-28  | F   | Nonlinear optimization | Macro-financial modeling  |                      | TBA |
+7-23  | M   | Linear optimization    | Asset Pricing |                      |     |
+7-24  | T   |                        |               | Simplex, line search, Newton's |     |
+7-25  | W   | Linear optimization    | Asset Pricing |                      |     |
+7-26  | Th  |                        |               | Interior pt., quasi Newton |     |
+7-27  | F   | Nonlinear optimization | Asset Pricing |                      | TBA |
 
 ### Week 7
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Econ) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2017/tree/master/Computation) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-31 | M   | Nonlinear optimization | Macro-financial modeling |                      |     |
-8-1  | T   |                        |                          | HPC/parallel compute |     |
-8-2  | W   | Nonlinear optimization | Macro-financial modeling |                      |     |
-8-3  | Th  |                        |                          | HPC/parallel compute |     |
-8-4  | F   | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due    | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due      | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due  | TBA |
+7-30 | M   | Nonlinear optimization | Heterogeneous agent models |                            |     |
+7-31  | T   |                       |                            | Interpolation              |     |
+8-1  | W   | Nonlinear optimization | Heterogeneous agent models |                            |     |
+8-2  | Th  |                        |                            | Heterogeneous agent models |     |
+8-3  | F   | Conclusion: Hwk due    | Conclusion: Hwk due        | Conclusion: Hwk due  | TBA |
 
-This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time will average 60 hours per week of work.
+This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time might average 60 hours per week of work.
 
-Have provided 7 areas of tutorials that you benefit from reading before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
+We have provided 7 areas of tutorials that you will benefit from reading and working through before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
 Pre-course Tutorial Areas
 
