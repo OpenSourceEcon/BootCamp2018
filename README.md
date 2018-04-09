@@ -13,8 +13,9 @@ This `README.md` serves as a syllabus and reference for the OSM Lab Boot Camp. T
 7. [Git and GitHub.com tutorial](https://github.com/OpenSourceMacro/BootCamp2018#7-git-and-github-tutorial)
 8. [Jupyter notebooks](https://github.com/OpenSourceMacro/BootCamp2018#8-jupyter-notebooks)
 9. [Python tutorials](https://github.com/OpenSourceMacro/BootCamp2018#9-python-tutorials)
-10. [C++ tutorials](https://github.com/OpenSourceMacro/BootCamp2018#10-c-tutorials)
-11. [References](https://github.com/OpenSourceMacro/BootCamp2018#11-references)
+10. [Other Books](https://github.com/OpenSourceMacro/BootCamp2018#10-other-books)
+11. [C++ tutorials](https://github.com/OpenSourceMacro/BootCamp2018#11-c-tutorials)
+12. [References](https://github.com/OpenSourceMacro/BootCamp2018#12-references)
 
 
 ## 1. OSM Lab Leadership
@@ -289,21 +290,34 @@ To further one's Python programming skills, a number of other great resources ex
 * [Python computational labs](http://www.acme.byu.edu/2017-2018-materials/) of the Applied and Computational Mathematics Emphasis at Brigham Young University.
 * [Code Academy's Python learning module](https://www.codecademy.com/learn/learn-python)
 
-In addition, a number of excellent textbooks and reference manuals are very helpful and may be available in your local library. Or you may just want to have these in your own library. Lutz (2013) is a giant 1,500-page reference manual that has an expansive collection of materials targeted at beginners. Beazley (2009) is a more concise reference but is targeted at readers with some experience using Python. Despite its focus on a particular set of tools in the Python programming language, McKinney (2013) has a great introductory section that can serve as a good starting tutorial. Further, its focus on Python's data analysis capabilities is truly one of the important features of Python. Rounding out the list is Langtangen (2010). This book's focus on scientists and engineers makes it a unique reference for optimization, wrapping C and Fortran and other scientific computing topics using Python.
+In addition, a number of excellent textbooks and reference manuals are very helpful and may be available in your local library. Or you may just want to have these in your own library. Lutz (2013) is a giant 1,500-page reference manual that has an expansive collection of materials targeted at beginners. Beazley (2009) is a more concise reference but is targeted at readers with some experience using Python. Despite its focus on a particular set of tools in the Python programming language, McKinney (2018) has a great introductory section that can serve as a good starting tutorial. Further, its focus on Python's data analysis capabilities is truly one of the important features of Python. Rounding out the list is Langtangen (2010). This book's focus on scientists and engineers makes it a unique reference for optimization, wrapping C and Fortran and other scientific computing topics using Python.
 
 
-## 10. C++ tutorials
+## 10. Other Books
+
+Students participating in the Boot Camp need to obtain their own copy of the math book Humpherys, et al (2017). This book can be purchased through [SIAM](http://bookstore.siam.org/ot152/) or [Amazon](https://www.amazon.com/Foundations-Applied-Mathematics-Mathematical-Analysis/dp/1611974895). We will provide printed copies of the second volume of the book, Humpherys, et al (2018).
+
+The following books are recommendation that will not be required, but that are valuable in the library of a dynamic economist. We will also cover real analysis topics in measure theory. We recommend the following two books for their background on measure theory. Ok (2007) is a great real analysis book for economists. It also has nice material on measure theory in Chapter C. Stokey and Lucas (1989, chap. 7) has an exposition of how measure theory gets used in dynamic stochastic macroeconomic theory. Stokey and Lucas (1989) is probably a good book for any macroeconomist to have in their library. On the economics side, some additional books that we like and recommend are Ljungqvist and Sargent (2012) and Adda and Cooper (2003).
+
+
+## 11. C++ tutorials
 
 Although we will be using Python for most of the Boot Camp, we will use C++ for the computational labs taught by [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) on July, 20, 25, 27,, August 1,and 3. These computational labs treat high performance computing, parallel computing, and high dimensional approximation. Using supercomputing resources is much more flexible and accessible with C++.
 
 [TODO: Include tutorial materials here.]
 
 
-## 11. References
+## 12. References
 
+* Adda, Jerome and Russell Cooper, * Dynamic Economics: Quantitative Methods and Applications*, MIT Press (2003)
 * Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
 * Chacon, Scott and Ben Straub, [*Pro Git: Everything You Need To Know About Git*](https://git-scm.com/book/en/v2), 2nd edition, Apress (2014).
+* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics, Volume 1: Mathematical Analysis*, SIAM (2017).
+* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics, Volume 2: Algorithm Design and Optimization*, SIAM (2018, forthcoming).
 * Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
+* Ljungqvist, Lars and Thomas J. Sargent, *Recursive Methods in Macroeconomic Theory*, 3rd edition, MIT Press (2012).
 * Lutz, Mark, *Learning Python*, 5th edition, O'Reilly Media, Inc. (2013)
-* McKinney, Wes, *Python for Data Analysis*, O'Reilly Media, Inc. (2013)
+* McKinney, Wes, *Python for Data Analysis*, 2nd edition, O'Reilly Media, Inc. (2018).
+* Ok, Efe A., *Real Analysis with Economic Applications*, Princeton University Press (2007).
+* Stokey, Nancy L., and Robert E. Lucas, Jr. with Edward C. Prescott, *Recursive Methods in Economic Dynamics*, Harvard University Press (1989).
 
