@@ -30,11 +30,11 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-3  | M   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
-7-4  | T   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
-7-5  | W   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) | [Intro Slides](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk3_FirmDyn/LectureNotes/Intro_Slides.pdf) | [Econ Prob Set 3](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk3_FirmDyn/Exercises/FirmDynamics_Exercises.pdf) |
-7-6  | Th  |               |                |     | due W, 7-12, 8am |
-7-7  | F   | Firm dynamics | [Jason DeBacker](http://www.jasondebacker.com/) | [Lecture 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk3_FirmDyn/LectureNotes/Lecture1.pdf) |  |
+7-2  | M   | Overlapping generations model | [Richard Evans](https://sites.google.com/site/rickecon/) | [ED (2018, Ch. 2)](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk3_OG/OGtext_ch02.pdf) | [Econ Prob Set 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk3_OG/OG_probset.pdf) |
+7-3  | T   |                     |                                |   | due M, 7-9, 11pm |
+7-4  | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY            | NO CLASSES: HOLIDAY |     |
+7-5  | Th  |                     |                                |   |     |
+7-6  | F   | Overlapping generations model | [Richard Evans](https://sites.google.com/site/rickecon/) | [ED (2018, Ch. 2)](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk3_OG/OGtext_ch02.pdf) |   |
 
 ### Week 4
 
@@ -79,4 +79,4 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 ## References
 
-* Evans, Richard W. and Jason DeBacker, *Overlapping Generations Models for Policy Analysis: Theory and Computation*, (2017, draft).
+* Evans, Richard W. and Jason DeBacker, *Overlapping Generations Models for Policy Analysis: Theory and Computation*, (2018, draft).
