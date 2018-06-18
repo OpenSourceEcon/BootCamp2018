@@ -304,7 +304,7 @@ The following books are recommendation that will not be required, but that are v
 
 ## 11. C++ tutorials
 
-Although we will be using Python for most of the Boot Camp, we will use C++ for the computational labs taught by [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) on July, 20, 25, 27,, August 1,and 3. These computational labs treat high performance computing, parallel computing, and high dimensional approximation. Using supercomputing resources is much more flexible and accessible with C++.
+Although we will be using Python for most of the Boot Camp, we will use some C++ for the computational labs taught by [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) on July 10, 12, 17, and 19. These computational labs treat high performance computing, parallel computing, and high dimensional approximation. Using supercomputing resources is much more flexible and accessible with C++.
 
 [TODO: Include tutorial materials here.]
 
