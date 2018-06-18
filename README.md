@@ -59,11 +59,11 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-1) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-6-18  | M   | Intro Measure Thry | Dynamic programming |              |  |
+6-18  | M   | Intro Measure Thry | Dynamic programming |              | Safety office |
 6-19  | T   |              |                           | Python intro, standard library |     |
 6-20  | W   | Intro Measure Thry | Dynamic programming |              |     |
 6-21  | Th  |              |                           | Object oriented programming |     |
-6-22  | F   | Intro Measure Thry | Dynamic programming |              |     |
+6-22  | F   | Intro Measure Thry | Dynamic programming |              | [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/) |
 
 ### Week 2
 
@@ -91,7 +91,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
 7-10  | T   |                         |                            | High performance computing |     |
-7-11  | W   | Convex analysis  | DSGE |                     |   |
+7-11  | W   | Convex analysis  | DSGE |                     | [Lars Hansen](http://larspeterhansen.org/) |
 7-12  | Th  |                  |                            | High performance computing |     |
 7-13  | F   | Convex analysis  | DSGE |                     |     |
 
