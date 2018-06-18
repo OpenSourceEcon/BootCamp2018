@@ -299,7 +299,7 @@ In addition, a number of excellent textbooks and reference manuals are very help
 
 Students participating in the Boot Camp need to obtain their own copy of the math book Humpherys, et al (2017). This book can be purchased through [SIAM](http://bookstore.siam.org/ot152/) or [Amazon](https://www.amazon.com/Foundations-Applied-Mathematics-Mathematical-Analysis/dp/1611974895). We will provide printed copies of the second volume of the book, Humpherys, et al (2018).
 
-The following books are recommendation that will not be required, but that are valuable in the library of a dynamic economist. We will also cover real analysis topics in measure theory. We recommend the following two books for their background on measure theory. Ok (2007) is a great real analysis book for economists. Kolmogorov and Fomin () is a great real analysis book, the last four chapters of which are a good foundation for measure theory. Stokey and Lucas (1989, chap. 7) has an exposition of how measure theory gets used in dynamic stochastic macroeconomic theory. Stokey and Lucas (1989) is probably a good book for any macroeconomist to have in their library. On the economics side, some additional books that we like and recommend are Ljungqvist and Sargent (2012) and Adda and Cooper (2003).
+The following books are recommendation that will not be required, but that are valuable in the library of a dynamic economist. We will also cover real analysis topics in measure theory. We recommend the following two books for their background on measure theory. Ok (2007) is a great real analysis book for economists. Kolmogorov and Fomin (1979) is a great real analysis book, the last four chapters of which are a good foundation for measure theory. Stokey and Lucas (1989, chap. 7) has an exposition of how measure theory gets used in dynamic stochastic macroeconomic theory. Stokey and Lucas (1989) is probably a good book for any macroeconomist to have in their library. On the economics side, some additional books that we like and recommend are Ljungqvist and Sargent (2012) and Adda and Cooper (2003).
 
 
 ## 11. C++ tutorials
@@ -316,6 +316,7 @@ Although we will be using Python for most of the Boot Camp, we will use C++ for 
 * Chacon, Scott and Ben Straub, [*Pro Git: Everything You Need To Know About Git*](https://git-scm.com/book/en/v2), 2nd edition, Apress (2014).
 * Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics, Volume 1: Mathematical Analysis*, SIAM (2017).
 * Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics, Volume 2: Algorithm Design and Optimization*, SIAM (2018, forthcoming).
+* Kolmogorov, A. N. and S.V. Fomin, *Introductory Real Analysis*, translated and edited by Richard A. Silverman, Dover Publications, Inc. (1970).
 * Langtangen, Hans Petter, *Python Scripting for Computational Science*, Texts in Computational Science and Engineering, 3rd edition, Springer (2010).
 * Ljungqvist, Lars and Thomas J. Sargent, *Recursive Methods in Macroeconomic Theory*, 3rd edition, MIT Press (2012).
 * Lutz, Mark, *Learning Python*, 5th edition, O'Reilly Media, Inc. (2013)
