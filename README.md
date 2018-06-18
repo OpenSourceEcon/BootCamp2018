@@ -311,7 +311,7 @@ Although we will be using Python for most of the Boot Camp, we will use some C++
 
 ## 12. References
 
-* Adda, Jerome and Russell Cooper, * Dynamic Economics: Quantitative Methods and Applications*, MIT Press (2003)
+* Adda, Jerome and Russell Cooper, *Dynamic Economics: Quantitative Methods and Applications*, MIT Press (2003)
 * Beazley, David M., *Python Essential Reference*, 4th edition, Addison-Wesley (2009).
 * Chacon, Scott and Ben Straub, [*Pro Git: Everything You Need To Know About Git*](https://git-scm.com/book/en/v2), 2nd edition, Apress (2014).
 * Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics, Volume 1: Mathematical Analysis*, SIAM (2017).
