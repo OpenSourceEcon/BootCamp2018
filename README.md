@@ -40,8 +40,8 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Matthew White](https://lerner.udel.edu/faculty-staff-directory/matthew-n-white/), University of Delaware
 
 Graduate Instructors
-* [Chase Coleman](http://www.chasegcoleman.com/)
-* Jan Ertl
+* [Chase Coleman](http://www.chasegcoleman.com/), New York University
+* Jan Ertl, University of Chicago
 
 ## 2. Boot Camp Schedule
 
@@ -87,7 +87,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 4
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-4) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
 7-10  | T   |                         |                            | High performance computing |     |
@@ -97,7 +97,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 5
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-5) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-16  | M   | Linear optimization | Structural estimation: MLE |                  |     |
 7-17  | T   |                     |                            | High performance computing |     |
@@ -107,7 +107,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 6
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-23  | M   | Nonlinear optimization | Asset Pricing |                      |     |
 7-24  | T   |                        |               | Simplex, line search, Newton's |     |
@@ -117,7 +117,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 7
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-7) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-30 | M  | CGE modeling | Heterogeneous agent models |                            |     |
 7-31 | T  |              |                            | Interpolation              |     |
@@ -127,7 +127,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time might average 50-60 hours per week of work.
 
-We have provided 7 areas of tutorials that you will benefit from reading and working through before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
+We have provided 6 areas of tutorials that you will benefit from reading and working through before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 
 Pre-course Tutorial Areas
 
@@ -299,7 +299,7 @@ In addition, a number of excellent textbooks and reference manuals are very help
 
 Students participating in the Boot Camp need to obtain their own copy of the math book Humpherys, et al (2017). This book can be purchased through [SIAM](http://bookstore.siam.org/ot152/) or [Amazon](https://www.amazon.com/Foundations-Applied-Mathematics-Mathematical-Analysis/dp/1611974895). We will provide printed copies of the second volume of the book, Humpherys, et al (2018).
 
-The following books are recommendation that will not be required, but that are valuable in the library of a dynamic economist. We will also cover real analysis topics in measure theory. We recommend the following two books for their background on measure theory. Ok (2007) is a great real analysis book for economists. It also has nice material on measure theory in Chapter C. Stokey and Lucas (1989, chap. 7) has an exposition of how measure theory gets used in dynamic stochastic macroeconomic theory. Stokey and Lucas (1989) is probably a good book for any macroeconomist to have in their library. On the economics side, some additional books that we like and recommend are Ljungqvist and Sargent (2012) and Adda and Cooper (2003).
+The following books are recommendation that will not be required, but that are valuable in the library of a dynamic economist. We will also cover real analysis topics in measure theory. We recommend the following two books for their background on measure theory. Ok (2007) is a great real analysis book for economists. Kolmogorov and Fomin () is a great real analysis book, the last four chapters of which are a good foundation for measure theory. Stokey and Lucas (1989, chap. 7) has an exposition of how measure theory gets used in dynamic stochastic macroeconomic theory. Stokey and Lucas (1989) is probably a good book for any macroeconomist to have in their library. On the economics side, some additional books that we like and recommend are Ljungqvist and Sargent (2012) and Adda and Cooper (2003).
 
 
 ## 11. C++ tutorials
