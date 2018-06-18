@@ -10,7 +10,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-18  | M  | Introduction and welcome | [Richard Evans](https://sites.google.com/site/rickecon/) | [Intro slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Intro/Intro_BootCamp.pdf) |  |
+6-18  | M  | Introduction and welcome | [Richard Evans](https://sites.google.com/site/rickecon/) | [Intro slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Intro/Intro_BootCamp.pdf) |  
       | M  | Intro measure theory | Jan Ertl |  | Math Prob. Set 1  |
 6-19  | T  |                      |          |  | due M, 6-25, 11pm |
 6-20  | W  | Intro Measure Thry | Jan Ertl |          |  |
