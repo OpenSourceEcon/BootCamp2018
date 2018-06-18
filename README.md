@@ -119,11 +119,11 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-7) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-7) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-30 | M  | CGE modeling | Heterogeneous agent models |                            |     |
-7-31 | T  |              |                            | Interpolation              |     |
-8-1  | W  | CGE modeling | Heterogeneous agent models |                            |     |
-8-2  | Th |              |                            | Heterogeneous agent models |     |
-8-3  | F  | Conclusion: Hwk due | Conclusion: Hwk due        | Conclusion: Hwk due  | TBA |
+7-30 | M  | CGE modeling | Heterogeneous agent models |                     |     |
+7-31 | T  |              |                            | Interpolation       |     |
+8-1  | W  | CGE modeling | Heterogeneous agent models |                     |     |
+8-2  | Th | CGE modeling | Heterogeneous agent models |                     |     |
+8-3  | F  | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due | TBA |
 
 This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time might average 50-60 hours per week of work.
 

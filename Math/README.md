@@ -74,8 +74,8 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 7-30 | M   | CGE modeling | Dinar Prihardini |  | Math Prob. Set 7 |
 7-31 | T   |              |                  |  | due F, 8-3, 11pm |
 8-1  | W   | CGE modeling | Dinar Prihardini |  |                  |
-8-2  | Th  |              |                  |  |                  |
-8-3  | F   | Conclusion: Hwk due |  |  |  |
+8-2  | Th  | CGE modeling | Dinar Prihardini |  |                  |
+8-3  | F   | Conclusion: Hwk due | [Richard Evans](https://sites.google.com/site/rickecon/) |  |  |
 
 
 ## References
