@@ -77,7 +77,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 3
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-2  | M   | Spectral theory     | Overlapping generations models |   |     |
 7-3  | T   |                     |                                | QR decomposition, SVD  |     |
