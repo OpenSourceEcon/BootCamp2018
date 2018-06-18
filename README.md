@@ -32,14 +32,16 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
+* Sebastian James, The World Bank
 * [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
-* [Kerk Phillips](https://sites.google.com/site/kerkphillips/home), Congressional Budget Office
+* Dinar Prihardini, The World Bank
 * [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), University of Zurich and Hoover Institution
 * [John Stachurski](http://johnstachurski.net/), Australia National University
 * [Matthew White](https://lerner.udel.edu/faculty-staff-directory/matthew-n-white/), University of Delaware
 
 Graduate Instructors
-* TBA
+* [Chase Coleman](http://www.chasegcoleman.com/)
+* Jan Ertl
 
 ## 2. Boot Camp Schedule
 
@@ -55,7 +57,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 1
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-1) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-18  | M   | Intro Measure Thry | Dynamic programming |              |  |
 6-19  | T   |              |                           | Python intro, standard library |     |
@@ -65,7 +67,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 ### Week 2
 
-| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
+| Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-2) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 6-25  | M   | Inner product spaces | Stochastic processes |                      |     |
 6-26  | T   |                      |                      | Data visualization   |     |
@@ -87,29 +89,29 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-9   | M   | Continuous optimization | Structural estimation: MLE |                     |     |
+7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
 7-10  | T   |                         |                            | High performance computing |     |
-7-11  | W   | Continuous optimization | Structural estimation: GMM |                     |   |
-7-12  | Th  |                         |                            | High performance computing |     |
-7-13  | F   | Convex analysis         | Structural estimation: SMM |                     |     |
+7-11  | W   | Convex analysis  | DSGE |                     |   |
+7-12  | Th  |                  |                            | High performance computing |     |
+7-13  | F   | Convex analysis  | DSGE |                     |     |
 
 ### Week 5
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-16  | M   | Convex analysis     | DSGE modeling              |                  |     |
+7-16  | M   | Linear optimization | Structural estimation: MLE |                  |     |
 7-17  | T   |                     |                            | High performance computing |     |
-7-18  | W   | Convex analysis     | DSGE linear approximation  |                  |     |
+7-18  | W   | Linear optimization | Structural estimation: GMM |                  |     |
 7-19  | Th  |                     |                            | High performance computing |     |
-7-20  | F   | Linear optimization | DSGE Perturbation methods  |                  |   |
+7-20  | F   | Linear optimization | Structural estimation: SMM |                  |   |
 
 ### Week 6
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-23  | M   | Linear optimization    | Asset Pricing |                      |     |
+7-23  | M   | Nonlinear optimization | Asset Pricing |                      |     |
 7-24  | T   |                        |               | Simplex, line search, Newton's |     |
-7-25  | W   | Linear optimization    | Asset Pricing |                      |     |
+7-25  | W   | Nonlinear optimization | Asset Pricing |                      |     |
 7-26  | Th  |                        |               | Interior pt., quasi Newton |     |
 7-27  | F   | Nonlinear optimization | Asset Pricing |                      | TBA |
 
@@ -117,13 +119,13 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#schedule) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#schedule) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
-7-30 | M   | Nonlinear optimization | Heterogeneous agent models |                            |     |
-7-31  | T   |                       |                            | Interpolation              |     |
-8-1  | W   | Nonlinear optimization | Heterogeneous agent models |                            |     |
-8-2  | Th  |                        |                            | Heterogeneous agent models |     |
-8-3  | F   | Conclusion: Hwk due    | Conclusion: Hwk due        | Conclusion: Hwk due  | TBA |
+7-30 | M  | CGE modeling | Heterogeneous agent models |                            |     |
+7-31 | T  |              |                            | Interpolation              |     |
+8-1  | W  | CGE modeling | Heterogeneous agent models |                            |     |
+8-2  | Th |              |                            | Heterogeneous agent models |     |
+8-3  | F  | Conclusion: Hwk due | Conclusion: Hwk due        | Conclusion: Hwk due  | TBA |
 
-This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time might average 60 hours per week of work.
+This will be an intensive seven weeks. We expect that your attendance of lectures plus homework time might average 50-60 hours per week of work.
 
 We have provided 7 areas of tutorials that you will benefit from reading and working through before the training. We will, of course, teach these things as we go through the material. But we will be able to proceed at a faster pace if the attendees are already familiar with most of the concepts below.
 

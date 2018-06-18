@@ -10,21 +10,21 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-18  | M   | Dynamic programming | [Jason DeBacker](http://www.jasondebacker.com/) | [Notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/LectureNotes/DP_Lecture1_Notes.pdf) | [Econ Prob Set 1]()  |
+6-18  | M   | Dynamic programming | [Jason DeBacker](http://www.jasondebacker.com/) | [DP Notes 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/LectureNotes/DP_Lecture1_Notes.pdf) | [Econ Prob Set 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/Exercises/DP_Exercises.pdf)  |
 6-19  | T   |                     |                                                 |  | due M, 6-25, 11pm |
-6-20  | W   | Dynamic programming | [Jason DeBacker](http://www.jasondebacker.com/) | [Notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/LectureNotes/DP_Lecture1_Notes.pdf) |     |
+6-20  | W   | Dynamic programming | [Jason DeBacker](http://www.jasondebacker.com/) | [DP Notes 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/LectureNotes/DP_Lecture1_Notes.pdf) |     |
 6-21  | Th  |                     |                                                 |  |     |
-6-22  | F   | Dynamic programming | [Jason DeBacker](http://www.jasondebacker.com/) | [Notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/LectureNotes/DP_Lecture1_Notes.pdf) |     |
+6-22  | F   | Dynamic programming | [Jason DeBacker](http://www.jasondebacker.com/) | [DP Notes 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk1_DP/LectureNotes/DP_Lecture1_Notes.pdf) |     |
 
 ### Week 2
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-26  | M   | Dynamic programming | [John Stachurski](http://johnstachurski.net/) | [Slides](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Econ/Wk2_DP/preliminaries.pdf) | [Econ Prob Set 2]() |
-6-27  | T   |                      |                 |     | due W, 7-5, 8am |
-6-28  | W   | Dynamic programming | [John Stachurski](http://johnstachurski.net/) |  |  |
-6-29  | Th  |                      |                     |     |  |
-6-30  | F   | IDynamic programming | [John Stachurski](http://johnstachurski.net/) |  |  |
+6-25  | M   | Stochastic processes | [John Stachurski](http://johnstachurski.net/) |  | Econ Prob Set 2 |
+6-26  | T   |                      |                      |    | due M, 7-2, 11pm |
+6-27  | W   | Ergodicity           | [John Stachurski](http://johnstachurski.net/) |  |  |
+6-28  | Th  |                      |                      |    |     |
+6-29  | F   | Stationarity         | [John Stachurski](http://johnstachurski.net/) |  |  |
 
 ### Week 3
 
