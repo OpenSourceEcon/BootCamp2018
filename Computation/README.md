@@ -59,7 +59,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 |     |     | and Compute Speed |          | [ACME: Lsq, eigenvalues](http://www.acme.byu.edu/wp-content/uploads/2017/08/LeastSquares_Eigenvalues.pdf) | due T, 7-10, 11pm |
 |     |     |      |          | [ACME: SVD Image Compress](http://www.acme.byu.edu/wp-content/uploads/2017/08/SVD_ImageCompression.pdf) |  |
 |     |     |      |          | [ACME: Drazin Inverse](http://www.acme.byu.edu/wp-content/uploads/2018/02/BlazinDrazin.pdf) |  |
-|     |     |      |          | [QuantEcon: Numba](https://lectures.quantecon.org/py/numba.html) |  |
+|     |     |      |          | [QuantEcon: Numba](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_DecompDif/numba.ipynb) |  |
 7-4  | W    | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
 7-5  | Th   | Matrix conditions | Justin Gardiner | [ACME: PageRank Algorithm](http://www.acme.byu.edu/wp-content/uploads/2018/02/PageRank.pdf) | Comp Prob Set 4  |
 |     |     | Numerical Diff. and Int. |           | [ACME: Conditioning and Stability](http://www.acme.byu.edu/wp-content/uploads/2017/08/Conditioning_Stability.pdf) | due Th, 7-10, 11pm |
