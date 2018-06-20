@@ -26,12 +26,12 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-18  | M   |     |     |     |     |
-6-19  | T   |     | Jan Ertl | [ACME: Intro to NumPy](http://www.acme.byu.edu/wp-content/uploads/2017/08/NumpyIntro.pdf) | Comp Prob Set 1 |
-|     |     |     |                 | [ACME: Standard Library](http://www.acme.byu.edu/wp-content/uploads/2017/08/StandardLibrary.pdf) | due T, 6-26, 11pm |
-|     |     |     |                 | [ACME: Unit Testing](http://www.acme.byu.edu/wp-content/uploads/2017/08/UnitTesting.pdf) |   |
+6-19  | T   |     | Jan Ertl | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
+|     |     |     |                 | [ACME: Standard Library](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due T, 6-26, 7pm |
+|     |     |     |                 | [ACME: Unit Testing](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/UnitTesting.pdf) |   |
 6-20  | W   |     |         |          |    |
-6-21  | Th  |     | Jan Ertl | [ACME: Object Oriented Programming](http://www.acme.byu.edu/wp-content/uploads/2017/08/ObjectOriented.pdf) |   |
-|     |     |     |                 | [ACME: Exceptions and File I/O](http://www.acme.byu.edu/wp-content/uploads/2017/08/Exceptions_FileIO.pdf) |   |
+6-21  | Th  |     | Jan Ertl | [ACME: Object Oriented Programming](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |   |
+|     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |   |
 6-22  | F   |     |     |     |     |
 
 ### Week 2
