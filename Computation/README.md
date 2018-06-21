@@ -26,12 +26,12 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-18  | M   |     |     |     |     |
-6-19  | T   |     | Jan Ertl | [ACME: Intro to NumPy](http://www.acme.byu.edu/wp-content/uploads/2017/08/NumpyIntro.pdf) | Comp Prob Set 1 |
-|     |     |     |                 | [ACME: Standard Library](http://www.acme.byu.edu/wp-content/uploads/2017/08/StandardLibrary.pdf) | due T, 6-26, 11pm |
-|     |     |     |                 | [ACME: Unit Testing](http://www.acme.byu.edu/wp-content/uploads/2017/08/UnitTesting.pdf) |   |
+6-19  | T   |     | Jan Ertl | [ACME: Intro to NumPy](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/NumpyIntro.pdf) | [Comp Prob Set 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/PyIntro_probset.pdf) |
+|     |     |     |                 | [ACME: Standard Library](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/StandardLibrary.pdf) | due T, 6-26, 7pm |
+|     |     |     |                 | [ACME: Unit Testing](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/UnitTesting.pdf) |   |
 6-20  | W   |     |         |          |    |
-6-21  | Th  |     | Jan Ertl | [ACME: Object Oriented Programming](http://www.acme.byu.edu/wp-content/uploads/2017/08/ObjectOriented.pdf) |   |
-|     |     |     |                 | [ACME: Exceptions and File I/O](http://www.acme.byu.edu/wp-content/uploads/2017/08/Exceptions_FileIO.pdf) |   |
+6-21  | Th  |     | Jan Ertl | [ACME: Object Oriented Programming](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/ObjectOriented.pdf) |   |
+|     |     |     |                 | [ACME: Exceptions and File I/O](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk1_PyIntro/Exceptions_FileIO.pdf) |   |
 6-22  | F   |     |     |     |     |
 
 ### Week 2
@@ -40,14 +40,15 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-25  | M   |     |     |     |     |
 6-26  | T   | Visualizations | Jan Ertl | [Visualizations Notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Tutorials/PythonVisualize.ipynb) | Comp. Prob Set 2 |
-|     |     | and Pandas  |    | [ACME: Intro to Matplotlib](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_VisPandas/PlottingIntro.pdf) | due T, 7-3, 11pm |
-|     |     |     |    | [ACME: Data Visualization](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol1A-DataVisualization-2016.pdf) |   |
-|     |     |     |    | [ACME: Pandas 1](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas1-2016.pdf) |   |
+|     |     | and Pandas  |    | [ACME: Intro to Matplotlib](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/MatplotlibIntro.pdf) | due T, 7-3, 11pm |
+|     |     |     |    | [ACME: Data Visualization](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/DataVisualization.pdf) |   |
+|     |     |     |    | [ACME: Pandas 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas1.pdf) |   |
+|     |     |     |    | [ACME: Pandas 2](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas2.pdf) |   |
 6-27  | W   |     |         |          |     |
-6-28  | Th  | Visualizations | Jan Ertl | [Pandas Notebook](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Tutorials/PythonNumpyPandas.ipynb) |   |
-|     |     | and Bokeh      |          | [ACME: Pandas 3](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas3-2016.pdf) |    |
-|     |     |      |          | [ACME: Pandas 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Pandas4-2016.pdf) |    |
-|     |     |     |    | [ACME: Bokeh](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk2_VisPandas/Vol3A-Bokeh-2016.pdf) |   |
+6-28  | Th  | Visualizations | Jan Ertl | [Pandas Notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Tutorials/PythonNumpyPandas.ipynb) |   |
+|     |     | and Bokeh      |          | [ACME: Pandas 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas3.pdf) |    |
+|     |     |      |          | [ACME: Pandas 4](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas4.pdf) |    |
+|     |     |     |    | [ACME: Bokeh](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Vol3A-Bokeh-2016.pdf) |   |
 6-29  | F   |     |     |     |     |
 
 ### Week 3
