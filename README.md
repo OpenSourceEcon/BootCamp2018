@@ -74,8 +74,8 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-25  | M   | Inner product spaces | Stochastic processes |                      |     |
 6-26  | T   |                      |                      | Data visualization   |     |
 6-27  | W   | Inner product spaces | Ergodicity           |                      |   |
-6-28  | Th  |                      |                      | Pandas, data methods |     |
-6-29  | F   | Inner product spaces | Stationarity         |                      | [Laurence Kotlikoff](https://www.kotlikoff.net/) |
+6-28  | Th  |                      |                      | Pandas, data methods | [Laurence Kotlikoff](https://www.kotlikoff.net/) |
+6-29  | F   | Inner product spaces | Stationarity         |                      |  |
 
 ### Week 3
 
