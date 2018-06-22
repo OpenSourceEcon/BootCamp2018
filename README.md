@@ -73,7 +73,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 6-26  | T   |                      |                      | Data visualization   |     |
 6-27  | W   | Inner product spaces | Ergodicity           |                      |   |
 6-28  | Th  |                      |                      | Pandas, data methods |     |
-6-29  | F   | Inner product spaces | Stationarity         |                      |     |
+6-29  | F   | Inner product spaces | Stationarity         |                      | [Laurence Kotlikoff](https://www.kotlikoff.net/) |
 
 ### Week 3
 
@@ -161,7 +161,7 @@ Atom and Vim are completely free. A trial version of Sublime Text 3 is available
 
 [Atom](https://atom.io) is an open source text editor developed by people at GitHub.com. This editor has all the features of Sublime Text 3, but it also allows users full customizability. Further, it has been a while now that the users of Atom have surpassed the critical mass necessary to keep the editor progressing with the most cutting edge additions.
 
-There are several packages you'll want to install with Atom.  Once Atom is installed, you can add packages by navigating Atom->Preferences->Install and then typing in the name of the package you would like to install.  
+There are several packages you'll want to install with Atom.  Once Atom is installed, you can add packages by navigating Atom->Preferences->Install and then typing in the name of the package you would like to install.
 
 For work with Python, we recommend the following packages be installed:
 
