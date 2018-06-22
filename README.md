@@ -34,6 +34,7 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
 * Sebastian James, The World Bank
 * [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
+* [Laurence Kotlikoff](https://www.kotlikoff.net/), Boston University
 * Dinar Prihardini, The World Bank
 * [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), University of Zurich and Hoover Institution
 * [John Stachurski](http://johnstachurski.net/), Australia National University
@@ -42,6 +43,7 @@ Senior Instructors and Presenters (in alphabetical order)
 Graduate Instructors
 * [Chase Coleman](http://www.chasegcoleman.com/), New York University
 * Jan Ertl, University of Chicago
+* [Christopher Rytting](https://chrisrytting.com/), Brigham Young University
 
 ## 2. Boot Camp Schedule
 
