@@ -1,9 +1,5 @@
 """
-Sorry I really don't know how to do this problem. I worked through the notebooks and lecture notes.
-I can see the logic but I just don't know how to implement it.
-I tried to modify the code of a similar problem on quantecon. However the iteration does not converge.
-It blows up at some iteration and never converges to the soln againself.
-I wish to see the solution code.
+The graph looks really strange.
 """
 
 
@@ -17,92 +13,116 @@ import scipy.optimize as opt
 import ar1_approx as ar1
 
 
-def utility(production, investment, gamma):
+def utility(consumption_vector, gamma):
     """
     Per period utility function
     """
-    C = production - investment
+
     if gamma == 1:
-        U = np.log(C)
+        U = np.log(consumption_vector)
     else:
-        U = (C ** (1 - gamma)) / (1 - gamma)
+        U = (consumption_vector ** (1 - gamma)) / (1 - gamma)
     return U
 
-from scipy.optimize import fminbound
 
-
-"""
-def bellman_operator(w, grid, β, u, f, shocks, Tw=None, compute_policy=0):
-
-    The approximate Bellman operator, which computes and returns the
-    updated value function Tw on the grid points.  An array to store
-    the new set of values Tw is optionally supplied (to avoid having to
-    allocate new arrays at each iteration).  If supplied, any existing data in
-    Tw will be overwritten.
-
-    Parameters
-    ----------
-    w : array_like(float, ndim=1)
-        The value of the input function on different grid points
-    grid : array_like(float, ndim=1)
-        The set of grid points
-    β : scalar
-        The discount factor
-    u : function
-        The utility function
-    f : function
-        The production function
-    shocks : numpy array
-        An array of draws from the shock, for Monte Carlo integration (to
-        compute expectations).
-    Tw : array_like(float, ndim=1) optional (default=None)
-        Array to write output values to
-    compute_policy : Boolean, optional (default=False)
-        Whether or not to compute policy function
-
-    # === Apply linear interpolation to w === #
-    w_func = lambda x: np.interp(x, grid, w)
-
-    # == Initialize Tw if necessary == #
-    if Tw is None:
-        Tw = np.empty_like(w)
-
-    if compute_policy:
-        σ = np.empty_like(w)
-
-    # == set Tw[i] = max_c { u(c) + β E w(f(y  - c) z)} == #
-    for i, y in enumerate(grid):
-        def objective(c):
-            return - u(c) - β * np.mean(w_func(f(y - c) * shocks))
-        c_star = fminbound(objective, 1e-10, y)
-        if compute_policy:
-            σ[i] = c_star
-        Tw[i] = - objective(c_star)
-
-    if compute_policy:
-        return Tw, σ
-    else:
-        return Tw
-
-
-"""
-#v～N（0， sigma_v)
-N = 8
-num_sigma = 4
-step = (num_sigma * sigma_z) / (N / 2)
-pi_R, z_grid_R = ar1.rouwen(rho, mu, step, N)
 
 gamma = 0.5
 beta = 0.96
 delta = 0.05
-alpha =0.4
+alpha = 0.4
 sigma_z = 0.2
-params = (gamma, beta, delta, alpha, sigma_z)
-#function domain
-y_size = 200
-y_grid = np.linspace(1, 2, y_size)
 
-VFtol = 1e-5
+size_z = 4
+mu_z = 0
+rho_z = 0.8
+sigma_v = sigma_z * np.sqrt(1 - rho_z)
+
+
+
+# Use the Adda Cooper method suggested by Jason
+ln_z_grid, pi_t =  ar1.addacooper(size_z, mu_z,rho_z ,sigma_v)
+z_grid = np.exp(ln_z_grid)
+pi = np.transpose(pi_t)
+
+
+
+lb_k = 0.1
+ub_k = 1.1
+size_k = 100
+k_grid = np.linspace(lb_k, ub_k, size_k)
+
+C = np.zeros((size_k, size_k, size_z))
+
+for i1 in range(size_k):
+    for i2 in range(size_k):
+        for i3 in range(size_z):
+            C[i1, i2, i3] = z_grid[i3]* k_grid[i1]**alpha - k_grid[i2] + (1 - delta)*k_grid[i1]
+
+C[C<=0] = 1e-15
+
+U = utility(C, gamma)
+U[C<0] = -9999999
+
+
+VFtol = 1e-4
 VFdist = 7
 VFmaxiter = 500
+V = np.zeros((size_k, size_z))
+Vmat = np.zeros((size_k, size_k, size_z))
+Vstore = np.zeros((size_k, size_z, VFmaxiter))
 VFiter = 1
+
+while VFdist > VFtol and VFiter < VFmaxiter:
+    for i in range(size_k):
+        for j in range(size_k):
+            for m in range(size_z):
+                EV = 0
+                for n in range(size_z):
+                    EV += V[j, n] * pi[m, n]
+                Vmat[i, j, m] = U[i, j, m] + beta * EV
+
+    TV = Vmat.max(1)
+    PF = np.argmax(Vmat, axis=1)
+    VFdist = (np.absolute(V - TV)).max()
+    print('Iteration ', VFiter, ', distance = ', VFdist)
+    Vstore[:,:, VFiter] = V.reshape(size_k, size_z,)
+    V = TV
+
+    VFiter += 1
+
+if VFiter < VFmaxiter:
+    print('Value function converged after this many iterations:', VFiter)
+else:
+    print('Value function did not converge')
+
+
+VF = V
+
+optInv = k_grid[PF]
+#print(optInv)
+
+
+
+plt.figure(figsize = [18, 5])
+plt.subplot(1,3,1)
+plt.plot(k_grid[1:], VF[1:, 0], label='$z$ = ' + str(z_grid[0]))
+plt.plot(k_grid[1:], VF[1:, 1], label='$z$ = ' + str(z_grid[1]))
+plt.plot(k_grid[1:], VF[1:, 2], label='$z$ = ' + str(z_grid[2]))
+plt.plot(k_grid[1:], VF[1:, 3], label='$z$ = ' + str(z_grid[3]))
+plt.legend(loc='lower right')
+plt.xlabel("Capital Endowment")
+plt.ylabel("Value Function")
+plt.title("Value Function")
+
+
+
+plt.subplot(1,3,2)
+plt.plot(k_grid[:], optInv[:,0], label = '$z$ = ' + str(z_grid[0]))
+plt.plot(k_grid[:], optInv[:,1], label = '$z$ = ' + str(z_grid[0]))
+plt.plot(k_grid[:], optInv[:,2], label = '$z$ = ' + str(z_grid[0]))
+plt.plot(k_grid[:], optInv[:,3], label = '$z$ = ' + str(z_grid[0]))
+plt.legend(loc='lower right')
+plt.xlabel("Capital Endowment")
+plt.ylabel("Investment")
+plt.title("Investment")
+plt.show()
