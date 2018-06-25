@@ -11,7 +11,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-18  | M  | Introduction and welcome | [Richard Evans](https://sites.google.com/site/rickecon/) | [Intro slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Intro/Intro_BootCamp.pdf) |  |
-6-18 | M  | Intro measure theory | Jan Ertl | [Notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk1_Measure/introduction-measure-theory.pdf) | Math Prob. Set 1  |
+6-18 | M  | Intro measure theory | Jan Ertl | [Notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk1_Measure/introduction-measure-theory.pdf) | [Math Prob. Set 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk1_Measure/Measure_probset.pdf)  |
 6-19  | T  |                      |          |  | due M, 6-25, 6pm |
 6-20  | W  | Intro Measure Thry | Jan Ertl |          |  |
 6-21  | Th |                    |          |          |  |
@@ -51,21 +51,21 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-16 | M  | Linear optimization |  | HJ (2018, Ch. 8) | Math Prob. Set 5  |
+7-16 | M  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) | Math Prob. Set 5  |
 7-17 | T  |                     |  |                  | due M, 7-23, 6pm  |
-7-18 | W  | Linear optimization |  | HJ (2018, Ch. 8) |  |
+7-18 | W  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) |  |
 7-19 | Th |                     |  |                  |  |
-7-20 | F  | Linear optimization |  | HJ (2018, Ch. 8) |  |
+7-20 | F  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) |  |
 
 ### Week 6
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-23 | M  | Nonlinear optimization |  | HJ (2018, Ch. 9) | Math Prob. Set 6  |
+7-23 | M  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) | Math Prob. Set 6  |
 7-24 | T  |                        |  |                  | due M, 7-30, 6pm  |
-7-25 | W  | Nonlinear optimization |  | HJ (2018, Ch. 9) |  |
+7-25 | W  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) |  |
 7-26 | Th |                        |  |                  |  |
-7-27 | F  | Nonlinear optimization |  | HJ (2018, Ch. 9) |  |
+7-27 | F  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) |  |
 
 ### Week 7
 
