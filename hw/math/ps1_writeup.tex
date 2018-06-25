@@ -1,0 +1,394 @@
+\documentclass[12pt]{article}
+
+%\documentclass[twoside]{article}
+%\usepackage{a4}
+\usepackage[letterpaper,top=0in, left=0in, bottom=1in, right=0in]{geometry} %So margins are not tsheir default huge
+\usepackage{amssymb}
+\usepackage{bigints}
+\usepackage{amsmath}
+\usepackage[title]{appendix}
+\usepackage{graphicx}
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{upref}
+\usepackage[active]{srcltx}
+\usepackage[sort, comma]{natbib}
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue]{hyperref}
+\usepackage[dvipsnames]{color}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\allowdisplaybreaks[2] % To make it possible for displaybreaks
+%
+% Color commands
+%
+% Note that white is shown as black by xdvi
+%
+
+%
+\definecolor{blau}{rgb}{0.1,0.0,0.9}
+\definecolor{purple}{rgb}{0.4,0.0,0.9} % By Anders Bj\"orn 2012-09-26
+\definecolor{gruen}{cmyk}{1.0,0.2,0.7,0.07}
+\definecolor{mag}{cmyk}{0.0,0.9,0.3,0.0}
+\newcommand{\blue}{\color{blau}}
+\newcommand{\purple}{\color{purple}}
+\newcommand{\green}{\color{gruen}}
+\newcommand{\magenta}{\color{mag}}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{titling}
+\usepackage{lipsum}
+\newgeometry{top=1in,bottom=1in,outer=1in,inner=1in}
+
+\parskip = 3pt
+
+%\newcommand{\blue}{\color{blue}}
+\newcommand{\red}{\color{red}}
+%\newcommand{\green}{\color{green}}
+\newcommand{\yellow}{\color{yellow}}
+\newcommand{\cyan}{\color{cyan}}
+%\newcommand{\magenta}{\color{magenta}}
+\newcommand{\white}{\color{white}}
+\newcommand{\black}{\color{black}}
+%
+\newcommand{\authortitle}[2]{\author{#1}\title{#2}\markboth{#1}{#2}}
+%
+%       Reference definitions
+%%
+%       Theorems and other things numbered
+%
+\renewcommand{\baselinestretch}{1.5} 
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{theo}[thm]{Theorem}   % Alternative
+\newtheorem{prop}[thm]{Proposition}
+%\newtheorem{prop-ten}[thm]{Proposition (tentative)}
+%\newtheorem{thm-ten}[thm]{Theorem (tentative)}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{theorem}[thm]{Theorem}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{proposition}[thm]{Proposition}
+\newtheorem{corollary}[thm]{Corollary}
+\newtheorem{claim}[thm]{Claim}
+\newtheorem{deff}[thm]{Definition}
+\newtheorem{definition}[thm]{Definition}
+\newtheorem{defi}[thm]{Definition} % Alternative
+\newtheorem{example}[thm]{Example}
+%\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{prob}[thm]{Problem}
+%\theoremstyle{remarkstyle}
+% * may be inserted for nonnumbering
+\newtheorem{remark}[thm]{Remark}
+\newtheorem{rem}[thm]{Remark} % Alternative
+\newtheorem{openprob}[thm]{Open problem}
+
+%
+% Here we make the equation numbering to be within sections
+%
+%
+%  \cprime used for the Russian soft sign 
+%
+
+
+\newcommand{\vp}{\varphi}
+%\renewcommand{\phi}{\varphi}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\lm}{\lambda}
+\newcommand{\al}{\alpha}
+\newcommand{\be}{\beta}
+\newcommand{\de}{\delta}
+\newcommand{\E}{\mathbb E}
+\newcommand{\tTheta}{{\widetilde{\Theta}}}
+\renewcommand{\l}{\left}
+\renewcommand{\r}{\right}
+
+\newcommand{\R}{\mathbf{R}}
+\newcommand{\Q}{\mathbf{Q}}
+\newcommand{\Qp}{{\Q_\limplus}}
+\newcommand{\Rn}{\mathbf{R}^n}
+\newcommand{\Rno}{\mathbf{R}^{n+1}}
+\newcommand{\B}{{\mathcal B}}
+
+\newcommand{\dist}{\operatorname{dist}}
+
+\renewcommand{\limsup}{\operatornamewithlimits{lim\, sup}}
+\renewcommand{\liminf}{\operatornamewithlimits{lim\, inf}}
+\newcommand{\esssup}{\operatornamewithlimits{ess\, sup}}
+\newcommand{\essinf}{\operatornamewithlimits{ess\,inf}}
+ \DeclareMathOperator*{\essliminf}{ess\,lim\,inf}
+ \DeclareMathOperator*{\esslimsup}{ess\,lim\,sup}
+
+%\newcommand{\supp}{\operatorname{spt}}
+\newcommand{\spt}{\operatorname{spt}}
+
+
+\newcommand{\divt}{\operatorname{div}}
+\renewcommand{\div}{\nabla \cdot}
+
+
+\newcommand{\parts}[2]{\frac{\partial {#1}}{\partial {#2}}}
+\newcommand{\pdo}[2]{\frac{\partial #1}{\partial #2}}
+
+\newcommand{\Qed}[0]{\nopagebreak[4]\hspace{\stretch{3}}$\Box$\vspace{11 pt}}
+\newcommand{\abs}[1]{\left| #1 \right|}
+
+\newcommand{\wl}{w_\lambda}
+\newcommand{\ol}{\overline}
+
+\newcommand{\theoref}[1]{Theorem~\ref{#1}}
+\newcommand{\propref}[1]{Proposition~\ref{#1}}
+\newcommand{\lemref}[1]{Lemma~\ref{#1}}
+\newcommand{\remref}[1]{Remark~\ref{#1}}
+\newcommand{\defiref}[1]{Definition~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+\newcommand{\corref}[1]{Corollary~\ref{#1}}
+
+\newcommand{\trm}{\textrm}
+
+\newcommand{\half}{{\frac{1}{2}}}
+
+\newcommand{\Om}{\Omega}
+\newcommand{\Th}{\Theta}
+
+% \p for better spacing in constructions like p-something
+\newcommand{\p}{{$p\mspace{1mu}$}}
+
+
+\newcommand{\uS}{\itoverline{S}}
+\newcommand{\lS}{\itunderline{S}}
+\newcommand{\uP}{\itoverline{P}}
+\newcommand{\uR}{\itoverline{R}}
+\newcommand{\uPa}{{\itoverline{P}\mspace{1mu}}^a}
+\newcommand{\lP}{\itunderline{P}}
+\newcommand{\lR}{\itunderline{R}}
+\newcommand{\uPind}[1]{\itoverline{P}_{#1}}
+\newcommand{\lPind}[1]{\itunderline{P}_{#1}}
+\newcommand{\UU}{\mathcal{U}}%
+\newcommand{\UUt}{\widetilde{\mathcal{U}}}%
+\newcommand{\LL}{\mathcal{L}}%
+\newcommand{\LLt}{\widetilde{\mathcal{L}}}%
+\newcommand{\bdy}{\partial}
+\newcommand{\bdry}{\partial}
+\newcommand{\bdyp}{\bdy_p}
+\newcommand{\grad}{\nabla}
+\newcommand{\setm}{\setminus}
+\renewcommand{\emptyset}{\varnothing}
+ \newcommand{\alp}{\alpha}
+ \newcommand{\ga}{\gamma}
+\newcommand{\tf}{\tilde{f}}
+\newcommand{\wcj}{w_{c,j}}
+\newcommand{\ucj}{u_{c,j}}
+\newcommand{\vcj}{v_{c,j}}
+\newcommand{\dcj}{d_{c,j}}
+\newcommand{\etacj}{\eta_{c,j}}
+\newcommand{\psicj}{\psi_{c,j}}
+\newcommand{\Hcj}{H_{c,j}}
+
+\newcommand{\la}{\lambda}
+\newcommand{\wt}{\widetilde{w}}
+\newcommand{\Kt}{\widetilde{K}}
+\newcommand{\Gt}{\widetilde{G}}
+\newcommand{\Wp}{W^{1,p}}
+\newcommand{\Omm}{\Om_\limminus}
+\newcommand{\efoft}{\biggl(\frac{|{\log(-t)}|^{p-2}-1}{p-2}\biggr)}
+\newcommand{\efoftsing}{\biggl(\frac{|{\log(-t)}|^{2-p}-1}{2-p}\biggr)}
+
+\newcommand{\loc}{_{\rm loc}}
+\newcommand{\Lploc}{L^{p}\loc}
+\newcommand{\ut}{\tilde{u}}
+\newcommand{\ft}{\tilde{f}}
+\newcommand{\Thetam}{\Theta_\limminus}
+
+\setcounter{secnumdepth}{3}
+
+%\thispagestyle{plain}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Second Year Paper Proposal}
+\chead{}
+\lhead{Suleyman Gozen}
+\cfoot{\thepage}
+
+
+\begin{document}
+
+%\begin{center}
+%\textbf{ECON 38001 50 Applied Macroeconomics Micro Data for Macro Models}
+
+%\textbf{Homework Assignment Number 3}
+
+%\textbf{Suleyman Gozen}
+%\end{center}
+
+\textbf{Exercise 1.3.}
+
+\begin{itemize}
+\item $\mathcal{G}_{1} = \{A : A \subset \mathbb{R}, \text{A open}\}$
+\end{itemize}
+
+Since $A^{c} = X - A \notin \mathcal{G}_{1}$, $\mathcal{G}_{1}$ is neither an algebra nor $\sigma$-algebra.
+
+\begin{itemize}
+\item $\mathcal{G}_2 = \{A: A $ is a finite union of intervals of the form (a,b], (-$\infty$, b], and (a,$\infty$) $\}$
+\end{itemize}
+
+$\mathcal{G}_2$ is algebra because 
+
+\begin{enumerate}
+\item $\emptyset \in \mathcal{G}_2}$
+\item $\mathcal{G}_2$ is closed under complements and finite unions, i.e. if $A \in  \mathcal{G}_2$, then $A^c = X-A \in  \mathcal{G}_2$, and if $A_1, A_2, \cdots, A_N \in  \mathcal{G}_2$, then $\bigcup_{n=1}^{N} A_n \in  \mathcal{G}_2$
+\end{enumerate}
+
+$\mathcal{G}_2$ is not $\sigma$-algebra because it is not closed under countable unions.
+
+\begin{itemize}
+\item $\mathcal{G}_3 = \{A: A $ is a countable union of (a,b], (-$\infty$, b], and (a,$\infty$) $\}$
+\end{itemize}
+
+$\mathcal{G}_3$ is both algebra and $\sigma$-algebra because 
+
+\begin{enumerate}
+\item $\emptyset \in \mathcal{G}_3}$
+\item $\mathcal{G}_3$ is closed under complements and finite unions, i.e. if $A \in  \mathcal{G}_2$, then $A^c = X-A \in  \mathcal{G}_3$, and if $A_1, A_2, \cdots, A_N \in  \mathcal{G}_3$, then $\bigcup_{n=1}^{N} A_n \in  \mathcal{G}_3$
+\item $\mathcal{G}_3$ is closed under countable unions, i.e. if $A_1, A_2, \cdots \in \mathcal{G}_3$, then $\bigcup_{n=1}^{\infty} A_n \in \mathcal{G}_3$
+\end{enumerate}
+
+\textbf{Exercise 1.7.}
+
+Since $\emptyset \in \mathcal{A}$ and the complement of $\emptyset$ ($X$) is in $\mathcal{A}$, $\mathcal{A}$ is smallest possible $\sigma$-algebra. On the other hand, since power set $\mathcal{P}(X)$ is the largest $\sigma$-algebra for a given set and it is literally everything (so includes everything for its complements), $\mathcal{A}$ is largest possible $\sigma$-algebra.
+
+\textbf{Exercise 1.10.}
+
+Let $\sum^{*} = \bigcap_\alpha \mathcal{S}_\alpha$. Since $X$ is in every $\{\mathcal{S}_\alpha\}$, $\sum^{*}$ is not empty. Closure under complement and countable unions for every  $\{\mathcal{S}_\alpha\}$ implies the same must be true for $\sum^{*}$.  Therefore,  $\sum^{*}$ is $\sigma$-algebra.
+
+\textbf{Exercise 1.17.}
+
+\begin{itemize}
+\item $\mu$ is \vocab{monotone}: $A$ and $B \setminus A$ are disjoint with $ B = A \cup (B \setminus A)$ so $\mu(A) + \mu (B \setminus A) = \mu(B)$. So rearranging gives the desired result where $\mu(A) \leq \mu(B)$  .
+
+\item  $\mu$ is \vocab{countably subadditive}: Let $A_{i}^{'} = A_{i} \cap A$. Then let $B = {A_{1}}^{'}$ and $B_{i} = A_{i}^{'} \setminus \cup_{n=1}^{i-1} A_{n}^{'}$ for $i>1$. Since $B_{i}$ are disjoint, using monotonicity property we have union A and $B_{n} \subseteq A_{n}$. Then we have $\mu(A) = \sum_{n=1}^{\infty} \mu({B_{n}}) \leq  \sum_{n=1}^{\infty} \mu({A_{n}})$.
+
+\end{itemize}
+
+\textbf{Exercise 1.18.}
+\begin{itemize}
+\item $\lambda(A) \geq 0$ for every $A \in X$.
+\item $\lambda(\cup_{n \in \mathbb{N}} A_{n}) = \sum_{n \in \mathbb{N}} \lambda(A_{n})$ because of the fact that 
+\begin{align*}
+\lambda(\cup_{n \in \mathbb{N}} A_{n}) & = \mu((\cup_{n \in \mathbb{N}} A_{n}) \cap B) \quad (\text{Definition of $\lambda$})\\ & = \mu((\cup_{n \in \mathbb{N}} A_{n} \cap B)) \quad (\text{Intersection Distributes over Union})\\ & = \sum_{n \in \mathbb{N}} \mu(A_{n} \cap B)  \quad \quad (\text{$\mu$ is a measure}) \\ & = \sum_{n \in \mathbb{N}} \lambda(A_{n}) \quad \quad \quad \quad (\text{Definition of $\lambda$})\\
+\end{align*}
+\item  $\lambda(\emptyset) = 0$ because by intersection with empty set we have $\emptyset \cap A = \emptyset$, hence $\lambda(\emptyset) = \mu(\emptyset \cap A) =  \mu(\emptyset) = 0$.
+
+\end{itemize}
+
+\textbf{Exercise 1.20.}
+
+Consider the increasing sequence $\{B_{i}\}_{i \in \mathbb{N}}  \in \mathcal{S}$ given by $B_{i} = A_{1} \setminus A_{i}$.  By De Morgan laws, finiteness of $\mu(A_1)$ and property (i) in the theorem, we have
+
+\begin{align*}
+\mu(A_1) - \mu(\cap_{i=1}^\infty A_i) = \mu(A_1 \setminus (\cap_{i=1}^\infty A_i))  & = \mu(\cup_{i} B_{i}) \\ & = \lim_{n\rightarrow \infty} \mu(B_n) \\ & =\lim_{n\rightarrow \infty} \mu(A_1 \setminus (\cap_{i=1}^\infty A_i)) \\ & = \mu(A_1) - \lim_{n\rightarrow \infty} \mu(A_n)
+\end{align*}
+
+Hence we have $\mu(\cap_{i=1}^\infty A_i) =  \lim_{n\rightarrow \infty} \mu(A_n) $.
+
+\textbf{Exercise 2.10.}
+
+The definition says that a set is measurable if we can use it to cut any other set in two parts without introducing any further irregularities - hence all parts of its boundary must be reasonably regular.
+
+Formally, we can show this equality based on the fact that since $ A = (A \cap E) \cup (A \cap E^{c})$, subadditivity tells us that we always have 
+
+$$\mu^{*} (A \cap E) + \mu^{*} (A \cap E^{c}) \geq \mu^{*} (A) $$ 
+
+\textbf{Exercise 2.14.}
+
+Since the Borel algebra is a $\sigma$-algebra, we could of course restrict Lebesgue measure to the Borel algebra. However, this measure is not complete, since there exist Borel sets of measure zero (such as the Cantor set) whose subsets are not all Borel.
+
+\textbf{Exercise 3.1.}
+
+Let $\{x_{i}\}_{i=1}^{\infty}$ be an enumeration of the elements of countable set $X$. For any positive number $\epsilon$, define $A_{i} = (x_{i} - 2^{-i}\epsilon, x_{i} + 2^{-i}\epsilon)$. Then $X \subseteq \cup_{i=1}^{\infty} A_{i}$ and $\mu(\cup A_i) \leq \sum_{i=1}^{\infty} 2^{-i}\epsilon = 2\epsilon$. Since Since our choice of $\epsilon$ was arbitrary, for any positive real $z$
+we can construct a set $Y$ such that $X \subseteq Y$ and $\mu(Y) \leq z$. Hence countable set $X$ has zero measure. 
+
+\textbf{Exercise 3.4.}
+
+We know that the Borel $\sigma$-algebra on $\mathbb{R}$ is generated by any of the following collections of intervals
+$$\{(-\infty,b) : b \in \mathbb{R}\}, \{(-\infty,b] : b  \in \mathbb{R}\}, \{(a,\infty) :  a \in \mathbb{R}\}, \{[a, \infty) : a  \in \mathbb{R}\}
+$$
+We also know that 
+$$ \{ x \in X : f(x) < b\} = f^{-1} ((-\infty,b))$$
+$$ \{ x \in X : f(x) \leq b\} = f^{-1} ((-\infty,b]) $$
+$$ \{ x \in X : f(x) > a\} = f^{-1} ((a,\infty]) $$
+$$ \{ x \in X : f(x) \geq a\} = f^{-1} ([a,\infty])$$
+
+ Then the result follows immediately from Definition 3.2..
+ 
+ \textbf{Exercise 3.7.}
+
+Exercise 1.7. https://math.stackexchange.com/questions/2134286/infinite-power-set
+
+http://nptel.ac.in/courses/108106083/lecture7_Borel$\%$20Sets$\%$20and$\%$20Lebesgue$\%$20Measure.pdf
+
+1.10
+
+ https://www.cise.ufl.edu/class/cis6930fa11srt/Sep-7.pdf 
+
+The existence of ?(A) follows from the simple fact that the intersections of ?-algebras is also an ?-algebra.
+
+https://math.stackexchange.com/questions/2694099/intersection-of-sigma-algebras-is-a-sigma-algebra
+
+1.17
+
+https://proofwiki.org/wiki/Probability_Measure_is_Monotone
+
+https://web.stanford.edu/~montanar/TEACHING/Stat310A/HW/hw1sol.pdf
+
+https://sites.ualberta.ca/~rjia/Math417/Notes/chap4.pdf
+
+1.18
+
+https://proofwiki.org/wiki/Intersection_Measure_is_Measure
+
+1.20
+
+https://www.ma.utexas.edu/users/gordanz/notes/measures.pdf
+
+2.10 
+
+http://www.uio.no/studier/emner/matnat/math/MAT2400/v13/mathanalch6.pdf
+
+2.14
+
+http://www.pitt.edu/~hajlasz/Notatki/Analysis%20I.pdf
+
+3.1
+
+http://pages.uoregon.edu/raies/LaTeX/Sample%20Analysis%20HW/Sample%20Analysis%20HW.pdf
+
+3.4
+
+https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes_ch3.pdf
+
+3.7 
+
+https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes_ch3.pdf
+
+4.13 
+
+http://www.maths.manchester.ac.uk/~mdc/old/341/not8.pdf
+
+http://courses.mai.liu.se/GU/TATM85/handout-6.pdf
+
+4.14
+
+https://math.stackexchange.com/questions/1487172/if-f-is-integrable-is-it-finite-almost-everywhere
+
+https://sites.ualberta.ca/~rjia/Math417/Hwks/sol7.pdf
+
+\end{document}
+
