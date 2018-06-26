@@ -39,7 +39,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 6-25  | M   |     |     |     |     |
-6-26  | T   | Visualizations | Jan Ertl | [Visualizations Notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Tutorials/PythonVisualize.ipynb) | Comp. Prob Set 2 |
+6-26  | T   | Visualizations | Jan Ertl | [Visualizations Notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Tutorials/PythonVisualize.ipynb) | [Comp. Prob Set 2](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/DataVis_probset.pdf) |
 |     |     | and Pandas  |    | [ACME: Intro to Matplotlib](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/MatplotlibIntro.pdf) | due T, 7-3, 6pm |
 |     |     |     |    | [ACME: Data Visualization](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/DataVisualization.pdf) |   |
 |     |     |     |    | [ACME: Pandas 1](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas1.pdf) |   |
@@ -48,7 +48,6 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 6-28  | Th  | Visualizations | Jan Ertl | [Pandas Notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Tutorials/PythonNumpyPandas.ipynb) |   |
 |     |     | and Bokeh      |          | [ACME: Pandas 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas3.pdf) |    |
 |     |     |      |          | [ACME: Pandas 4](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Pandas4.pdf) |    |
-|     |     |     |    | [ACME: Bokeh](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk2_DataVis/Vol3A-Bokeh-2016.pdf) |   |
 6-29  | F   |     |     |     |     |
 
 ### Week 3
