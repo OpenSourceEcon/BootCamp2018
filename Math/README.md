@@ -80,6 +80,6 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ## References
 
-* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics: Volume I: Mathematical Analysis*, SIAM (2017, forthcoming).
+* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics: Volume I: Mathematical Analysis*, SIAM (2017).
 * Humpherys, Jeffrey and Tyler J. Jarvis, *Foundations of Applied Mathematics, Volume II: Algorithm Design and Optimization*, SIAM (2018, forthcoming).
 
