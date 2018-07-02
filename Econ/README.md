@@ -20,7 +20,7 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-25  | M   | Stochastic processes | [John Stachurski](http://johnstachurski.net/) |  | Econ Prob. Set 2 |
+6-25  | M   | Stochastic processes | [John Stachurski](http://johnstachurski.net/) |  | [Econ Prob. Set 2](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk2_Dynamics/homework/Dyn_probset.pdf) |
 6-26  | T   |                      |                      |    | due M, 7-2, 11pm |
 6-27  | W   | Ergodicity           | [John Stachurski](http://johnstachurski.net/) |  |  |
 6-28  | Th  |                      |                      |    |     |
