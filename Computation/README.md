@@ -58,10 +58,10 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 7-3  | T  |  Matrix Decomposition | Jan Ertl | [ACME: QR Decomp](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/QR_Decomposition.pdf) | [Comp Prob Set 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/Decomp_probset.pdf) |
 |     |     |  |          | [ACME: Lsq, eigenvalues](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/LeastSquares_Eigenvalues.pdf) | due T, 7-10, 6pm |
 |     |     |      |          | [ACME: SVD Image Compress](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/SVD_ImageCompression.pdf) |  |
-|     |     |      |          | [ACME: Drazin Inverse](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/BlazinDrazin.pdf) |  |
 7-4  | W    | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
-7-5  | Th   | Matrix conditions | Jan Ertl | [ACME: PageRank Algorithm](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/PageRank.pdf) |   |
-7-6  | F    |     |     |     |  |
+7-5  | Th   | Matrix conditions | Jan Ertl | [ACME: Drazin Inverse](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/BlazinDrazin.pdf) |   |
+7-6  | F    |     |     | [ACME: PageRank Algorithm](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/PageRank.pdf) |  |
+|     |     |      |          | [ACME: Conditioning and Stability](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/Conditioning_Stability.pdf) |  |
 
 ### Week 4
 
