@@ -55,25 +55,21 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-2  | M  |  |  |  |  |
-7-3  | T  |  Matrix Decomposition | Jan Ertl | [ACME: QR Decomp](http://www.acme.byu.edu/wp-content/uploads/2017/08/QR_Decomposition.pdf) | Comp Prob Set 3 |
-|     |     | and Compute Speed |          | [ACME: Lsq, eigenvalues](http://www.acme.byu.edu/wp-content/uploads/2017/08/LeastSquares_Eigenvalues.pdf) | due T, 7-10, 6pm |
-|     |     |      |          | [ACME: SVD Image Compress](http://www.acme.byu.edu/wp-content/uploads/2017/08/SVD_ImageCompression.pdf) |  |
-|     |     |      |          | [ACME: Drazin Inverse](http://www.acme.byu.edu/wp-content/uploads/2018/02/BlazinDrazin.pdf) |  |
-|     |     |      |          | [QuantEcon: Numba](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_DecompDif/numba.ipynb) |  |
+7-3  | T  |  Matrix Decomposition | Jan Ertl | [ACME: QR Decomp](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/QR_Decomposition.pdf) | [Comp Prob Set 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/Decomp_probset.pdf) |
+|     |     |  |          | [ACME: Lsq, eigenvalues](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/LeastSquares_Eigenvalues.pdf) | due T, 7-10, 6pm |
+|     |     |      |          | [ACME: SVD Image Compress](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/SVD_ImageCompression.pdf) |  |
 7-4  | W    | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
-7-5  | Th   | Matrix conditions | Jan Ertl | [ACME: PageRank Algorithm](http://www.acme.byu.edu/wp-content/uploads/2018/02/PageRank.pdf) | Comp Prob Set 4  |
-|     |     | Numerical Diff. and Int. |           | [ACME: Conditioning and Stability](http://www.acme.byu.edu/wp-content/uploads/2017/08/Conditioning_Stability.pdf) | due Th, 7-10, 6pm |
-|     |     |     |      | [ACME: Numerical Differentiation](http://www.acme.byu.edu/wp-content/uploads/2017/08/Differentiation.pdf) |  |
-|     |     |     |      | [Evans: Numerical Integration](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_DecompDif/NumIntegr_Evans.pdf) |  |
-7-6  | F    |     |     |     |  |
+7-5  | Th   | Matrix conditions | Jan Ertl | [ACME: Drazin Inverse](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/BlazinDrazin.pdf) |   |
+7-6  | F    |     |     | [ACME: PageRank Algorithm](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/PageRank.pdf) |  |
+|     |     |      |          | [ACME: Conditioning and Stability](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_Decomp/Conditioning_Stability.pdf) |  |
 
 ### Week 4
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-10  | M   |     |     |     |     |
-7-11  | T   | Matrix conditions | Jan Ertl | [ACME: PageRank Algorithm](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_PageRank.pdf) | [Comp Prob Set 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/DifIntOpt_probset.pdf)  |
-|     |     | Numerical Diff. and Int. |           | [ACME: Conditioning and Stability](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_CondStab.pdf) | due Th, 7-20, 6pm |
+7-11  | T   | Matrix conditions | Jan Ertl |  | [Comp Prob Set 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/DifIntOpt_probset.pdf)  |
+|     |     | Numerical Diff. and Int. |           |  | due Th, 7-20, 6pm |
 |     |     |     |      | [ACME: Numerical Differentiation](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_NumDiff.pdf) |  |
 |     |     |     |      | [Evans: Numerical Integration](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/NumIntegr_Evans.pdf) |  |
 7-12  | W   |     |     |     |    |

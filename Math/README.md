@@ -21,7 +21,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-6-25  | M   | Inner product spaces | Jan Ertl | HJE (2017, Ch. 3) | Math Prob. Set 2 |
+6-25  | M   | Inner product spaces | Jan Ertl | HJE (2017, Ch. 3) | [Math Prob. Set 2](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk2_InProd/ips-probset.pdf) |
 6-26  | T   |                      |          |                   | due M, 7-2, 6pm  |
 6-27  | W   | Inner product spaces | Jan Ertl | HJE (2017, Ch. 3) |                  |
 6-28  | Th  |                      |          |                   |                  |
@@ -31,7 +31,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-2 | M   | Spectral theory  | Jan Ertl | HJE (2017, Ch. 4) | Math Prob. Set 3 |
+7-2 | M   | Spectral theory  | Jan Ertl | HJE (2017, Ch. 4) | [Math Prob. Set 3](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk3_Spct/specthry-probset.pdf) |
 7-3 | T   |                  |          |                   | due M, 7-9, 6pm  |
 7-4 | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY |  |
 7-5 | Th  |               |             |     |  |
@@ -80,6 +80,6 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 ## References
 
-* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics: Volume I: Mathematical Analysis*, SIAM (2017, forthcoming).
+* Humpherys, Jeffrey, Tyler J. Jarvis, and Emily J. Evans, *Foundations of Applied Mathematics: Volume I: Mathematical Analysis*, SIAM (2017).
 * Humpherys, Jeffrey and Tyler J. Jarvis, *Foundations of Applied Mathematics, Volume II: Algorithm Design and Optimization*, SIAM (2018, forthcoming).
 
