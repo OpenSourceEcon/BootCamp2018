@@ -56,13 +56,12 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-2  | M  |  |  |  |  |
 7-3  | T  |  Matrix Decomposition | Jan Ertl | [ACME: QR Decomp](http://www.acme.byu.edu/wp-content/uploads/2017/08/QR_Decomposition.pdf) | Comp Prob Set 3 |
-|     |     | and Compute Speed |          | [ACME: Lsq, eigenvalues](http://www.acme.byu.edu/wp-content/uploads/2017/08/LeastSquares_Eigenvalues.pdf) | due T, 7-10, 6pm |
+|     |     |  |          | [ACME: Lsq, eigenvalues](http://www.acme.byu.edu/wp-content/uploads/2017/08/LeastSquares_Eigenvalues.pdf) | due T, 7-10, 6pm |
 |     |     |      |          | [ACME: SVD Image Compress](http://www.acme.byu.edu/wp-content/uploads/2017/08/SVD_ImageCompression.pdf) |  |
 |     |     |      |          | [ACME: Drazin Inverse](http://www.acme.byu.edu/wp-content/uploads/2018/02/BlazinDrazin.pdf) |  |
-|     |     |      |          | [QuantEcon: Numba](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_DecompDif/numba.ipynb) |  |
 7-4  | W    | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY  |  |
-7-5  | Th   | Matrix conditions | Jan Ertl | [ACME: PageRank Algorithm](http://www.acme.byu.edu/wp-content/uploads/2018/02/PageRank.pdf) | Comp Prob Set 4  |
-|     |     | Numerical Diff. and Int. |           | [ACME: Conditioning and Stability](http://www.acme.byu.edu/wp-content/uploads/2017/08/Conditioning_Stability.pdf) | due Th, 7-10, 6pm |
+7-5  | Th   | Matrix conditions | Jan Ertl | [ACME: PageRank Algorithm](http://www.acme.byu.edu/wp-content/uploads/2018/02/PageRank.pdf) |   |
+|     |     | Numerical Diff. and Int. |           | [ACME: Conditioning and Stability](http://www.acme.byu.edu/wp-content/uploads/2017/08/Conditioning_Stability.pdf) |  |
 |     |     |     |      | [ACME: Numerical Differentiation](http://www.acme.byu.edu/wp-content/uploads/2017/08/Differentiation.pdf) |  |
 |     |     |     |      | [Evans: Numerical Integration](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk3_DecompDif/NumIntegr_Evans.pdf) |  |
 7-6  | F    |     |     |     |  |
