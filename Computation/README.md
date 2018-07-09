@@ -110,7 +110,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 7-31 | T  |     | Jan Ertl |     | Comp. Prob. Set 7 |
 8-1  | W  |     |          |     | due F, 8-3, 11pm  |
 8-2  | Th |     | Jan Ertl |     |                   |
-8-3  | F  |     |          |     |                   |
+8-3  | F  | Conclusion: Hwk due |          |     |                   |
 
 <!-- ### Week 5
 
