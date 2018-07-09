@@ -1,0 +1,303 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lscape}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfsync}
+\usepackage{verbatim}
+\usepackage{placeins}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\synctex=1
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\renewcommand\theenumi{\roman{enumi}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+	
+	\title{Problem Set 3\\
+	}
+	\author{
+		Yung-Hsu Tsui\footnote{University of Chicago, Master of Art Program in Social Science, 1126 E. 59th Street, Chicago, Illinois, 60637, (773) 702-5079, \href{mailto:}{yhtsui@uchicago.edu}.} \footnote{I thank Jayhyung Kim for his great comments.}\\[-2pt]
+	}
+	\date{July 9 ,  2018 }
+	\vspace{-9mm}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\pagestyle{fancy}
+	\fancyhf{}
+	\rhead{OSM Boot Camp}
+	\chead{Mathematics}
+	\lhead{Yung-Hsu Tsui}
+	\cfoot{\thepage}
+	
+	\begin{spacing}{1.3}{}
+		\vspace{1 mm}
+		
+\textbf{Ex 4.2} \\\\
+\emph{Answer : } The eigenvalue of this linear differential operator $D[p](x) = p^{'} (x)$ is $0$. Also, the eigenspace is $ \sum_{\lambda}(D) = \{a + bx + c x^2 \in V | b=c=0\}$ \\
+Algebraic and geometric multiplicities of $D$ are the dimension of $ \sum_{\lambda}(D)$, which is 1 and the algebraic multiplicity of $\lambda_i = 0$ is $1$. \\\\
+\textbf{Ex 4.4} \\\\
+\emph{Proof of (i) } \\
+Note that by the definition of eigenvalues, eigenvalues in 2 by 2 matrix satisfy the following;
+\[p(\lambda)  = \lambda^2 - (a+d) \lambda + (ad - bc) = 0\]
+where
+\[A= \begin{bmatrix}
+  a & b \\
+  c & d
+\end{bmatrix}\]
+
+Using quadratic formula,
+\[(a+d)^2 - 4(ad - bc) = (a-d)^2 + 4bc \]
+Note that the matrix $A$ is hermitian, meaning that $A^H = A$. This implies that $a$ and $d$ are real number, and the multiplication of $b=\bar{c}$ and $c=\bar{b}$ results in positive number(this is really easy but tedious  work, so calculation is up to you!). Thus, $(a-d)^2 + 4bc >0$, implying that the solutions of characteristic equations are all real. \ Q.E.D\\\\
+\emph{Proof if (ii)} \\
+This is same task as above. If we find the quadratic formula of this 2nd order polynomial equation, then
+\[D = (a-d)^2 + 4bc = -(a_1 - d_1)^2 - 4(abs(b)^2) < 0 \]
+(Also, the calculation is up to you!) \ Q.E.D \\\\
+\textbf{Ex 4.6} \\\\
+\emph{Proof.} Let $A$ be the upper triangular matrix. Consider $det(\lambda I - A) = 0 $. This results in the following equation;
+
+\[\prod_{i=1}^{n}(\lambda - a_ii)\]
+, where $a_{ii}$ is the $i$th diagonal entry. This expression equals to zero, iff $\lambda = a_{ii}$ for some i. Thus, the diagonal entries of the matrix are exactly the eigenvalues. \ Q.E.D \\\\
+\textbf{Ex 4.8} \\\\
+\emph{Proof of (i). } Set the following matrix;
+\[\begin{bmatrix}
+    sin(t_1) & cos(t_1) & sin(2t_1) & cos(2t_1) \\
+    sin(t_2) & cos(t_2) & sin(2t_2) & cos(2t_2) \\
+    sin(t_3) & cos(t_3) & sin(2t_3) & cos(2t_3) \\
+    sin(t_4) & cos(t_4) & sin(2t_4) & cos(2t_4) \\
+  \end{bmatrix}  \begin{bmatrix}
+                   c_1 \\
+                   c_2 \\
+                   c_3 \\
+                   c_4
+                 \end{bmatrix}  = \begin{bmatrix}
+                                    0 \\
+                                    0 \\
+                                    0 \\
+                                    0
+                                  \end{bmatrix}\]
+with $t_1 = 0, t_2 = \pi /2, t_3 = \pi, t_4 = 3/2 \pi$. This results in $c_1=c_2=c_3=c_4=0$. \ Q.E.D \\\\
+\emph{Proof of (ii).} Let $D[p](x) := p^{'}(x)$. By calculation, the matrix that represents for this differential operator is the following;
+\[ \begin{bmatrix}
+     0 & -1 & 0 & 0 \\
+     1 & 0 & 0 & 0 \\
+     0 & 0 & 0 & -2 \\
+     0 & 0 & 2 & 0
+   \end{bmatrix}\]
+Q.E.D \\\\
+\emph{Answer of (iii). }
+Let $V_1 = span(\{sin(x), cos(x)\})$ and $V_1 = span(\{sin(2x), cos(2x)\})$. \\\\
+
+\textbf{Ex 4.13} \\\\
+\emph{Answer.}
+\[D = \begin{bmatrix}
+    1 & 0 \\
+    0 & 0.4
+  \end{bmatrix}\]
+and
+\[P = \begin{bmatrix}
+        0.7454 & 0.7454 \\
+        -0.4714 & 0.9428
+      \end{bmatrix}\]
+
+\textbf{Ex 4.15} \\\\
+\emph{Proof.} Due to the assumption that $A$ is semi-simple, $A$ is diagonalizable, i.e. $\exists P \ s.t. P^{-1}AP = D$, where $D$ is diagonal matrix. Then, $A^k = P D^k P^{-1}$. Then,
+\begin{align*}
+ f(A) =& a_0 I + a_1 A + ... + a_n A^n  \\
+    =& a_0 PIP^{-1} + a_1 PDP^{-1} + ... + a_n PD^{n}P^{-1} \\
+   =& P(a_0 + I + a_1 D + ... + a_n D^n)P^{-1} \\
+\end{align*}
+Thus, the eigenvalues of $f(A)$ are $(f(\lambda_i))_{i=1}^{n}$ \\\\
+\textbf{Ex 4.16} \\\\
+\emph{Proof of (i).} The markov chain which this matrix $A^T$ represents for is irreducible and aperiodic. Thus, there exists distribution $\pi$ such that $A \pi  = \pi$. If we solve this, then $\pi = (2/3,1/3) $, which is exactly the same with the first and the second columns of $\lim_{n \rightarrow \infty} A^n$ \ Q.E.D \\\\
+\emph{Answer of (ii).} Yes, $\| \lim A^n \|_{\infty} = 4/3 $, and $\| \lim A^n \|_{F} = \sqrt{10}/3$ \\
+\emph{Answer of (iii).} By the Theorem 4.3.12, $f(\lambda_1) = 3 + 5*\lambda_1 + \lambda_{1}^{3} = 9$, and $f(\lambda_2) = 3 + 5*\lambda_2 + \lambda_{2}^{3} = 5.0640$ \\\\
+\textbf{Ex 4.18} \\\\
+\emph{Proof.} Note that
+\[det(A^T - \lambda I ) = det((A-\lambda I)^T) = det(A-\lambda I)=0\]
+Thus, $A^T x = \lambda x$, and with trnasposition, $x^T A = \lambda x^T$ \\\\
+\textbf{Ex. 4.20} \\\\
+\emph{Proof. } Note that $A^H = A$. Using the notations in the Definition 4.4.1,
+\[B^H = (U^H A U)^H = U^H A^H U = U^H A U = B \]
+Q.E.D \\\\
+\textbf{Ex. 4.24}\\\\
+\emph{Proof.} Due to the assumption that the matrix $A$ is hermitian, then all the eigenvalues of $A$ are real, because;
+\begin{align*}
+  v^H A v =& \lambda v^H v \\
+  \lambda v^H v =& v^H Av = (v^H A v)^H  = \bar{\lambda} v^H v\\
+\end{align*}
+Thus, $\lambda = \bar{\lambda}$, meaning that the eigenvalues are real. Also, due to this fact, the matrix $A$ is positive semi-definite.  Thus, by Proposition 4.5.6, the eigenvectors of $A$ corresponding to distinct eigenvalues are orthogonal. Then, any vector $x$ can be expressed in the following;
+\[x = \sum_{j=1}^{n} c_j v_j = Vc \], where $v_j$s are orthonormal eigenvectors.  \\\\
+This results in the following;
+\begin{align*}
+  \rho(x) =& \frac{x^H A x}{x^H x}  \\
+   =& \frac{c^H V^H A V c}{c^H V^H V c}  \\
+   =& \frac{c^H \textbf{A} c}{c^H c}
+\end{align*}
+where $A = V \textbf{A} V^H$, and $\textbf{A}$ is diagonal matrix. Thus,
+\[\rho(x) = \frac{\lambda_1 |c_1|^2 + \cdots \lambda_n |c_n|^2 }{|c_1|^2 + \cdots |c_n|^2 +} \]
+Thus, $\rho(x)$ are real with hermitian matrix, $A$.
+We can do the same proof for Skewed matrix too! \ Q.E.D \\\\
+\textbf{Ex. 4.25}\\\\
+\emph{Proof of (i).} Note that the following holds due to the assumption that $[x_1, ..., x_n]$ are orthonormal vectors; Thus,
+\[(x_1 x_{1}^H + \cdots + x_n x_{n}^H) x_j = x_j = I x_j  \]
+for all $j$. Thus, the statement holds! \\\\
+\emph{Proof of (ii). } Note that by the Thoerem 4.4.14, $A$ is orthonormally diagonalizable, i,e.
+\[ A = U T U^H\]
+with $T$ being diagonal, and $U$ being orhonormal. This results in;\\
+\[A = \sum_{i=1}^{n} t_{ii} u_i u_{i}^{H}\]
+Q.E.D Please, prove more!\\\\
+\textbf{Ex. 4.27}\\\\
+Note that the positive-definite matrix $A$ satisfies the following; \\
+\[ \forall x \neq 0, x^H A x > 0\]
+If we feed the standard basis vector to $x$, then \\
+\[e_{i}^{H} A e_{i} = a_{ii} > 0 \]
+Thus, all the diagonal entries are real and positive. \ Q.E.D \\\\
+\textbf{Ex. 4.28}\\\\
+\emph{Proof.} Note that by the same logics of Ex. 4.27, one can show that the diagonal entries of any semi-positive definite matrix are non-negative. For the first inequality, we need to show that $AB$ is a semi-positive definite matrix.\\\\
+Note that $\forall x \neq 0, x^T A x, x^T B x  \geq 0 $. Then,
+\[(x^T A x) (x^T B x) = (x^T A)(x x^T) (Bx) \geq 0\]
+Note that $x x^T$ is positive scalar when $x \neq 0$. Thus, $x^T AB x \geq 0$, implying that $AB$ is positive semi-definite. This leads to the result that
+\[ tr(AB) \geq 0 \]
+Lastly, by using Cauchy-Scwartz inequality, you can show that
+\[tr(AB) \leq tr(A) tr(B) \]
+Please, prove more! \\\\
+\textbf{Ex. 4.31}\\\\
+\emph{Proof of (i).} Note that we want to show $\left\| \mathbf{A}\right\|_2 = \sqrt{\lambda_{\max}(\mathbf{A}^H \mathbf{A})}$ \\
+We can first simply prove when $\mathbf{P}$ is hermitian, \\
+\[\lambda_{\max} = \max_{\| \mathbf{x} \|_2=1} \mathbf{x}^H \mathbf{Px}\]
+That's because when $\mathbf{P}$ is Hermitian, there exists one and only one unitary matrix $\mathbf{U}$ that can diagonalize $\mathbf{P}$ as $\mathbf{U^HPU=D}$ (so $\mathbf{P=UDU^H}$), where $\mathbf{D}$ is a diagonal matrix with eigenvalues of $\mathbf{P}$ on the diagonal, and the columns of $\mathbf{U}$ are the corresponding eigenvectors. Let $\mathbf{y=U^H x}$ and substitute $\mathbf{x=Uy}$ to the optimization problem, we obtain
+\[ \max_{\| \mathbf{x} \|_2=1} \mathbf{x}^H \mathbf{Px} = \max_{\| \mathbf{y} \|_2=1} \mathbf{y}^H \mathbf{Dy} = \max_{\| \mathbf{y} \|_2=1} \sum_{i=1}^n \lambda_i |y_i|^2 \le \lambda_{\max} \max_{\| \mathbf{y} \|_2=1} \sum_{i=1}^n |y_i|^2 = \lambda_{\max}\]
+Thus, just by choosing $\mathbf{x}$ as the corresponding eigenvector to the eigenvalue $\mathbf{\lambda_{max}}$, \\
+$\max_{\| \mathbf{x} \|_2=1} \mathbf{x}^H \mathbf{Px} = \lambda_{\max}$. This proves $\left\| \mathbf{A}\right\|_2 = \sqrt{\lambda_{\max}(\mathbf{A}^H \mathbf{A})}$ \\\\
+\emph{Proof of (ii). } Note that if the matrix $A$ is invertible, then;
+\[A^{-1} = (U \Sigma V^H)^{-1} = (V^H)^{-1} \Sigma^{-1} U^{-1} = \hat{U} \Sigma^{-1} \hat{V}^H \]
+Note that $\hat{U}$ and $\hat{V}$ are all trivially orthornormal. Also, inverted diagonal matrix $\Sigma^{-1}$ takes the inverse values of its diagonal entries on its diagonal line. Thus, $\|A^{-1}\|_2 = \sigma_{n}^{-1} $ \\\\
+\emph{Proof of (iii). } \\\\
+Note that according to the property of singular values(positive and real), the following holds;
+\[\Sigma = \Sigma^T = \Sigma^H \]
+Thus, by $(i)$, $\|A\|_2 = \|A^H\|_2 = \|A^T\|_2$ \\
+Also,
+\[A^H A = V \Sigma^H U^H U \Sigma V^H = V \Sigma^H \Sigma V^H = V \Sigma^2 V^H\]
+Thus, $\|A^H A\|_2 = \|A\|_{2}^{2}$ \\\\
+\emph{Proof of (iv).} \\\\
+Note that
+\[UAV = U U_1 \Sigma V_{1}^H V = \hat{U} \Sigma \hat{V}^H\]
+Note that $\hat{U}$ and $\hat{V}$ are orthonormal. For example,
+\[\hat{U}^H \hat{U} = (U U_1)^H U U_1 = U_{1}^H U^H U U_1 = U_{1}^H U_1 = I\]
+You can use this same argument to prove that $\hat{V}$ is orthonormal. Thus, $\|UAV\|_2 = \|A\|_2$. \ Q.E.D \\\\
+\textbf{Ex. 4.32}\\\\
+We first prove $(ii)$, and then use the result to prove $(i)$. \\\\
+\emph{Proof of (ii).}
+\begin{align*}
+   \|A\|_{F}^{2} =& tr(A A^H) = tr(U \Sigma V^H V \Sigma^H U^H) \\
+                 =& tr(U \Sigma \Sigma^H U^H) \\
+                 =& tr(\Sigma \Sigma^H U^H U) \\
+                 =& tr(\Sigma \Sigma^H) \\
+                 =& \sigma_{1}^2 + ... + \sigma_{n}^2
+\end{align*}
+\emph{Proof of (i).}
+\begin{align*}
+   \|U_1 A V_1\|_{F}^{2} =& tr((U_1 A V_1) (U_1 A V_1)^H) \\
+                         =& tr(U_1 A V_1 V_{1}^H A^H U_{1}^H) \\
+                         =& tr(U_1 A A^H U_{1}^H) \\
+                         =& tr(A A^H U_{1}^H U_{1}) \\
+                         =& tr(AA^H) \\
+                         =& tr(\Sigma \Sigma^H) \\
+                         =& \sigma_{1}^2 + ... + \sigma_{n}^2
+\end{align*}
+Thus, $\|A\|_F = \|U_1 A V_{1}^H\|$ \ Q.E.D \\\\
+\textbf{Ex. 4.33}\\\\
+\emph{Proof.} \\\\
+\begin{align*}
+ |y^H A x|  =& |y^H (U \Sigma V^H) x| \\
+            =& |y^H (\sum_{i=1}^{r} \sigma_i u_i v_{i}^H |)x \\
+         \leq& \sigma_{max} | \sum_{i=1}^{r} y^H u_i v_{i}^H x |\\
+\end{align*}
+Note that $\| y^H u_i v_{i}^H \|_2 \leq \| y^H \| \|u_i\| \|v_{i}^H\| \leq 1 \times 1 \times 1 = 1 $. Thus,
+\[\sigma_{max} | \sum_{i=1}^{r} y^H u_i v_{i}^H x | \leq \sigma_{max} | \sum_{i=1}^{r} x_u | \leq \sigma_{max} \]
+We can attain equality when $\| y^H u_i v_{i}^H \|_2 = 1$, and $\sum_{i=1}^{r} (x_i)^2 = 1$, which is possiblely chosen due to the assumption that $x$ and $y$ are free variable of supremam, and $U$ and $V$, which are the matrices of SVD of A and orthonormal, are arbitrary. \ Q.E.D \\\\
+\textbf{Ex. 4.36}\\\\
+\emph{Answer.} Try any non-symmetric matrix. For example,
+\[A =
+\begin{bmatrix}
+  2 & 1 \\
+  3 & 4
+\end{bmatrix}
+\]
+gives $\lambda_1 = 1, \lambda_2 = 5$ as eigenvalues, but it gives $\sigma_1 = 0.9262, \sigma_2 = 5.3983$ as singular values. \\\\
+\textbf{Ex. 4.38}\\\\
+\emph{Proof of (i).}
+\begin{align*}
+  A A^{+} A =& (U \Sigma V^H) (V \Sigma^{-1} U^H) (U \Sigma V^H) \\
+            =& U \Sigma \Sigma^{-1} U^H U \Sigma V^H \\
+            =& U \Sigma V^H \\
+            =& A
+\end{align*}
+\emph{Proof of (ii).}
+\begin{align*}
+  A^{+} A A^{+} =& (V \Sigma^{-1} U^H) (U \Sigma V^H) (V \Sigma^{-1} U^H) \\
+                =& U \Sigma^{-1} V^H \\
+                =& A^{+}
+\end{align*}
+\emph{Proof of (iii).}
+\begin{align*}
+  (AA^{+})^H =& (A^{+})^H A^H \\
+             =& (V \Sigma^{-1} U^H)^H (U \Sigma V^H)^H \\
+             =& U U^H \\
+             =& A A^{+}
+\end{align*}
+\emph{Proof of (v).} \\\\
+We use the facts above and the fact that if $X=YZ$, then $ \mathcal{R}(X) \subseteq \mathcal{R}(Y)$. We need only to show that the matrices $AA^{+}$ and $A^{+}A$ are Hermitian, idempotent, and their ranges are equal to the subspaces on which they are supposed to project. \\
+
+Both $AA^{+}$ and $A^{+}A$ are obviously Hermitian; see $(iii)$ and $(iv)$. In addition, $(i)$ and $(ii)$ imply that they are idempotent. It remains to show that $\mathcal{R}(AA+)=R(A)$ and $\mathcal{R}(A^{+}A)=\mathcal{R}(A^H)$. Clearly, $\mathcal{R}(AA^{+}) \subseteq \mathcal{R}(A)$; $\mathcal{R}(A) \subseteq \mathcal{R}(A A^{+})$ follows from $(i)$. From $(iv)$, we have $A^{+}A=A^H (A^{+})^H$, so $\mathcal{R}(A^{+}A) \subseteq \mathcal{R}(A^H)$. From $(i)$ and $(iv)$, $A^H=A^{+}AA^H$, so $\mathcal{R}(A^H) \subseteq \mathcal{R}(A^{+}A)$.
+
+
+
+\end{spacing}
+\end{document}

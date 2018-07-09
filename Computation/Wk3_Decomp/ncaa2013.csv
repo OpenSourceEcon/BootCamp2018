@@ -1,0 +1,5321 @@
+WINNING_TEAM, LOSING_TEAM
+Middle Tenn St,Alabama St
+Cleveland St,Grambling
+Indiana,Bryant
+Xavier,F Dickinson
+Richmond,Liberty
+Seton Hall,Missouri KC
+NC State,Miami OH
+Gonzaga,Southern Utah
+Minnesota,American Univ
+Mississippi,MS Valley St
+Marshall,Longwood
+Kansas St,North Dakota
+Pittsburgh,Mt St Mary's
+DePaul,UC Riverside
+Valparaiso,Ga Southern
+Iowa,TX Pan American
+Belmont,Lipscomb
+Monmouth NJ,Hofstra
+UCLA,Indiana St
+Loyola MD,Binghamton
+Rider,Robert Morris
+Iowa St,Southern Univ
+VA Commonwealth,FL Gulf Coast
+Bradley,E Illinois
+Baylor,Lehigh
+UTEP,Oral Roberts
+Illinois,Colgate
+Creighton,North Texas
+Duke,Georgia St
+Kansas,SE Missouri St
+Oregon St,Niagara
+Georgia Tech,Tulane
+William & Mary,Hampton
+North Carolina,Gardner Webb
+Col Charleston,Towson
+St Louis,SC Upstate
+Ark Little Rock,TN Martin
+Colorado,Wofford
+BYU,Tennessee St
+LSU,Santa Barbara
+USC,Coppin St
+IUPUI,Utah Valley
+NE Omaha,N Illinois
+Morgan St,UT San Antonio
+Wake Forest,Radford
+Norfolk St,Rhode Island
+Texas A&M,Louisiana Tech
+Loyola-Chicago,Toledo
+Stanford,San Francisco
+Hawaii,MD E Shore
+Austin Peay,Samford
+Auburn,IPFW
+St Francis NY,Lafayette
+Charlotte,Charleston So
+UNC Asheville,W Carolina
+St Bonaventure,Bethune-Cookman
+Texas St,Fordham
+Texas Tech,Prairie View
+Wright St,Idaho
+Tennessee,Kennesaw
+Miami FL,Stetson
+High Point,UNC Greensboro
+Oklahoma St,UC Davis
+Penn St,St Francis PA
+TCU,Cal Poly SLO
+Iona,Denver
+Colorado St,Montana
+Georgia,Jacksonville
+CS Northridge,Pepperdine
+Houston,Florida A&M
+South Alabama,Florida St
+Bucknell,Purdue
+Penn,MD Baltimore Co
+Arkansas,Sam Houston St
+George Mason,Virginia
+Connecticut,Michigan St
+Kent,Drexel
+Coastal Car,Akron
+St Peter's,Rutgers
+New Orleans,San Jose St
+Houston Bap,Ark Pine Bluff
+Morehead St,Long Island
+Albany NY,Duquesne
+Troy,Mississippi St
+Kentucky,Maryland
+Alabama,S Dakota St
+Stony Brook,Marist
+Texas,Fresno St
+UT Arlington,CS Bakersfield
+Northeastern,Boston Univ
+Vermont,Siena
+Holy Cross,Old Dominion
+Ohio,Portland
+Columbia,Furman
+Washington St,E Washington
+UCF,South Florida
+Virginia Tech,ETSU
+Vanderbilt,Nicholls St
+Butler,Elon
+Arizona St,Cent Arkansas
+Missouri,Edwardsville
+Wichita St,NC Central
+UC Irvine,Nevada
+Dayton,Arkansas St
+Dartmouth,Maine
+Air Force,Army
+Old Dominion,Morgan St
+Oregon,Northern Arizona
+Notre Dame,Evansville
+Cornell,W Michigan
+Citadel,VMI
+Utah St,Idaho St
+La Salle,Delaware
+Youngstown St,G Washington
+WI Green Bay,Chicago St
+Princeton,Buffalo
+UT San Antonio,Holy Cross
+Quinnipiac,Hartford
+Southern Miss,W Kentucky
+Sacred Heart,Yale
+Providence,NJIT
+Fairfield,Central Conn
+Florida,Alabama St
+Wisconsin,SE Louisiana
+Oklahoma,ULM
+Baylor,Jackson St
+Purdue,Hofstra
+Louisville,Manhattan
+Ball St,Grambling
+Hawaii,Ark Pine Bluff
+North Carolina,FL Atlantic
+Cincinnati,TN Martin
+Ohio St,Albany NY
+Washington,Loyola MD
+Marquette,Colgate
+Boise St,TX Southern
+SMU,Loy Marymount
+Houston Bap,MD E Shore
+Seattle,Montana St
+Boston College,Florida Intl
+California,CS Bakersfield
+Syracuse,San Diego St
+Villanova,Marshall
+Nebraska,Southern Univ
+ULL,Oakland
+Brown,Binghamton
+UT San Antonio,Old Dominion
+Arizona,Charleston So
+Oregon St,New Mexico St
+UNC Wilmington,UNC Asheville
+South Carolina,WI Milwaukee
+Jacksonville St,E Michigan
+IL Chicago,UC Riverside
+Air Force,Citadel
+Georgetown,Duquesne
+Army,VMI
+Siena,Navy
+Holy Cross,Morgan St
+Iowa St,Alabama A&M
+UNLV,Northern Arizona
+Michigan,IUPUI
+Pittsburgh,Fordham
+Gonzaga,West Virginia
+Clemson,Presbyterian
+Providence,Bryant
+Lehigh,Robert Morris
+Illinois St,Santa Barbara
+Florida St,Buffalo
+Notre Dame,Monmouth NJ
+Minnesota,Toledo
+Indiana,N Dakota St
+St Joseph's PA,Yale
+Rutgers,Sacred Heart
+Illinois,St Francis NY
+Kansas St,Lamar
+Texas,Coppin St
+Maryland,Morehead St
+Virginia Tech,Rhode Island
+Texas A&M,Troy
+Bradley,TX Pan American
+S Illinois,New Orleans
+CS Northridge,E Washington
+Memphis,North Florida
+Delaware,Penn
+Seton Hall,Norfolk St
+Stanford,CS Fullerton
+Hawaii,Houston Bap
+Iowa,C Michigan
+Youngstown St,Georgia
+William & Mary,Liberty
+Oregon,Portland St
+Ark Pine Bluff,MD E Shore
+Virginia,Fairfield
+Utah Valley,NC A&T
+Canisius,Boston Univ
+Cleveland St,Bowling Green
+American Univ,Quinnipiac
+New Mexico,Davidson
+Lafayette,Long Island
+Northwestern LA,Campbell
+St Peter's,Central Conn
+Kennesaw,S Carolina St
+Richmond,UNC Wilmington
+Cincinnati,MS Valley St
+Missouri,Alcorn St
+Northwestern,TX Southern
+Michigan,Cleveland St
+UCF,Alabama St
+Miami OH,Grambling
+LSU,McNeese St
+Pittsburgh,Lehigh
+Valparaiso,N Illinois
+Stetson,Florida A&M
+High Point,Appalachian St
+Mississippi St,FL Atlantic
+W Kentucky,Austin Peay
+Connecticut,Vermont
+Mississippi,Coastal Car
+BYU,Georgia St
+USC,Long Beach St
+Niagara,St Francis PA
+California,Pepperdine
+Robert Morris,Fordham
+Xavier,Butler
+North Texas,Lamar
+Temple,Kent
+New Hampshire,Dartmouth
+IUPUI,Bowling Green
+Charlotte,Ga Southern
+FL Gulf Coast,Miami FL
+Wright St,E Illinois
+Indiana St,Winthrop
+Marquette,SE Louisiana
+Tulane,Bethune-Cookman
+Fairfield,Penn
+Stony Brook,Rider
+Boise St,Oakland
+Mt St Mary's,Hartford
+S Dakota St,Tennessee St
+Duke,Kentucky
+Delaware,Virginia
+Bucknell,George Mason
+Massachusetts,Harvard
+St John's,Detroit
+Middle Tenn St,Savannah St
+Michigan St,Kansas
+Wichita St,VA Commonwealth
+Houston,San Jose St
+Northeastern,Princeton
+Albany NY,Washington
+UCLA,UC Irvine
+Texas Tech,NE Omaha
+Navy,Binghamton
+Washington St,Utah Valley
+Florida,Wisconsin
+Louisiana Tech,Ark Little Rock
+CS Sacramento,CS Bakersfield
+Creighton,UAB
+Denver,TAM C. Christi
+Loyola MD,MD Baltimore Co
+Georgia Tech,Presbyterian
+Colgate,Marist
+Wyoming,NC Central
+Santa Clara,St Louis
+Edwardsville,W Illinois
+Georgetown,Liberty
+Fresno St,UC Riverside
+Savannah St,North Florida
+Southern Univ,South Dakota
+Lipscomb,Gardner Webb
+St Bonaventure,Cornell
+Delaware St,Wagner
+San Diego,N Kentucky
+Holy Cross,Maine
+Northern Iowa,Toledo
+Indiana,Sam Houston St
+Iowa,Howard
+UCLA,James Madison
+Minnesota,Tennessee St
+Louisville,Samford
+New Mexico St,SE Louisiana
+Texas A&M,Prairie View
+Arizona,UTEP
+Tulsa,N Kentucky
+Murray St,Auburn
+Wyoming,South Dakota
+Jacksonville St,Alabama A&M
+Stanford,Alcorn St
+NC State,Penn St
+Wichita St,W Carolina
+Virginia Tech,VMI
+Central Conn,Brown
+Kansas,Chattanooga
+Northwestern,MS Valley St
+Norfolk St,Longwood
+Gardner Webb,DePaul
+St John's,Col Charleston
+SE Missouri St,McNeese St
+Cal Poly SLO,N Colorado
+Colorado,Dayton
+Baylor,Boston College
+Richmond,Hampton
+St Mary's CA,Utah St
+Villanova,Purdue
+Tennessee,UNC Asheville
+Bethune-Cookman,New Orleans
+Buffalo,Evansville
+American Univ,Mt St Mary's
+Oklahoma St,Akron
+NC Central,Southern Univ
+SMU,TCU
+Alabama,Oregon St
+Portland,Idaho St
+CS Northridge,San Diego
+Southern Miss,Georgia
+Illinois St,Drexel
+Massachusetts,Providence
+Tennessee Tech,Coastal Car
+Nebraska,Valparaiso
+San Jose St,Weber St
+Kentucky,Lafayette
+Mississippi,Ark Little Rock
+Ohio,UNC Wilmington
+Harvard,Manhattan
+Kent,Chicago St
+Oregon,Vanderbilt
+Tulane,NE Omaha
+Alabama,Villanova
+Missouri,Nicholls St
+South Florida,MD E Shore
+Campbell,Appalachian St
+Akron,UNC Asheville
+Florida St,BYU
+NC State,Massachusetts
+Maryland,Long Island
+Bucknell,Niagara
+Clemson,Furman
+Oklahoma St,Tennessee
+South Carolina,Morgan St
+Miami FL,Jacksonville
+Dayton,Boston College
+Hartford,Sacred Heart
+Youngstown St,St Francis PA
+North Carolina,Long Beach St
+E Kentucky,Kennesaw
+South Dakota,NC Central
+Wright St,NC A&T
+Tulsa,San Diego
+WI Green Bay,Southern Utah
+California,Denver
+W Michigan,Loyola-Chicago
+Evansville,Yale
+Army,Binghamton
+W Illinois,Buffalo
+St Joseph's PA,Notre Dame
+E Michigan,E Illinois
+Towson,Radford
+Oregon St,Purdue
+Wyoming,Southern Univ
+New Mexico,IL Chicago
+Connecticut,Wake Forest
+Rutgers,Princeton
+Quinnipiac,Iona
+Ball St,Wofford
+Savannah St,Alabama St
+Fresno St,Pacific
+Murray St,St John's
+CS Northridge,Siena
+Oklahoma,UT Arlington
+Arkansas St,TN Martin
+St Peter's,Cornell
+Auburn,Col Charleston
+George Mason,Mercer
+IPFW,TX Pan American
+Hofstra,S Dakota St
+East Carolina,UNC Greensboro
+TX Southern,ULL
+Nevada,CS Fullerton
+CS Sacramento,Utah
+Penn St,Providence
+Pepperdine,Washington St
+Colorado,Baylor
+Illinois,Hawaii
+CS Fullerton,Southern Utah
+Virginia,Seattle
+Houston,Grambling
+VA Commonwealth,Winthrop
+DePaul,Austin Peay
+IL Chicago,Mercer
+Iona,Wake Forest
+Northern Iowa,North Dakota
+William & Mary,High Point
+Charlotte,Lamar
+Wichita St,Howard
+UNLV,Jacksonville St
+South Florida,Loyola-Chicago
+W Michigan,MD E Shore
+Loyola MD,Norfolk St
+San Diego St,Missouri St
+CS Northridge,Tulsa
+Temple,Rice
+G Washington,Boston Univ
+E Illinois,TX Pan American
+E Michigan,IPFW
+Bucknell,New Mexico St
+Bryant,New Hampshire
+Cleveland St,Old Dominion
+Memphis,Samford
+Ohio St,Rhode Island
+Washington,Seton Hall
+Vermont,Northeastern
+W Kentucky,W Carolina
+Pittsburgh,Oakland
+Notre Dame,BYU
+Iowa,Gardner Webb
+SF Austin,Florida Intl
+Elon,Colgate
+Radford,Kennesaw
+Utah St,TAM C. Christi
+UT San Antonio,SC Upstate
+Bradley,IUPUI
+Florida St,St Joseph's PA
+Detroit,Drake
+Marist,Columbia
+WI Milwaukee,Davidson
+Evansville,W Illinois
+Yale,Buffalo
+Siena,N Kentucky
+Rider,Monmouth NJ
+Albany NY,Missouri KC
+Canisius,St Bonaventure
+Tennessee Tech,ETSU
+FL Atlantic,Coppin St
+SMU,Texas St
+Montana,Idaho
+Loy Marymount,CS Bakersfield
+Xavier,Robert Morris
+Drexel,Penn
+E Kentucky,Towson
+Brown,Maine
+Nevada,WI Green Bay
+S Dakota St,Marshall
+Hofstra,Marshall
+Cincinnati,NC A&T
+Arkansas,Longwood
+Louisville,Miami OH
+Illinois St,Delaware St
+Gonzaga,South Dakota
+Wisconsin,Cornell
+Syracuse,Wagner
+Creighton,Presbyterian
+Michigan St,TX Southern
+Tulane,Chicago St
+Northwestern,F Dickinson
+Arizona St,Florida A&M
+Akron,Penn St
+Louisiana Tech,Troy
+Ohio,Wofford
+Florida,Middle Tenn St
+Duke,FL Gulf Coast
+Iowa St,Campbell
+Oklahoma St,NC State
+UAB,Navy
+Kansas St,North Florida
+Montana St,Portland
+St Mary's CA,E Washington
+Baylor,St John's
+Nevada,Southern Utah
+San Diego,Siena
+Loyola-Chicago,MD E Shore
+Minnesota,Richmond
+Morehead St,Lafayette
+Tennessee,Massachusetts
+Nebraska,NE Omaha
+W Illinois,Yale
+SE Missouri St,Chattanooga
+CS Fullerton,WI Green Bay
+CS Northridge,N Kentucky
+Ohio St,Washington
+E Michigan,TX Pan American
+Dayton,Auburn
+Binghamton,St Peter's
+E Kentucky,Radford
+Belmont,Stanford
+Central Conn,La Salle
+Colorado,Murray St
+Boise St,ULL
+Towson,Kennesaw
+Missouri KC,Norfolk St
+Connecticut,Quinnipiac
+W Michigan,South Florida
+TCU,Prairie View
+Valparaiso,Kent
+Providence,UNC Asheville
+Seton Hall,Rhode Island
+Col Charleston,Boston College
+Colgate,Coppin St
+UCF,Savannah St
+Niagara,New Mexico St
+Northern Arizona,UC Davis
+S Carolina St,NJIT
+Loyola MD,Albany NY
+Elon,FL Atlantic
+Sacred Heart,Stony Brook
+E Illinois,IPFW
+New Mexico,George Mason
+North Carolina,Mississippi St
+Kansas,Washington St
+Illinois,USC
+Arizona,Long Beach St
+Oregon,Jacksonville St
+St Louis,Texas A&M
+Virginia,Lamar
+UC Irvine,Liberty
+Ark Little Rock,WI Milwaukee
+George Mason,Quinnipiac
+Lehigh,Fairfield
+San Francisco,American Univ
+North Texas,IUPUI
+Indiana,Georgia
+Georgia St,Monmouth NJ
+South Carolina,Rider
+Southern Miss,Sam Houston St
+Tennessee St,South Alabama
+Robert Morris,Bowling Green
+Virginia Tech,UNC Greensboro
+Fresno St,Cal Poly SLO
+Georgetown,UCLA
+Troy,Chattanooga
+Jacksonville,Missouri St
+New Mexico,Connecticut
+IL Chicago,Iona
+Louisiana Tech,SE Missouri St
+N Dakota St,Youngstown St
+Wake Forest,Mercer
+Duquesne,James Madison
+Oral Roberts,Pacific
+Fordham,Penn
+Butler,Marquette
+Creighton,Longwood
+Wisconsin,Presbyterian
+Texas Tech,Grambling
+Illinois St,F Dickinson
+Iowa St,NC A&T
+Arkansas,Florida A&M
+Albany NY,S Carolina St
+Marquette,Mississippi St
+Mississippi,McNeese St
+Indiana St,Ball St
+Santa Clara,SC Upstate
+South Florida,Bradley
+Northwestern,Delaware St
+Cincinnati,Campbell
+St Joseph's PA,Harvard
+Columbia,Villanova
+Florida,Savannah St
+S Illinois,Edwardsville
+Virginia,North Texas
+Middle Tenn St,UCF
+N Dakota St,Duquesne
+Sam Houston St,Liberty
+Kansas,St Louis
+La Salle,Hartford
+Wichita St,DePaul
+Evansville,Tennessee Tech
+Gardner Webb,Howard
+Arizona St,Cornell
+UC Davis,CS Sacramento
+Butler,North Carolina
+East Carolina,Appalachian St
+Idaho,WI Green Bay
+Indiana,Georgetown
+Maryland,Lafayette
+Robert Morris,Cleveland St
+Iowa,W Kentucky
+Louisiana Tech,Chattanooga
+Ohio,Hampton
+Army,St Francis NY
+LSU,Northwestern LA
+Canisius,Buffalo
+Lehigh,Penn
+UAB,Prairie View
+Richmond,Wofford
+USC,Texas
+Hawaii,North Dakota
+Michigan St,Boise St
+Southern Miss,UC Irvine
+Pepperdine,Houston Bap
+Lamar,IUPUI
+UCLA,Georgia
+Troy,SE Missouri St
+Utah Valley,E Washington
+Fairfield,Fordham
+TCU,Navy
+Monmouth NJ,South Alabama
+Georgia St,Tennessee St
+ETSU,Charleston So
+Rutgers,Boston Univ
+Oakland,TX Southern
+Austin Peay,W Carolina
+James Madison,Youngstown St
+Kent,Bethune-Cookman
+Central Conn,MD Baltimore Co
+Texas A&M,Washington St
+San Diego St,Ark Pine Bluff
+Seton Hall,Maine
+Purdue,UNC Wilmington
+N Dakota St,James Madison
+Ark Little Rock,Jacksonville
+Portland,Portland St
+Syracuse,Princeton
+Tulsa,Jackson St
+BYU,UT San Antonio
+Southern Miss,Liberty
+Santa Barbara,San Diego
+Notre Dame,G Washington
+Illinois,Butler
+Ga Southern,Kennesaw
+Air Force,Montana St
+Texas,Mississippi St
+Toledo,Samford
+Miami OH,William & Mary
+Vermont,Yale
+SMU,Rider
+St John's,Holy Cross
+Elon,South Carolina
+Wichita St,Iowa
+Monmouth NJ,Tennessee St
+Manhattan,Hofstra
+Kentucky,Morehead St
+Utah,Idaho St
+Duquesne,Youngstown St
+Gardner Webb,Austin Peay
+Northeastern,UC Riverside
+Colgate,St Francis PA
+Wyoming,N Colorado
+W Kentucky,DePaul
+Florida St,North Florida
+Santa Clara,Utah Valley
+Marquette,USC
+Bryant,Brown
+Colorado St,Denver
+VMI,Old Dominion
+E Washington,SC Upstate
+Michigan,Pittsburgh
+Nebraska,Tulane
+C Michigan,Wright St
+Kansas St,Delaware
+FL Gulf Coast,Alcorn St
+Georgia St,South Alabama
+NJIT,New Hampshire
+Sam Houston St,UC Irvine
+W Carolina,Howard
+Boston College,Auburn
+Arkansas St,Cent Arkansas
+West Virginia,Marist
+Duke,Minnesota
+Georgia Tech,Rice
+Davidson,Vanderbilt
+VA Commonwealth,Memphis
+St Mary's CA,Drexel
+Oral Roberts,Loy Marymount
+Charlotte,Texas St
+Missouri,Stanford
+Gonzaga,Clemson
+Oklahoma,UTEP
+FL Gulf Coast,Toledo
+Louisville,Northern Iowa
+Alcorn St,Samford
+Pacific,Xavier
+California,Drake
+Ohio St,Missouri KC
+Mississippi,Lipscomb
+Cornell,Presbyterian
+Kentucky,Long Island
+Pittsburgh,Delaware
+NC A&T,Campbell
+SC Upstate,Utah Valley
+Gonzaga,Oklahoma
+Northwestern,TCU
+Louisville,Missouri
+New Mexico St,ULL
+Valparaiso,Chicago St
+Clemson,UTEP
+Providence,Fairfield
+Michigan St,Oakland
+Marist,Vanderbilt
+Georgia,ETSU
+Utah,C Michigan
+Stanford,Northern Iowa
+Arizona St,Arkansas
+Santa Clara,E Washington
+Wright St,Idaho St
+New Mexico,Idaho
+Rider,Jacksonville
+Loy Marymount,Texas St
+Michigan,Kansas St
+Charlotte,Oral Roberts
+Florida,UCF
+Alabama,Charleston So
+Bethune-Cookman,NE Omaha
+Illinois St,UAB
+Virginia Tech,Appalachian St
+Drake,Rice
+California,Georgia Tech
+Creighton,Wisconsin
+Pacific,St Mary's CA
+Minnesota,Memphis
+Duke,VA Commonwealth
+Cincinnati,Iowa St
+Wake Forest,William & Mary
+Wofford,Hampton
+Loyola MD,Rhode Island
+Oregon,UNLV
+Xavier,Drexel
+Longwood,Florida A&M
+Penn St,Bucknell
+Davidson,West Virginia
+Northeastern,Belmont
+Prairie View,Navy
+Jacksonville St,Northern Arizona
+NC State,UNC Asheville
+F Dickinson,Delaware St
+Washington St,Ark Pine Bluff
+Middle Tenn St,TX Southern
+Ohio,Richmond
+LSU,MS Valley St
+G Washington,Hofstra
+E Kentucky,Norfolk St
+Bradley,TN Martin
+Georgetown,Mt St Mary's
+E Illinois,Houston Bap
+San Francisco,Columbia
+Princeton,Lafayette
+Miami OH,James Madison
+Colorado St,Washington
+Maryland,Ga Southern
+Notre Dame,St Francis PA
+SF Austin,Tulsa
+Boise St,Santa Barbara
+Louisiana Tech,ULM
+Miami FL,Detroit
+WI Green Bay,N Dakota St
+Kent,Nebraska
+Wyoming,CS Bakersfield
+Chattanooga,Kennesaw
+F Dickinson,Prairie View
+Florida A&M,Presbyterian
+Creighton,Arizona St
+Ark Little Rock,SMU
+Radford,Citadel
+Valparaiso,Bethune-Cookman
+UNC Wilmington,Wofford
+Utah,Wright St
+BYU,CS Northridge
+Texas St,UC Riverside
+UNLV,Iowa St
+St John's,FL Gulf Coast
+IL Chicago,SE Missouri St
+TX Pan American,Edwardsville
+Cincinnati,Oregon
+St Louis,S Illinois
+Pepperdine,UC Irvine
+Holy Cross,New Hampshire
+Florida Intl,Coastal Car
+Utah St,Weber St
+Navy,Delaware St
+NJIT,S Carolina St
+VMI,Elon
+Dayton,Manhattan
+Northern Arizona,Campbell
+Charlotte,Northeastern
+Marshall,Nevada
+South Carolina,Missouri St
+Murray St,Old Dominion
+Stony Brook,Canisius
+Loyola-Chicago,N Illinois
+UT Arlington,Samford
+Wisconsin,Arkansas
+Cornell,Longwood
+St Bonaventure,Niagara
+Memphis,Northern Iowa
+Duke,Louisville
+Jacksonville,WI Milwaukee
+IPFW,Dartmouth
+Col Charleston,Baylor
+St Francis NY,Brown
+Jacksonville St,NC A&T
+George Mason,Boston Univ
+FL Atlantic,American Univ
+Yale,Army
+Hartford,Central Conn
+CS Sacramento,Cent Arkansas
+Tulane,Southern Univ
+Minnesota,Stanford
+TCU,UAB
+Missouri,VA Commonwealth
+Northwestern,Illinois St
+Belmont,Oral Roberts
+Wagner,NC Central
+C Michigan,Idaho St
+NE Omaha,Chicago St
+Montana,San Diego
+Savannah St,W Illinois
+Indiana,Ball St
+Arkansas St,Lamar
+Syracuse,Colgate
+Mercer,Furman
+Vanderbilt,UTEP
+Oklahoma St,Portland St
+California,Pacific
+Seton Hall,St Peter's
+New Mexico,Portland
+Colorado,Air Force
+Clemson,Marist
+Rider,WI Milwaukee
+Indiana St,High Point
+Lehigh,Sacred Heart
+Gonzaga,Davidson
+Oregon St,Montana St
+South Carolina,Ark Little Rock
+Connecticut,Stony Brook
+Georgia Tech,St Mary's CA
+Long Beach St,Fresno St
+Drexel,Rice
+Rutgers,UNC Greensboro
+Oklahoma,West Virginia
+Maine,Siena
+Rhode Island,Auburn
+San Diego St,USC
+Temple,Delaware
+Troy,Alabama St
+Xavier,Drake
+Michigan St,ULL
+La Salle,Villanova
+Bryant,Boston College
+Houston,TAM C. Christi
+Cal Poly SLO,UCLA
+Illinois,Gardner Webb
+UNC Wilmington,Hampton
+SMU,Missouri St
+Marquette,MD Baltimore Co
+Tennessee,Oakland
+Notre Dame,Chicago St
+Evansville,Alabama A&M
+Colorado St,N Colorado
+Nicholls St,New Orleans
+Texas A&M,Northwestern LA
+Kansas,San Jose St
+Loyola MD,Towson
+Mt St Mary's,G Washington
+Murray St,Lipscomb
+South Florida,Stetson
+East Carolina,Georgia St
+Savannah St,Robert Morris
+Texas Tech,Jackson St
+Morehead St,Norfolk St
+Monmouth NJ,Lafayette
+Albany NY,Wagner
+Alabama,Lamar
+Texas,Sam Houston St
+Pittsburgh,Howard
+Indiana,North Carolina
+UAB,Troy
+Maryland,Northwestern
+Providence,Holy Cross
+NC Central,Utah Valley
+Mississippi St,Alcorn St
+Virginia Tech,Iowa
+Nebraska,Wake Forest
+Bucknell,Dartmouth
+IL Chicago,N Illinois
+Lehigh,Quinnipiac
+Southern Miss,Denver
+Minnesota,Florida St
+Vermont,Harvard
+Michigan,NC State
+DePaul,Fairfield
+North Florida,Bethune-Cookman
+Bowling Green,Detroit
+Colorado,TX Southern
+Arizona,Northern Arizona
+Louisiana Tech,SE Louisiana
+VA Commonwealth,Stetson
+E Kentucky,Delaware St
+Boston Univ,Coastal Car
+Air Force,Jackson St
+UNLV,UC Irvine
+Wyoming,Santa Barbara
+Wichita St,Tulsa
+UCLA,CS Northridge
+West Virginia,VMI
+BYU,Montana
+FL Gulf Coast,Samford
+Stony Brook,Cornell
+St Joseph's PA,American Univ
+New Mexico,Mercer
+Bradley,C Michigan
+Loyola MD,Coppin St
+Wofford,Winthrop
+Temple,Buffalo
+W Carolina,Furman
+UT Arlington,North Texas
+Arizona St,Ark Pine Bluff
+Boise St,Creighton
+Illinois,Georgia Tech
+Toledo,TAM C. Christi
+Purdue,Clemson
+Boston College,Penn St
+Penn,Binghamton
+NC A&T,UNC Greensboro
+Iona,Niagara
+Stanford,Seattle
+Long Island,Columbia
+Radford,Hampton
+Washington St,Idaho
+Richmond,William & Mary
+Miami FL,Michigan St
+Kent,Youngstown St
+SMU,Utah
+Cleveland St,Ball St
+Wagner,Princeton
+Virginia,Wisconsin
+Ohio,St Bonaventure
+Washington,St Louis
+F Dickinson,St Peter's
+Elon,Ga Southern
+Navy,IPFW
+Col Charleston,Charleston So
+Duke,Ohio St
+Maine,Northeastern
+Lafayette,Delaware
+Marshall,Morehead St
+George Mason,Rhode Island
+Loyola-Chicago,Tennessee Tech
+S Illinois,Fresno St
+S Carolina St,Jacksonville
+Cent Arkansas,E Illinois
+Utah St,Santa Clara
+Weber St,Dayton
+S Dakota St,North Dakota
+UTEP,New Mexico St
+Duquesne,Appalachian St
+Massachusetts,Siena
+G Washington,James Madison
+Prairie View,Houston
+Oklahoma,Oral Roberts
+Nevada,UC Davis
+N Dakota St,NE Omaha
+Florida,Marquette
+Memphis,TN Martin
+North Florida,Florida A&M
+St John's,South Carolina
+Florida Intl,Arkansas St
+Canisius,MD Baltimore Co
+Oregon,UT San Antonio
+SE Missouri St,New Orleans
+Notre Dame,Kentucky
+Middle Tenn St,ULL
+Missouri KC,IUPUI
+Brown,Sacred Heart
+La Salle,Rider
+South Alabama,FL Atlantic
+W Kentucky,ULM
+Pepperdine,Montana St
+TCU,Southern Utah
+Hartford,Yale
+Connecticut,New Hampshire
+Manhattan,Fordham
+Norfolk St,St Francis NY
+Morgan St,Liberty
+LSU,Seton Hall
+Long Beach St,Loy Marymount
+SC Upstate,UNC Asheville
+W Illinois,South Dakota
+Ark Little Rock,Troy
+W Michigan,High Point
+Louisiana Tech,Georgia St
+Lipscomb,Tennessee Tech
+South Florida,Georgia
+Drake,Nevada
+San Francisco,Montana
+Syracuse,Arkansas
+Kansas,Oregon St
+Utah,Texas St
+Oklahoma,Northwestern LA
+DePaul,Auburn
+E Washington,CS Fullerton
+Georgetown,Tennessee
+Michigan St,Nicholls St
+Lehigh,F Dickinson
+Duke,Delaware
+Indiana,Coppin St
+CS Bakersfield,UT San Antonio
+UNC Greensboro,Citadel
+Iowa,TAM C. Christi
+Creighton,St Joseph's PA
+Minnesota,North Florida
+Arizona,Texas Tech
+Ohio St,N Kentucky
+Loyola-Chicago,Furman
+SMU,Hofstra
+Davidson,Chattanooga
+Ark Little Rock,ULM
+Iowa St,BYU
+Oregon,Ark Pine Bluff
+Oral Roberts,Missouri St
+South Dakota,IUPUI
+Arizona St,CS Sacramento
+Fairfield,Austin Peay
+North Carolina,UAB
+Gonzaga,Pacific
+St Mary's CA,Cal Poly SLO
+Dayton,N Illinois
+Northern Arizona,Sam Houston St
+Virginia,WI Green Bay
+Missouri,Appalachian St
+Texas,UT Arlington
+FL Gulf Coast,Loyola MD
+S Dakota St,NE Omaha
+Butler,Ball St
+Stony Brook,E Illinois
+Duquesne,Maine
+Edwardsville,Chicago St
+UNLV,Hawaii
+Mississippi,Rutgers
+New Hampshire,Brown
+Miami FL,Massachusetts
+Pittsburgh,Detroit
+Albany NY,Siena
+Washington St,Portland
+Charlotte,East Carolina
+Princeton,Kent
+Penn St,Penn
+Bryant,Army
+Long Island,Lafayette
+South Alabama,Florida Intl
+Tennessee St,Alabama A&M
+Texas A&M,Houston
+Northern Iowa,WI Milwaukee
+Virginia Tech,Oklahoma St
+Providence,Mississippi St
+Rhode Island,Vermont
+American Univ,St Francis PA
+Delaware St,MD E Shore
+James Madison,Winthrop
+Villanova,Vanderbilt
+Norfolk St,Savannah St
+VA Commonwealth,Belmont
+Tulane,Navy
+Loy Marymount,Portland St
+Rider,Drexel
+Baylor,Kentucky
+Samford,Ga Southern
+Harvard,Fordham
+Wright St,Morehead St
+Youngstown St,Bowling Green
+New Mexico,Indiana St
+William & Mary,Old Dominion
+San Diego St,UCLA
+St John's,NJIT
+Boston Univ,St Peter's
+Dartmouth,Longwood
+Temple,Wagner
+San Jose St,Montana St
+Michigan,Bradley
+Florida A&M,Bethune-Cookman
+Robert Morris,Ohio
+Bucknell,Columbia
+Hampton,Howard
+Rice,Houston Bap
+New Mexico St,Southern Miss
+Cornell,Colgate
+Colorado St,Evansville
+FL Atlantic,Arkansas St
+Idaho,UC Davis
+Wyoming,Colorado
+Xavier,Purdue
+IL Chicago,Northwestern
+UC Riverside,N Colorado
+Cleveland St,Toledo
+W Illinois,Missouri KC
+SF Austin,San Diego
+Jacksonville St,Alcorn St
+W Michigan,Oakland
+NC Central,NC A&T
+MD Baltimore Co,Towson
+ULL,North Texas
+W Kentucky,Troy
+Utah Valley,Pepperdine
+Louisville,Illinois St
+SE Missouri St,SE Louisiana
+Hartford,Holy Cross
+Marshall,UNC Wilmington
+St Bonaventure,Buffalo
+Santa Barbara,Santa Clara
+Cincinnati,Alabama
+Richmond,Wake Forest
+Col Charleston,Elon
+TN Martin,Kennesaw
+E Kentucky,W Carolina
+Morgan St,VMI
+Mt St Mary's,Binghamton
+IPFW,Miami OH
+Wisconsin,California
+Boise St,Seattle
+Kansas St,SC Upstate
+St Louis,Valparaiso
+Stanford,Denver
+G Washington,Manhattan
+Clemson,South Carolina
+Maryland,George Mason
+Akron,Middle Tenn St
+Mercer,Florida St
+Wichita St,Air Force
+C Michigan,Niagara
+Washington,CS Fullerton
+Georgia St,Liberty
+Syracuse,E Michigan
+Bethune-Cookman,Stetson
+Bowling Green,Wright St
+Nebraska,USC
+Monmouth NJ,Binghamton
+San Diego St,TX Southern
+UT Arlington,TX Pan American
+Norfolk St,S Carolina St
+Fresno St,Long Beach St
+Wisconsin,NE Omaha
+Louisville,Col Charleston
+Belmont,Lipscomb
+Army,Marist
+Purdue,Lamar
+Michigan,W Michigan
+Kentucky,Samford
+Charleston So,Citadel
+Richmond,Old Dominion
+Iowa,South Dakota
+Minnesota,S Dakota St
+Georgetown,Texas
+Elon,Dartmouth
+Lehigh,Fordham
+Tulane,Nicholls St
+Missouri,SE Missouri St
+San Francisco,St John's
+Bucknell,Kent
+Harvard,Boston College
+St Bonaventure,Siena
+Wyoming,Illinois St
+San Diego,Southern Utah
+St Joseph's PA,Coppin St
+Iowa St,FL Gulf Coast
+George Mason,MD Baltimore Co
+Mississippi St,UT San Antonio
+Tennessee St,Drexel
+Delaware,Radford
+Seton Hall,NJIT
+Illinois,W Carolina
+Wagner,Hofstra
+Georgia Tech,Georgia
+Arizona,Southern Miss
+UNLV,Portland
+New Mexico St,South Alabama
+Houston,TCU
+E Kentucky,NC Central
+Massachusetts,Northeastern
+Texas Tech,N Kentucky
+Northwestern LA,Louisiana Tech
+Pacific,Nevada
+Howard,American Univ
+Bradley,G Washington
+Northwestern,Baylor
+NC State,Connecticut
+Lafayette,St Francis PA
+Robert Morris,Campbell
+Arkansas,Oklahoma
+Weber St,Utah Valley
+Michigan St,Ark Pine Bluff
+Maryland,MD E Shore
+Butler,IUPUI
+Denver,Mercer
+Memphis,Ohio
+Evansville,Miami OH
+La Salle,Penn St
+James Madison,ETSU
+Florida,Florida St
+Pepperdine,UC Riverside
+Pittsburgh,Duquesne
+Utah,Boise St
+Buffalo,WI Milwaukee
+Middle Tenn St,UAB
+Navy,Monmouth NJ
+Tulsa,Missouri St
+Northern Iowa,N Colorado
+St Mary's CA,Drake
+Temple,Villanova
+N Dakota St,Morehead St
+Wofford,Gardner Webb
+W Illinois,E Illinois
+Oklahoma St,South Florida
+Quinnipiac,Colgate
+Wake Forest,High Point
+N Illinois,Edwardsville
+Valparaiso,IPFW
+West Virginia,Marshall
+DePaul,Chicago St
+Oral Roberts,Texas St
+San Jose St,UC Davis
+Colorado,Colorado St
+Virginia,Tennessee
+New Mexico,USC
+Texas A&M,SF Austin
+Arizona St,Hartford
+Detroit,Toledo
+Loy Marymount,Northern Arizona
+Holy Cross,Sacred Heart
+Dayton,Alabama
+Charlotte,Davidson
+St Louis,North Texas
+Towson,Vermont
+Albany NY,St Francis NY
+Central Conn,New Hampshire
+Missouri KC,North Dakota
+Gonzaga,Washington St
+St Peter's,Iona
+Yale,Bryant
+Niagara,Loyola MD
+Cent Arkansas,TN Martin
+W Kentucky,S Illinois
+Cincinnati,Ark Little Rock
+Syracuse,Long Beach St
+Creighton,Nebraska
+Providence,Rhode Island
+San Diego St,Santa Barbara
+FL Atlantic,Stetson
+William & Mary,Howard
+Tennessee Tech,WI Green Bay
+Boston Univ,Coastal Car
+American Univ,MD Baltimore Co
+Vanderbilt,Xavier
+Idaho,E Washington
+CS Bakersfield,CS Fullerton
+South Carolina,Jacksonville
+VA Commonwealth,Old Dominion
+Canisius,Fairfield
+Iowa,Iowa St
+Connecticut,Harvard
+Mt St Mary's,Navy
+WI Milwaukee,N Illinois
+Rider,Siena
+Marist,Manhattan
+F Dickinson,Lafayette
+Louisville,Missouri KC
+Oregon,Idaho St
+Syracuse,Monmouth NJ
+Pittsburgh,North Florida
+Kansas,Colorado
+Ohio St,Long Beach St
+Wright St,VMI
+Cincinnati,MD E Shore
+Oregon St,Grambling
+Indiana,Central Conn
+Missouri,Tennessee St
+Virginia,MS Valley St
+Kentucky,Portland
+Notre Dame,Brown
+Wichita St,N Colorado
+Lipscomb,TN Martin
+Duke,Temple
+North Carolina,ETSU
+Dayton,Miami OH
+Illinois St,W Michigan
+Bryant,Binghamton
+Oklahoma St,Missouri St
+W Kentucky,IUPUI
+Gardner Webb,Tennessee Tech
+Mercer,Alabama A&M
+Memphis,Austin Peay
+Duquesne,New Orleans
+North Texas,Jackson St
+NC State,Cleveland St
+Ohio,Oakland
+W Illinois,Edwardsville
+Lehigh,St Francis PA
+Air Force,Ark Pine Bluff
+Maryland,S Carolina St
+Texas St,TX Pan American
+Bowling Green,Samford
+UAB,South Alabama
+Weber St,UC Irvine
+Minnesota,USC
+Michigan,Arkansas
+New Mexico,Valparaiso
+Chicago St,Alabama St
+Villanova,Penn
+Michigan St,Loyola-Chicago
+Robert Morris,Hampton
+Murray St,Evansville
+Charlotte,C Michigan
+Arizona,Clemson
+Sam Houston St,Houston Bap
+St John's,Fordham
+Ball St,South Dakota
+Arizona St,CS Northridge
+SC Upstate,UT San Antonio
+Illinois,Gonzaga
+Holy Cross,Dartmouth
+E Kentucky,Chattanooga
+Marquette,Wisconsin
+Buffalo,Niagara
+Louisiana Tech,Southern Miss
+Drake,IPFW
+Butler,Northwestern
+IL Chicago,Colorado St
+Penn St,Army
+New Hampshire,Yale
+Morehead St,Indiana St
+Boston College,St Francis NY
+Toledo,E Illinois
+Pacific,San Francisco
+Rutgers,Iona
+Drexel,Princeton
+Vermont,Quinnipiac
+Georgia Tech,UNC Wilmington
+Davidson,Wofford
+Pepperdine,Hawaii
+W Carolina,Appalachian St
+Loyola MD,St Peter's
+Georgetown,Towson
+Delaware St,Delaware
+Albany NY,Colgate
+Marshall,Coppin St
+San Diego,Tulane
+Northern Iowa,George Mason
+William & Mary,Radford
+McNeese St,ULL
+San Jose St,CS Sacramento
+Long Island,Hofstra
+Seton Hall,Wake Forest
+Utah Valley,Troy
+UTEP,Idaho
+Kansas St,G Washington
+Middle Tenn St,Mississippi
+E Michigan,Purdue
+Nevada,Washington
+Arkansas St,St Bonaventure
+Houston,TX Southern
+Cent Arkansas,SE Missouri St
+BYU,Utah
+UCLA,Texas
+La Salle,Northeastern
+Tulsa,TCU
+West Virginia,Virginia Tech
+Richmond,James Madison
+DePaul,WI Milwaukee
+Florida St,Maine
+Iowa St,NE Omaha
+Furman,Presbyterian
+Manhattan,Siena
+N Dakota St,North Dakota
+Norfolk St,MD Baltimore Co
+Creighton,Akron
+Fairfield,Rider
+Canisius,Marist
+Columbia,American Univ
+Hartford,F Dickinson
+Washington St,Fresno St
+Xavier,Kent
+S Dakota St,CS Bakersfield
+Florida Intl,Stetson
+Lafayette,Sacred Heart
+UNLV,California
+Georgetown,Longwood
+Virginia Tech,MS Valley St
+ULL,Lamar
+Detroit,Alabama St
+Navy,Bryant
+ULM,SE Louisiana
+Seattle,E Washington
+St Mary's CA,Jackson St
+Auburn,Grambling
+Michigan,Binghamton
+Santa Clara,San Jose St
+Stony Brook,St Francis NY
+LSU,Chattanooga
+Minnesota,N Dakota St
+Nevada,Cal Poly SLO
+Villanova,St Joseph's PA
+Duquesne,West Virginia
+Rutgers,G Washington
+NJIT,Army
+Harvard,Boston Univ
+Ohio St,Savannah St
+Maryland,Monmouth NJ
+Long Island,Rice
+Coppin St,MD Baltimore Co
+DePaul,Arizona St
+Baylor,Lamar
+Niagara,Hartford
+Fairfield,WI Milwaukee
+Wisconsin,WI Green Bay
+Temple,Towson
+UCF,Bethune-Cookman
+Illinois,Norfolk St
+Albany NY,S Carolina St
+McNeese St,Louisiana Tech
+Colorado,Fresno St
+Oregon St,Portland St
+New Orleans,Nicholls St
+Vermont,Dartmouth
+UT Arlington,Houston Bap
+Southern Univ,ULM
+Belmont,Middle Tenn St
+Washington,Seattle
+CS Fullerton,Idaho St
+Washington St,Jackson St
+Tennessee,Wichita St
+Alabama St,Troy
+NC A&T,NJIT
+FL Gulf Coast,Florida Intl
+Miami FL,Charlotte
+Army,Maine
+Mississippi,ETSU
+Boise St,LSU
+UCF,Old Dominion
+Pittsburgh,Bethune-Cookman
+Southern Miss,Grambling
+USC,UC Riverside
+UCLA,Prairie View
+Kentucky,Lipscomb
+Arkansas,Alcorn St
+Denver,NE Omaha
+St Bonaventure,Cleveland St
+Kansas,Belmont
+IL Chicago,E Michigan
+Dayton,FL Atlantic
+Vanderbilt,Alabama A&M
+Syracuse,Canisius
+Stanford,UC Davis
+Clemson,Florida A&M
+NC State,Norfolk St
+Loyola MD,Mt St Mary's
+St Louis,TN Martin
+Houston,ULL
+Rhode Island,SMU
+Oregon,Nebraska
+Robert Morris,Duquesne
+Marquette,Savannah St
+Richmond,Stetson
+VA Commonwealth,Alabama
+Arizona St,Dartmouth
+Ohio St,UNC Asheville
+St John's,St Francis NY
+N Dakota St,Towson
+Cincinnati,Marshall
+San Diego St,San Diego
+Davidson,UNC Wilmington
+Sam Houston St,Samford
+Gonzaga,Kansas St
+New Mexico,New Mexico St
+Michigan,West Virginia
+Auburn,Furman
+Indiana St,IUPUI
+Georgetown,W Carolina
+Notre Dame,Purdue
+Evansville,Alabama St
+Gardner Webb,Citadel
+Wagner,Coppin St
+Texas,Texas St
+Seton Hall,NC A&T
+Tennessee Tech,WI Milwaukee
+Oklahoma,Texas A&M
+BYU,Weber St
+Creighton,California
+Louisville,Memphis
+Iowa St,Drake
+Loyola-Chicago,Mississippi St
+Washington,Jackson St
+Nevada,San Francisco
+Bucknell,La Salle
+Valparaiso,Missouri St
+Detroit,Akron
+Hartford,Rice
+Iowa,Northern Iowa
+Ark Little Rock,Tulsa
+UC Irvine,Fresno St
+Howard,Liberty
+Jacksonville St,Presbyterian
+Ball St,South Dakota
+North Carolina,East Carolina
+Wright St,Hofstra
+Utah St,Utah Valley
+Massachusetts,Elon
+Ga Southern,Virginia Tech
+TX Pan American,Lamar
+Penn St,Delaware St
+Santa Clara,Pacific
+Iona,Georgia
+Fordham,Princeton
+S Illinois,WI Green Bay
+Butler,Indiana
+Winthrop,Ohio
+Troy,Georgia St
+S Dakota St,Montana
+Arizona,Florida
+Oklahoma St,Cent Arkansas
+Long Island,Manhattan
+Marist,Maine
+Illinois St,Morgan St
+Charlotte,Kennesaw
+Illinois,E Kentucky
+James Madison,UNC Greensboro
+Arkansas St,Austin Peay
+Fairfield,Drexel
+Niagara,Vermont
+Appalachian St,Missouri KC
+Mercer,Chattanooga
+Villanova,Delaware
+Oregon St,Chicago St
+Rutgers,UAB
+Boston Univ,Quinnipiac
+CS Fullerton,TX Southern
+W Michigan,High Point
+North Texas,SE Louisiana
+Murray St,W Kentucky
+DePaul,N Illinois
+South Alabama,TAM C. Christi
+McNeese St,Texas Tech
+C Michigan,Pepperdine
+Boston College,New Hampshire
+Missouri,S Carolina St
+Georgia Tech,Alabama St
+Connecticut,MD E Shore
+Canisius,Longwood
+Colorado St,North Florida
+Bucknell,St Francis PA
+UC Davis,E Washington
+Bradley,Ga Southern
+Portland,CS Bakersfield
+Temple,Alcorn St
+Baylor,SC Upstate
+Florida St,ULM
+S Illinois,New Orleans
+Notre Dame,IPFW
+Southern Utah,North Dakota
+Vanderbilt,Cornell
+Jackson St,Seattle
+Santa Clara,Cal Poly SLO
+Northern Arizona,Montana St
+Northwestern,Texas St
+Syracuse,Detroit
+UNLV,UTEP
+Oakland,Valparaiso
+Louisiana Tech,Ark Little Rock
+Wofford,Jacksonville
+Providence,Colgate
+VA Commonwealth,W Kentucky
+Akron,Ark Pine Bluff
+Middle Tenn St,Tennessee St
+Kansas,Richmond
+Arizona,Oral Roberts
+Wake Forest,Furman
+Miami FL,UCF
+Charleston So,ETSU
+Auburn,Tennessee Tech
+UCLA,Long Beach St
+South Florida,Youngstown St
+Iona,Liberty
+Tennessee,Presbyterian
+W Illinois,IL Chicago
+Alabama A&M,Missouri St
+Texas A&M,TAM C. Christi
+TCU,Southern Univ
+Michigan St,Bowling Green
+Col Charleston,Old Dominion
+Purdue,Ball St
+Wyoming,Denver
+Ohio St,Winthrop
+Holy Cross,San Francisco
+Kansas St,TX Southern
+Georgia,Mercer
+Utah,SMU
+NC State,Stanford
+California,Santa Barbara
+Hampton,American Univ
+UNC Asheville,Northeastern
+LSU,UC Irvine
+Stony Brook,Sacred Heart
+Robert Morris,ULL
+Nebraska,Jacksonville St
+Lipscomb,Austin Peay
+East Carolina,Gardner Webb
+Southern Miss,Georgia St
+Stetson,FL Atlantic
+SF Austin,Oklahoma
+Iowa,S Carolina St
+Duke,Cornell
+St Bonaventure,Citadel
+Indiana,Mt St Mary's
+Florida,SE Louisiana
+Bradley,MS Valley St
+Pittsburgh,Delaware St
+Notre Dame,Kennesaw
+St Mary's CA,Pacific
+Tulane,TX Pan American
+St Louis,E Illinois
+Belmont,S Dakota St
+Seattle,N Illinois
+Oklahoma St,UT Arlington
+Louisville,Florida Intl
+Coastal Car,Clemson
+SE Missouri St,New Orleans
+Gonzaga,Campbell
+Colorado St,CS Bakersfield
+Virginia,Morgan St
+Seton Hall,Longwood
+Texas,North Carolina
+Creighton,Tulsa
+Marshall,Savannah St
+Detroit,Alcorn St
+Charlotte,Radford
+Oregon St,Howard
+Cincinnati,Xavier
+Iowa St,Missouri KC
+UNLV,Northern Iowa
+UNC Wilmington,UNC Greensboro
+St Peter's,Long Island
+Samford,TN Martin
+NC A&T,E Kentucky
+Canisius,Temple
+South Dakota,Morehead St
+Portland,North Florida
+Massachusetts,Ohio
+Pepperdine,Alabama St
+Wright St,Miami OH
+UTEP,Oregon
+Murray St,Arkansas St
+Bucknell,Marist
+Montana,Northern Arizona
+Duquesne,W Michigan
+South Carolina,Appalachian St
+New Mexico,New Mexico St
+West Virginia,Oakland
+CS Sacramento,Montana St
+Alabama,Texas Tech
+Mississippi,Loy Marymount
+Coppin St,Towson
+Rice,Chicago St
+Drake,NC Central
+Utah Valley,Troy
+WI Green Bay,Marquette
+Illinois St,Dayton
+Michigan,E Michigan
+Kent,St Francis PA
+Duke,Elon
+SF Austin,Grambling
+Weber St,E Washington
+Valparaiso,IUPUI
+Princeton,Rider
+Tulane,Pepperdine
+Lehigh,North Texas
+La Salle,Iona
+Portland St,Idaho St
+Washington,Cal Poly SLO
+C Michigan,Texas St
+Wichita St,Charleston So
+Boise St,Idaho
+UC Davis,S Illinois
+UAB,ULM
+Utah St,Nicholls St
+UC Irvine,USC
+Memphis,Lipscomb
+TX Pan American,Alabama St
+Arkansas,Robert Morris
+N Kentucky,Hampton
+Colorado,Northern Arizona
+VA Commonwealth,Longwood
+Indiana,FL Atlantic
+UT San Antonio,TAM C. Christi
+Denver,Southern Utah
+Rutgers,Howard
+IPFW,Kennesaw
+Delaware,Penn
+Notre Dame,Niagara
+N Dakota St,Morehead St
+Northeastern,Central Conn
+UCF,Stetson
+Wyoming,Santa Barbara
+Youngstown St,Bethune-Cookman
+Connecticut,Fordham
+Baylor,BYU
+Tennessee,W Carolina
+S Illinois,Nicholls St
+Utah St,UC Davis
+Santa Clara,Alcorn St
+Washington St,Buffalo
+Wagner,SMU
+N Colorado,North Dakota
+UNC Asheville,St John's
+Maryland,Stony Brook
+CS Northridge,Utah
+Middle Tenn St,Vanderbilt
+South Florida,Bowling Green
+E Kentucky,High Point
+Tennessee St,SC Upstate
+Stanford,Northwestern
+Quinnipiac,Albany NY
+Montana,CS Sacramento
+Oregon,Houston Bap
+Ohio,MD E Shore
+Oklahoma St,Tennessee Tech
+North Carolina,McNeese St
+California,Prairie View
+Georgia Tech,Citadel
+Seton Hall,Long Island
+Iowa,Coppin St
+La Salle,Sacred Heart
+Kentucky,Marshall
+Villanova,Monmouth NJ
+Arkansas,Alabama A&M
+Illinois St,Austin Peay
+Minnesota,Lafayette
+Santa Clara,Wagner
+Louisville,W Kentucky
+Seattle,Campbell
+UTEP,Ark Pine Bluff
+Houston,Chicago St
+San Diego St,San Francisco
+Tulane,Hofstra
+W Michigan,Mt St Mary's
+St Louis,Loy Marymount
+Wisconsin,WI Milwaukee
+New Mexico St,Missouri St
+Arizona,ETSU
+NC State,St Bonaventure
+Drake,E Illinois
+Georgetown,American Univ
+WI Green Bay,South Dakota
+Colorado St,Portland
+South Alabama,Ark Little Rock
+Arizona St,Texas Tech
+UNLV,Canisius
+Miami FL,Hawaii
+SMU,Alcorn St
+Vermont,F Dickinson
+Nebraska,C Michigan
+Wake Forest,UNC Greensboro
+Bryant,Dartmouth
+Boston Univ,Cornell
+UCLA,Fresno St
+Miami OH,IL Chicago
+St Francis NY,Colgate
+Jacksonville,Furman
+Princeton,Bucknell
+ULL,Duquesne
+Utah St,S Illinois
+Michigan St,Texas
+Ga Southern,MS Valley St
+UC Davis,Nicholls St
+Drexel,Davidson
+Washington,N Illinois
+Hartford,Marist
+West Virginia,Radford
+Cincinnati,Wright St
+North Florida,CS Bakersfield
+Col Charleston,Coastal Car
+G Washington,VMI
+Dayton,Murray St
+Missouri,Illinois
+N Kentucky,Navy
+James Madison,San Jose St
+Georgia,USC
+DePaul,MD Baltimore Co
+Appalachian St,Presbyterian
+Butler,Evansville
+Air Force,UC Riverside
+Kansas,Ohio St
+TX Pan American,NE Omaha
+Wichita St,Southern Miss
+Northern Iowa,St Mary's CA
+Mercer,Alabama
+Massachusetts,East Carolina
+Harvard,Holy Cross
+Mississippi St,Cent Arkansas
+Winthrop,Auburn
+Oregon St,San Diego
+Maine,FL Gulf Coast
+South Carolina,Manhattan
+NC Central,Utah Valley
+Kansas St,Florida
+S Dakota St,New Mexico
+Loyola-Chicago,St Peter's
+Rhode Island,Georgia St
+Temple,Syracuse
+Marquette,LSU
+Kent,Arkansas St
+Tulsa,Oral Roberts
+Weber St,Portland St
+Fairfield,St Joseph's PA
+George Mason,Richmond
+Boston College,Providence
+Florida St,Charlotte
+E Washington,Idaho St
+Florida Intl,TX Southern
+Old Dominion,Virginia
+TCU,Rice
+Oakland,E Michigan
+Indiana St,Mississippi
+Southern Univ,Texas A&M
+SE Missouri St,Missouri KC
+Wofford,Xavier
+Virginia Tech,Bradley
+Elon,Columbia
+Clemson,S Carolina St
+Colorado St,Virginia Tech
+Akron,Cleveland St
+Iona,Norfolk St
+North Florida,Ga Southern
+Penn St,New Hampshire
+Hawaii,ETSU
+Northwestern,Brown
+Arizona,Miami FL
+C Michigan,Ark Pine Bluff
+Boise St,New Orleans
+Pittsburgh,Kennesaw
+UTEP,Nebraska
+IUPUI,Ball St
+Mississippi,San Francisco
+San Diego St,Indiana St
+Fordham,Siena
+CS Bakersfield,MS Valley St
+James Madison,San Diego
+Portland,Bradley
+San Francisco,ETSU
+Mississippi,Hawaii
+Indiana St,Miami FL
+Arizona,San Diego St
+BYU,Northern Arizona
+St Mary's CA,Rhode Island
+Loy Marymount,Morgan St
+Arkansas St,ULL
+Akron,TX Southern
+IUPUI,IPFW
+Canisius,Alcorn St
+W Kentucky,Florida Intl
+W Illinois,Oakland
+FL Atlantic,Troy
+New Mexico,Cincinnati
+Southern Miss,Morehead St
+Indiana,Jacksonville
+Colgate,Binghamton
+St Louis,Edwardsville
+Bucknell,Loyola MD
+UCF,Howard
+LSU,Houston Bap
+Belmont,Boston Univ
+Memphis,Oral Roberts
+Cornell,St Francis PA
+Rutgers,Rider
+Texas Tech,NC A&T
+Albany NY,Navy
+Villanova,NJIT
+Nevada,Yale
+Utah Valley,Austin Peay
+Chattanooga,High Point
+Gonzaga,Baylor
+St Joseph's PA,Iona
+North Dakota,Bowling Green
+UCLA,Missouri
+Brown,Providence
+Seton Hall,Stony Brook
+Ohio St,Chicago St
+Wisconsin,Samford
+Washington St,Idaho St
+Kansas,American Univ
+Maryland,Delaware St
+VA Commonwealth,F Dickinson
+Colorado,Hartford
+La Salle,Siena
+Boston Univ,Howard
+BYU,Virginia Tech
+Georgia Tech,Fordham
+South Dakota,NE Omaha
+Oakland,IUPUI
+Syracuse,Alcorn St
+Jacksonville St,Tennessee Tech
+UT Arlington,New Mexico St
+UAB,Northeastern
+Florida St,Tulsa
+Toledo,IL Chicago
+Butler,Vanderbilt
+Arkansas,Northwestern LA
+Florida,Air Force
+San Jose St,Texas St
+Middle Tenn St,Florida Intl
+Creighton,Evansville
+South Carolina,Presbyterian
+NC State,W Michigan
+Texas,Rice
+Arizona St,Coppin St
+Michigan,C Michigan
+Duke,Santa Clara
+W Illinois,IPFW
+Campbell,UNC Wilmington
+Col Charleston,Vermont
+Columbia,Manhattan
+SF Austin,TAM C. Christi
+East Carolina,Norfolk St
+Oklahoma,Ohio
+UC Irvine,UC Davis
+Boston College,Holy Cross
+Penn St,Duquesne
+Cal Poly SLO,UC Riverside
+Bradley,Drake
+Georgia,Florida A&M
+Nebraska,Nicholls St
+Marquette,NC Central
+Arkansas St,South Alabama
+ULL,Ark Little Rock
+Kansas St,Missouri KC
+Loyola-Chicago,DePaul
+Connecticut,Washington
+Louisiana Tech,Denver
+Tennessee St,E Illinois
+Purdue,William & Mary
+Loy Marymount,CS Bakersfield
+Idaho,Seattle
+CS Fullerton,Santa Barbara
+Chattanooga,Utah Valley
+North Carolina,UNLV
+Texas A&M,Army
+Davidson,Richmond
+W Kentucky,North Texas
+Stanford,Lafayette
+SE Missouri St,TN Martin
+Wagner,Penn
+Houston,Prairie View
+Massachusetts,N Illinois
+Harvard,California
+Tennessee,Xavier
+South Florida,George Mason
+Ga Southern,Georgia St
+Utah St,UT San Antonio
+Long Beach St,Pacific
+TX Pan American,Portland
+Louisville,Kentucky
+Mt St Mary's,MD Baltimore Co
+San Diego,Morgan St
+N Dakota St,S Dakota St
+Hawaii,CS Northridge
+UCF,Belmont
+Illinois,Auburn
+St Peter's,Central Conn
+Valparaiso,Murray St
+High Point,Austin Peay
+Bryant,Lehigh
+Lamar,Long Island
+ULM,FL Atlantic
+Fairfield,Old Dominion
+Towson,Oregon St
+Southern Utah,N Colorado
+G Washington,Sacred Heart
+Virginia,Wofford
+Wichita St,Northern Iowa
+SMU,Furman
+St Mary's CA,Yale
+Memphis,Loyola MD
+Missouri St,S Illinois
+CS Bakersfield,NC A&T
+Winthrop,Hampton
+West Virginia,E Kentucky
+Detroit,Canisius
+Maine,Quinnipiac
+Akron,Princeton
+Tulane,Alabama
+TCU,MS Valley St
+Indiana St,Illinois St
+Colgate,New Hampshire
+Cornell,Binghamton
+Alabama A&M,Mississippi St
+St Francis NY,NJIT
+USC,Dayton
+Syracuse,Central Conn
+Oklahoma,TAM C. Christi
+Oregon St,TX Pan American
+Utah St,Texas St
+NC State,UNC Greensboro
+Boston College,Dartmouth
+Kansas St,South Dakota
+Iona,St Bonaventure
+Middle Tenn St,North Texas
+Temple,Bowling Green
+Denver,UT Arlington
+St Louis,New Mexico
+Texas Tech,Florida A&M
+St Joseph's PA,Drexel
+North Florida,Lipscomb
+Minnesota,Michigan St
+San Jose St,UT San Antonio
+Oregon,Nevada
+NE Omaha,Missouri KC
+Fordham,Monmouth NJ
+Col Charleston,Marist
+Jacksonville St,TN Martin
+Cincinnati,Pittsburgh
+Army,Houston Bap
+FL Gulf Coast,Kennesaw
+Louisiana Tech,New Mexico St
+F Dickinson,Longwood
+Delaware,Rider
+Albany NY,Brown
+Mercer,Stetson
+Chicago St,Toledo
+Indiana,Iowa
+Jacksonville,N Kentucky
+Liberty,W Carolina
+Gonzaga,Oklahoma St
+St Mary's CA,Harvard
+Clemson,Citadel
+Maryland,IUPUI
+Iowa St,Yale
+Stony Brook,Manhattan
+Marquette,Connecticut
+FL Atlantic,Hofstra
+Kentucky,E Michigan
+VA Commonwealth,ETSU
+Akron,Coppin St
+Ohio St,Nebraska
+Syracuse,Rutgers
+Alabama A&M,Grambling
+Richmond,Air Force
+SC Upstate,Hampton
+Louisville,Providence
+Boise St,UT Arlington
+Miami FL,La Salle
+Kent,Cleveland St
+Duke,Davidson
+Lafayette,NJIT
+Albany NY,MD Baltimore Co
+Drexel,Georgia St
+Georgia Tech,Chattanooga
+Bucknell,Cornell
+Florida Intl,Florida A&M
+Ark Pine Bluff,MS Valley St
+San Diego St,CS Bakersfield
+Jacksonville,Lipscomb
+Vanderbilt,William & Mary
+Alcorn St,Prairie View
+Vermont,New Hampshire
+Butler,Penn
+N Kentucky,North Florida
+Villanova,St John's
+Wichita St,Drake
+Stetson,Kennesaw
+South Florida,UCF
+Loyola-Chicago,Valparaiso
+Charlotte,UNC Asheville
+NC Central,Winthrop
+Wake Forest,Xavier
+Columbia,Colgate
+Mercer,FL Gulf Coast
+Creighton,Illinois St
+Purdue,Illinois
+Auburn,Florida St
+Bradley,S Illinois
+Tulsa,Buffalo
+Southern Univ,TX Southern
+Maine,Boston Univ
+Santa Clara,San Francisco
+IPFW,Navy
+Campbell,East Carolina
+Towson,UNC Wilmington
+IL Chicago,Youngstown St
+NC A&T,Radford
+UAB,Ga Southern
+Indiana St,Northern Iowa
+Alabama St,Jackson St
+Colorado St,UTEP
+W Illinois,Savannah St
+James Madison,Old Dominion
+Hartford,Binghamton
+Wyoming,SMU
+Evansville,Missouri St
+Delaware St,Marshall
+Massachusetts,Miami OH
+Ball St,Norfolk St
+Seton Hall,DePaul
+Arizona St,Utah
+Mississippi St,New Orleans
+BYU,Loy Marymount
+SF Austin,Lamar
+Michigan,Northwestern
+N Dakota St,South Dakota
+Houston,TX Pan American
+Weber St,N Colorado
+UNLV,Chicago St
+Niagara,Marist
+Fairfield,Canisius
+New Mexico St,UT San Antonio
+North Texas,Troy
+Gonzaga,Pepperdine
+S Dakota St,Missouri KC
+Detroit,WI Milwaukee
+Northwestern LA,McNeese St
+Montana,E Washington
+American Univ,MD E Shore
+Oral Roberts,SE Louisiana
+UCLA,California
+North Dakota,Idaho St
+Oakland,NE Omaha
+San Diego,Portland
+Wright St,WI Green Bay
+E Kentucky,E Illinois
+Belmont,Jacksonville St
+Murray St,TN Martin
+Denver,Texas St
+Northeastern,George Mason
+Wisconsin,Penn St
+Arizona,Colorado
+Utah St,Seattle
+Idaho,San Jose St
+Ark Little Rock,W Kentucky
+Bryant,Robert Morris
+St Francis PA,Central Conn
+F Dickinson,Mt St Mary's
+Northern Arizona,CS Sacramento
+Tennessee St,Tennessee Tech
+Arkansas St,Middle Tenn St
+Cal Poly SLO,Long Beach St
+South Alabama,ULM
+FL Atlantic,ULL
+Sacred Heart,Long Island
+Wagner,Monmouth NJ
+Morehead St,Edwardsville
+Nicholls St,Cent Arkansas
+Montana St,Portland St
+Santa Barbara,UC Irvine
+St Francis NY,Quinnipiac
+SE Missouri St,Austin Peay
+USC,Stanford
+Hawaii,CS Fullerton
+UC Riverside,CS Northridge
+Mississippi,Fordham
+Valparaiso,Cleveland St
+Alabama St,Grambling
+Rhode Island,Brown
+Georgia,G Washington
+TX Southern,Alcorn St
+St Louis,Savannah St
+Texas A&M,Houston Bap
+Yale,Holy Cross
+Loyola MD,Rider
+Memphis,Tennessee
+Southern Univ,Prairie View
+Iona,Siena
+Manhattan,St Peter's
+Alabama A&M,Jackson St
+Ohio,Marshall
+Arkansas,Delaware St
+Davidson,UNC Greensboro
+Weber St,North Dakota
+Belmont,Tennessee Tech
+UCF,Florida A&M
+Harvard,Rice
+Northwestern LA,Lamar
+SF Austin,McNeese St
+Vermont,Albany NY
+Michigan St,Purdue
+Maryland,Virginia Tech
+FL Gulf Coast,Jacksonville
+Idaho St,N Colorado
+UNLV,CS Bakersfield
+Colorado St,St Bonaventure
+Bryant,St Francis PA
+Alabama,Oakland
+Notre Dame,Seton Hall
+Illinois,Ohio St
+N Dakota St,Missouri KC
+CS Fullerton,CS Northridge
+Duke,Wake Forest
+IPFW,NE Omaha
+La Salle,Penn
+W Carolina,Citadel
+Evansville,S Illinois
+Stony Brook,New Hampshire
+LSU,Bethune-Cookman
+Georgia St,James Madison
+North Florida,Stetson
+Colgate,Dartmouth
+Maine,MD Baltimore Co
+Morehead St,E Illinois
+Hawaii,UC Riverside
+Massachusetts,E Michigan
+UNC Asheville,Liberty
+Tulane,Wofford
+Arkansas St,W Kentucky
+High Point,Winthrop
+Southern Utah,Northern Arizona
+Butler,New Orleans
+Miami FL,Georgia Tech
+St Mary's CA,Loy Marymount
+Creighton,Indiana St
+Wagner,F Dickinson
+Oral Roberts,Nicholls St
+ULM,North Texas
+Columbia,Army
+Campbell,Gardner Webb
+Delaware,Old Dominion
+Mt St Mary's,Monmouth NJ
+Missouri St,Drake
+South Carolina,S Carolina St
+New Mexico St,Texas St
+Princeton,Elon
+St Joseph's PA,Morgan St
+Oklahoma,West Virginia
+Howard,Coppin St
+Northern Iowa,Illinois St
+DePaul,Providence
+Pacific,UC Davis
+Texas Tech,TCU
+Tennessee St,Jacksonville St
+VMI,Presbyterian
+Canisius,Marist
+Murray St,SE Missouri St
+Coastal Car,Longwood
+Detroit,WI Green Bay
+Kennesaw,Mercer
+California,USC
+UCLA,Stanford
+Quinnipiac,Long Island
+Dayton,UAB
+Charleston So,Radford
+George Mason,William & Mary
+Baylor,Texas
+Pepperdine,Portland
+Gonzaga,Santa Clara
+Central Conn,Robert Morris
+Montana,Portland St
+Utah St,Idaho
+Long Beach St,Santa Barbara
+Kansas St,Oklahoma St
+Norfolk St,Navy
+E Kentucky,Edwardsville
+NC A&T,Ga Southern
+SC Upstate,N Kentucky
+Rutgers,Pittsburgh
+Washington,Washington St
+NC State,Boston College
+Florida St,Clemson
+Florida Intl,ULL
+NJIT,Utah Valley
+Cal Poly SLO,UC Irvine
+San Jose St,Seattle
+Northeastern,UNC Wilmington
+W Illinois,IUPUI
+Middle Tenn St,South Alabama
+BYU,San Francisco
+Niagara,Fairfield
+Sam Houston St,TAM C. Christi
+SE Louisiana,Cent Arkansas
+Col Charleston,Furman
+VA Commonwealth,Lehigh
+Lipscomb,ETSU
+Chattanooga,Samford
+Hartford,Boston Univ
+Towson,Drexel
+Arizona,Utah
+South Dakota,S Dakota St
+Louisiana Tech,UT Arlington
+Troy,Ark Little Rock
+Missouri,Bucknell
+Montana St,E Washington
+Youngstown St,Loyola-Chicago
+TN Martin,Austin Peay
+Wright St,WI Milwaukee
+Marquette,Georgetown
+Sacred Heart,St Francis NY
+St John's,Cincinnati
+Southern Univ,Grambling
+Michigan,Iowa
+Denver,UT San Antonio
+Florida,Yale
+Rider,Siena
+Minnesota,Northwestern
+Loyola MD,St Peter's
+Ark Pine Bluff,Alabama St
+Oregon,Oregon St
+Syracuse,South Florida
+MS Valley St,Alabama A&M
+Arizona St,Colorado
+Virginia,North Carolina
+Cornell,American Univ
+Iona,Manhattan
+Kansas,Temple
+Wisconsin,Nebraska
+Wichita St,Bradley
+TX Southern,Prairie View
+Alcorn St,Jackson St
+Tulsa,SMU
+SC Upstate,Lipscomb
+Indiana,Penn St
+Albany NY,Binghamton
+Cleveland St,IL Chicago
+Stetson,Jacksonville
+Northwestern LA,Sam Houston St
+Notre Dame,Cincinnati
+ETSU,N Kentucky
+CS Sacramento,Southern Utah
+Hampton,James Madison
+SE Louisiana,Lamar
+Florida Intl,Bethune-Cookman
+Hofstra,Georgia St
+FL Gulf Coast,North Florida
+Nicholls St,McNeese St
+Baylor,Texas Tech
+Alcorn St,Grambling
+Creighton,Drake
+Duke,Clemson
+Pittsburgh,Georgetown
+Connecticut,DePaul
+Dartmouth,Army
+Missouri,Alabama
+Ark Pine Bluff,Alabama A&M
+Southern Univ,Jackson St
+Boston Univ,Vermont
+TX Pan American,Houston Bap
+Ohio St,Purdue
+Holy Cross,Columbia
+Missouri St,Illinois St
+San Jose St,New Orleans
+Northeastern,Drexel
+Alabama St,MS Valley St
+Lafayette,Penn
+Brown,Niagara
+Appalachian St,Wofford
+Florida,Georgia
+James Madison,UNC Wilmington
+Stony Brook,Binghamton
+Southern Miss,Rice
+Akron,W Michigan
+G Washington,St Bonaventure
+Ohio,Buffalo
+Marshall,Tulsa
+Coastal Car,Presbyterian
+Mississippi,Tennessee
+Oklahoma St,TCU
+Texas A&M,Arkansas
+Minnesota,Illinois
+UCF,UAB
+Wright St,Cleveland St
+Michigan,Nebraska
+Delaware,Hofstra
+Louisville,Seton Hall
+Indiana St,Bradley
+Washington,California
+Memphis,East Carolina
+Towson,William & Mary
+VMI,Liberty
+NC State,Georgia Tech
+WI Green Bay,Loyola-Chicago
+Air Force,Nevada
+VA Commonwealth,Dayton
+Toledo,Kent
+Charleston So,Winthrop
+E Kentucky,Murray St
+Utah Valley,Missouri KC
+CS Fullerton,CS Bakersfield
+MD Baltimore Co,New Hampshire
+N Illinois,Miami OH
+Boston College,Virginia Tech
+Houston,SMU
+Stanford,Washington St
+Campbell,Longwood
+Charlotte,La Salle
+UTEP,Tulane
+Long Beach St,CS Northridge
+Kansas,Iowa St
+Villanova,South Florida
+Hartford,Maine
+Gardner Webb,UNC Asheville
+Fordham,Duquesne
+Butler,St Joseph's PA
+C Michigan,Bowling Green
+Syracuse,Providence
+Wichita St,S Illinois
+New Mexico,UNLV
+Radford,High Point
+Valparaiso,IL Chicago
+Auburn,LSU
+West Virginia,Texas
+UC Irvine,Hawaii
+Richmond,Rhode Island
+Austin Peay,Morehead St
+Florida St,Maryland
+Evansville,Northern Iowa
+Wake Forest,Virginia
+San Diego St,Fresno St
+Boise St,Wyoming
+Ball St,E Michigan
+Rutgers,St John's
+Mississippi St,South Carolina
+Detroit,Youngstown St
+Belmont,SE Missouri St
+Robert Morris,F Dickinson
+Tennessee St,TN Martin
+George Mason,Old Dominion
+BYU,Pepperdine
+E Washington,Northern Arizona
+Mercer,North Florida
+Pacific,Santa Barbara
+Portland St,CS Sacramento
+Louisiana Tech,Texas St
+Northwestern,Penn St
+Montana,North Dakota
+St Francis NY,Mt St Mary's
+Ark Little Rock,North Texas
+Jacksonville St,Edwardsville
+N Dakota St,IPFW
+Wagner,Long Island
+NE Omaha,IUPUI
+Sam Houston St,Lamar
+Middle Tenn St,FL Atlantic
+Arizona St,Oregon St
+Miami FL,North Carolina
+Rider,Manhattan
+Troy,ULM
+St Louis,Massachusetts
+Bryant,Quinnipiac
+UT Arlington,UT San Antonio
+SF Austin,Cent Arkansas
+Jacksonville,Kennesaw
+S Dakota St,Oakland
+Weber St,Southern Utah
+Denver,Idaho
+Central Conn,Sacred Heart
+Oral Roberts,Northwestern LA
+Colorado,USC
+Xavier,Temple
+Monmouth NJ,St Francis PA
+Chattanooga,Citadel
+Samford,Col Charleston
+Gonzaga,St Mary's CA
+Iona,Marist
+San Diego,San Francisco
+Loy Marymount,Santa Clara
+Tennessee Tech,E Illinois
+McNeese St,TAM C. Christi
+Oregon,Arizona
+UCLA,Utah
+Michigan St,Iowa
+Montana St,N Colorado
+Stetson,ETSU
+South Alabama,ULL
+Florida Intl,Arkansas St
+Kentucky,Vanderbilt
+UC Davis,Cal Poly SLO
+FL Gulf Coast,SC Upstate
+New Mexico St,Seattle
+Creighton,Missouri St
+Niagara,St Peter's
+N Kentucky,Lipscomb
+Loyola MD,Fairfield
+Siena,Canisius
+Wright St,Loyola-Chicago
+Belmont,TN Martin
+Southern Univ,Ark Pine Bluff
+Lehigh,Holy Cross
+Northern Iowa,Bradley
+New Mexico,Fresno St
+Col Charleston,Chattanooga
+TX Southern,Jackson St
+Louisville,South Florida
+S Dakota St,IPFW
+Valparaiso,WI Milwaukee
+Boston Univ,Binghamton
+Wisconsin,Illinois
+Arkansas,Vanderbilt
+NC Central,Florida A&M
+Florida,LSU
+Pacific,Cal Poly SLO
+Bucknell,Army
+Utah Valley,Houston Bap
+Iowa St,Texas
+Southern Miss,Houston
+St Francis NY,Wagner
+VMI,Winthrop
+UNC Asheville,Radford
+BYU,Santa Clara
+Wofford,Ga Southern
+Lafayette,Navy
+UT Arlington,Texas St
+USC,Utah
+Georgetown,St John's
+Morgan St,S Carolina St
+Prairie View,Grambling
+Campbell,Presbyterian
+Memphis,UAB
+Clemson,Virginia
+W Illinois,NE Omaha
+Vermont,MD Baltimore Co
+Xavier,G Washington
+Akron,N Illinois
+Sam Houston St,McNeese St
+Robert Morris,Monmouth NJ
+Mississippi,Missouri
+Long Island,Mt St Mary's
+Stony Brook,Hartford
+Kent,Ball St
+Kansas,Texas Tech
+Tulsa,Rice
+Charleston So,Longwood
+North Dakota,Montana St
+California,Washington St
+Denver,Seattle
+Albany NY,Maine
+La Salle,Richmond
+San Diego,Pepperdine
+Bethune-Cookman,NC A&T
+Texas A&M,Kentucky
+Cleveland St,Detroit
+Northwestern LA,Cent Arkansas
+Princeton,Penn
+Ark Little Rock,Florida Intl
+Tennessee St,SE Missouri St
+Northeastern,Towson
+Syracuse,Villanova
+Baylor,TCU
+Mississippi St,Georgia
+UTEP,Marshall
+Wyoming,Nevada
+Hofstra,William & Mary
+SF Austin,Oral Roberts
+Cincinnati,Rutgers
+ETSU,FL Gulf Coast
+Harvard,Dartmouth
+Appalachian St,Elon
+Temple,St Louis
+F Dickinson,St Francis PA
+North Texas,South Alabama
+Arizona,Oregon St
+UC Irvine,CS Northridge
+Middle Tenn St,ULM
+American Univ,Colgate
+Oklahoma,Oklahoma St
+North Florida,Kennesaw
+Charlotte,Rhode Island
+NC State,Duke
+Savannah St,Coppin St
+James Madison,Drexel
+Davidson,Furman
+N Dakota St,Oakland
+UNC Wilmington,George Mason
+St Joseph's PA,Duquesne
+Liberty,Coastal Car
+Montana,N Colorado
+VA Commonwealth,St Bonaventure
+Indiana,Minnesota
+Marquette,Pittsburgh
+Connecticut,Notre Dame
+Bryant,Central Conn
+Alabama A&M,Alabama St
+E Kentucky,Morehead St
+San Diego St,Colorado St
+CS Sacramento,E Washington
+Santa Barbara,UC Davis
+WI Green Bay,IL Chicago
+Butler,Dayton
+SMU,Tulane
+St Mary's CA,San Francisco
+Sacred Heart,Quinnipiac
+TAM C. Christi,Lamar
+High Point,Gardner Webb
+Jacksonville St,E Illinois
+Utah St,San Jose St
+North Carolina,Florida St
+Virginia Tech,Georgia Tech
+NJIT,Chicago St
+Norfolk St,MD E Shore
+SE Louisiana,Nicholls St
+Alcorn St,MS Valley St
+ULL,Arkansas St
+Drake,Illinois St
+S Illinois,Indiana St
+UNLV,Air Force
+Portland St,Northern Arizona
+Washington,Stanford
+Portland,Loy Marymount
+Toledo,C Michigan
+Samford,Citadel
+Long Beach St,Hawaii
+Edwardsville,Tennessee Tech
+Missouri KC,South Dakota
+W Carolina,UNC Greensboro
+Alabama,Tennessee
+Auburn,South Carolina
+Delaware,Georgia St
+UCLA,Colorado
+Wake Forest,Boston College
+East Carolina,UCF
+FL Atlantic,W Kentucky
+Murray St,Austin Peay
+Ohio,W Michigan
+Jacksonville,Mercer
+Hampton,Howard
+Stetson,SC Upstate
+Bowling Green,E Michigan
+Louisiana Tech,UT San Antonio
+CS Fullerton,UC Riverside
+Kansas St,West Virginia
+Miami OH,Buffalo
+Idaho St,Southern Utah
+New Mexico St,Idaho
+Iowa,Northwestern
+Purdue,Penn St
+Siena,St Peter's
+Providence,Seton Hall
+Manhattan,Marist
+Michigan St,Nebraska
+Iona,Canisius
+Rider,Loyola MD
+Miami FL,Maryland
+Massachusetts,Fordham
+Evansville,Wichita St
+Ohio St,Michigan
+Niagara,Fairfield
+Oregon,Arizona St
+TX Southern,Grambling
+Southern Univ,MS Valley St
+NC A&T,Florida A&M
+UTEP,Houston Bap
+Coppin St,S Carolina St
+Kansas,Baylor
+Weber St,Idaho St
+Louisville,Connecticut
+Prairie View,Jackson St
+Ga Southern,Davidson
+Appalachian St,UNC Greensboro
+Elon,W Carolina
+Ark Pine Bluff,Alcorn St
+NC Central,Bethune-Cookman
+Savannah St,Morgan St
+Hampton,Quinnipiac
+Norfolk St,Howard
+Furman,Wofford
+Col Charleston,Citadel
+NJIT,F Dickinson
+Stony Brook,Boston Univ
+Clemson,Wake Forest
+Creighton,Northern Iowa
+Kentucky,Tennessee
+Mississippi,Vanderbilt
+E Michigan,C Michigan
+Cincinnati,DePaul
+Wisconsin,Indiana
+St John's,Notre Dame
+Bradley,S Illinois
+Colorado St,Air Force
+Alabama,Mississippi St
+Memphis,Rice
+Vermont,Binghamton
+W Michigan,Toledo
+Army,Lafayette
+VMI,Campbell
+UNC Greensboro,Wofford
+Ohio,N Illinois
+Oklahoma,Texas Tech
+Missouri,Georgia
+Georgia St,William & Mary
+Holy Cross,Navy
+Butler,Richmond
+Pittsburgh,Villanova
+Bucknell,Colgate
+Drake,Evansville
+MD Baltimore Co,Hartford
+Fresno St,Wyoming
+Kansas St,TCU
+Kent,Buffalo
+Wichita St,Illinois St
+George Mason,James Madison
+Winthrop,Presbyterian
+East Carolina,Houston
+Radford,Longwood
+Washington St,Utah
+Washington,Colorado
+South Carolina,LSU
+Georgetown,Providence
+Michigan St,Penn St
+Purdue,Nebraska
+Indiana St,Missouri St
+Arkansas,Auburn
+Akron,Ball St
+Marquette,Seton Hall
+UNLV,San Diego St
+Albany NY,New Hampshire
+Charleston So,UNC Asheville
+Lehigh,American Univ
+Charlotte,Fordham
+UNC Wilmington,Old Dominion
+High Point,Liberty
+Northeastern,Hofstra
+New Mexico,Boise St
+Southern Miss,SMU
+Miami OH,Bowling Green
+Tulsa,UTEP
+Towson,Delaware
+Xavier,St Bonaventure
+Temple,G Washington
+La Salle,Dayton
+IL Chicago,Loyola-Chicago
+Iowa St,West Virginia
+Maryland,NC State
+Miami FL,Boston College
+Gardner Webb,Coastal Car
+St Mary's CA,BYU
+N Dakota St,IUPUI
+Denver,San Jose St
+Davidson,Citadel
+Middle Tenn St,Ark Little Rock
+Santa Clara,San Francisco
+UC Irvine,CS Fullerton
+Niagara,Siena
+W Kentucky,ULL
+Gonzaga,Portland
+FL Atlantic,Troy
+Florida,Texas A&M
+Murray St,E Illinois
+Mercer,ETSU
+North Dakota,E Washington
+Seattle,UT Arlington
+N Colorado,Portland St
+Morehead St,SE Missouri St
+Duke,Georgia Tech
+South Alabama,ULM
+Nicholls St,Northwestern LA
+Elon,Furman
+Loyola MD,Marist
+Northwestern,Illinois
+Massachusetts,Duquesne
+Oakland,Missouri KC
+Edwardsville,Austin Peay
+Weber St,Northern Arizona
+New Mexico St,Utah St
+SC Upstate,Kennesaw
+Stetson,N Kentucky
+WI Milwaukee,Cleveland St
+Oral Roberts,TAM C. Christi
+Rider,St Peter's
+SF Austin,SE Louisiana
+Sam Houston St,Cent Arkansas
+UCLA,Oregon St
+WI Green Bay,Youngstown St
+Lipscomb,FL Gulf Coast
+Long Beach St,UC Riverside
+Quinnipiac,St Francis PA
+San Diego,Loy Marymount
+Michigan,Minnesota
+Hawaii,Pacific
+Central Conn,Wagner
+Belmont,E Kentucky
+Florida Intl,North Texas
+S Dakota St,W Illinois
+Louisiana Tech,Idaho
+Tennessee St,Jacksonville St
+Montana,Southern Utah
+VA Commonwealth,St Joseph's PA
+Monmouth NJ,St Francis NY
+Long Island,F Dickinson
+Ga Southern,Col Charleston
+Canisius,Manhattan
+Samford,W Carolina
+Robert Morris,Sacred Heart
+Chattanooga,Appalachian St
+Rutgers,South Florida
+UC Davis,CS Northridge
+IPFW,South Dakota
+Oregon,USC
+Valparaiso,Detroit
+Bryant,Mt St Mary's
+Penn,NJIT
+Idaho St,CS Sacramento
+Iona,Fairfield
+Jacksonville,North Florida
+Vermont,Stony Brook
+Detroit,IL Chicago
+W Michigan,N Illinois
+Northwestern LA,SE Louisiana
+Oklahoma St,Texas Tech
+Canisius,Siena
+Florida,Missouri
+WI Green Bay,Cleveland St
+Purdue,West Virginia
+VA Commonwealth,Duquesne
+Towson,James Madison
+Chicago St,Houston Bap
+McNeese St,Lamar
+NC A&T,Howard
+Rice,New Orleans
+Arkansas St,ULM
+Coastal Car,VMI
+Bryant,Wagner
+SF Austin,Nicholls St
+St Mary's CA,Portland
+Middle Tenn St,ULL
+Kentucky,Auburn
+Marshall,East Carolina
+Richmond,Charlotte
+Virginia,Florida St
+St Joseph's PA,Penn
+Holy Cross,American Univ
+St Francis NY,F Dickinson
+FL Gulf Coast,N Kentucky
+South Dakota,Oakland
+BYU,San Diego
+Arizona,Arizona St
+New Mexico St,San Jose St
+N Colorado,E Washington
+Stetson,Lipscomb
+Southern Miss,UAB
+S Dakota St,IUPUI
+Tennessee,Mississippi St
+Citadel,Ga Southern
+Lehigh,Colgate
+Georgia St,Old Dominion
+Bucknell,Lafayette
+C Michigan,Ball St
+Brown,Yale
+Morehead St,TN Martin
+Iowa St,TCU
+Wyoming,San Diego St
+Idaho,UT Arlington
+Mississippi,Arkansas
+Southern Univ,Alabama St
+SE Missouri St,Tennessee Tech
+Belmont,Tennessee St
+Pacific,CS Northridge
+Robert Morris,Quinnipiac
+George Mason,Hofstra
+Drexel,William & Mary
+Air Force,Boise St
+E Kentucky,Jacksonville St
+Jackson St,Grambling
+Denver,Utah St
+Marist,St Peter's
+UC Davis,Hawaii
+Albany NY,Hartford
+Long Island,Monmouth NJ
+Boston Univ,New Hampshire
+North Carolina,Maryland
+Memphis,Harvard
+ETSU,Kennesaw
+Stanford,California
+Alcorn St,Alabama A&M
+Indiana St,Evansville
+E Illinois,Austin Peay
+Long Beach St,CS Fullerton
+UC Riverside,UC Irvine
+Ohio,Toledo
+St John's,DePaul
+San Francisco,Loy Marymount
+North Dakota,Portland St
+Columbia,Cornell
+Kansas St,Oklahoma
+Oregon,UCLA
+Cent Arkansas,TAM C. Christi
+MS Valley St,Prairie View
+Davidson,Col Charleston
+W Carolina,Chattanooga
+Georgia,LSU
+Murray St,Edwardsville
+UTEP,SMU
+Weber St,CS Sacramento
+Colorado,Washington St
+Utah,Washington
+Pittsburgh,Connecticut
+Bethune-Cookman,S Carolina St
+Mercer,SC Upstate
+Charleston So,High Point
+Presbyterian,Liberty
+W Illinois,N Dakota St
+Xavier,La Salle
+Vanderbilt,South Carolina
+E Michigan,Miami OH
+Santa Clara,Pepperdine
+Nevada,Fresno St
+Norfolk St,Coppin St
+Elon,Wofford
+Louisiana Tech,Seattle
+Florida Intl,Troy
+Valparaiso,Wright St
+MD E Shore,Delaware St
+Kansas,Texas
+Mt St Mary's,Central Conn
+Ark Little Rock,W Kentucky
+Colorado St,UNLV
+Montana,Montana St
+Northern Arizona,Idaho St
+CS Bakersfield,NE Omaha
+UCF,Houston
+Nebraska,Penn St
+Campbell,Winthrop
+Northeastern,Delaware
+Niagara,Manhattan
+Oral Roberts,Sam Houston St
+Missouri KC,IPFW
+Akron,Kent
+Samford,Appalachian St
+Iowa,Wisconsin
+South Florida,Georgetown
+Notre Dame,Rutgers
+G Washington,Massachusetts
+Ark Pine Bluff,TX Southern
+St Bonaventure,Temple
+Bradley,Missouri St
+Wichita St,Creighton
+Providence,Villanova
+UNC Asheville,Longwood
+Michigan St,Ohio St
+Buffalo,Bowling Green
+Texas St,UT San Antonio
+Tulane,Tulsa
+Youngstown St,WI Milwaukee
+Sacred Heart,St Francis PA
+Rhode Island,St Louis
+Savannah St,Florida A&M
+Syracuse,Louisville
+Cincinnati,Marquette
+Morgan St,Hampton
+North Texas,FL Atlantic
+TX Pan American,Utah Valley
+Santa Barbara,Cal Poly SLO
+Binghamton,Maine
+Virginia Tech,Wake Forest
+Alabama,Texas A&M
+Radford,Gardner Webb
+USC,Oregon St
+Butler,Gonzaga
+Northern Iowa,Drake
+Illinois St,S Illinois
+Navy,Army
+Indiana,Northwestern
+Furman,UNC Greensboro
+Rider,Iona
+NC State,Clemson
+Loyola-Chicago,Chicago St
+NC Central,Howard
+TX Southern,MS Valley St
+Georgetown,Notre Dame
+Southern Univ,Alabama A&M
+Florida A&M,S Carolina St
+Baylor,Oklahoma St
+Montana St,Southern Utah
+Oklahoma,Texas
+Loyola MD,Fairfield
+Ark Pine Bluff,Prairie View
+Alabama St,Alcorn St
+Savannah St,Bethune-Cookman
+Syracuse,Cincinnati
+Georgia St,Towson
+Wright St,Detroit
+New Orleans,NJIT
+Coppin St,Hampton
+Norfolk St,Morgan St
+Liberty,Longwood
+Illinois,Nebraska
+Memphis,Tulane
+Ohio St,Iowa
+Villanova,Louisville
+Missouri,South Carolina
+Maryland,Boston College
+Pittsburgh,Providence
+Kansas,Kansas St
+Alabama,Kentucky
+Maine,Vermont
+Michigan St,Wisconsin
+Wake Forest,NC State
+Houston Bap,Missouri KC
+Southern Miss,Marshall
+Dayton,Fordham
+Air Force,New Orleans
+Santa Clara,CS Bakersfield
+High Point,VMI
+Miami FL,Duke
+Arkansas,Mississippi St
+Indiana,Penn St
+American Univ,Navy
+West Virginia,TCU
+San Diego St,Nevada
+Charleston So,Presbyterian
+Georgia St,UNC Wilmington
+Delaware St,Howard
+Florida,Georgia
+North Carolina,Georgia Tech
+Tulsa,Houston
+Akron,Toledo
+Bowling Green,Kent
+James Madison,Delaware
+N Illinois,C Michigan
+Northern Iowa,S Illinois
+Ohio,Miami OH
+Loyola-Chicago,Cleveland St
+St John's,Rutgers
+Vanderbilt,Auburn
+Valparaiso,WI Green Bay
+UCF,Rice
+New Mexico St,Denver
+George Mason,Towson
+Lafayette,Holy Cross
+IL Chicago,WI Milwaukee
+Evansville,Bradley
+Wichita St,Missouri St
+St Bonaventure,St Joseph's PA
+St Louis,Duquesne
+Campbell,Radford
+Seton Hall,South Florida
+Oregon St,Washington
+Stony Brook,MD Baltimore Co
+Youngstown St,Wright St
+Temple,Penn
+Boise St,Fresno St
+Northwestern,Minnesota
+Oregon,Washington St
+Winthrop,Gardner Webb
+Charlotte,Xavier
+East Carolina,UAB
+Boston Univ,Albany NY
+New Mexico,Colorado St
+Drake,Creighton
+Texas Tech,Iowa St
+W Michigan,E Michigan
+Northeastern,William & Mary
+LSU,Texas A&M
+Lehigh,Bucknell
+Drexel,Hofstra
+Buffalo,Ball St
+UNC Asheville,Coastal Car
+Colgate,Army
+Illinois St,Indiana St
+G Washington,Rhode Island
+La Salle,Butler
+Fairfield,Marist
+St Mary's CA,San Diego
+Cal Poly SLO,Hawaii
+Elon,Chattanooga
+Louisiana Tech,San Jose St
+Colorado,Stanford
+Gonzaga,BYU
+Monmouth NJ,F Dickinson
+Montana,Idaho St
+Oakland,IUPUI
+N Kentucky,Mercer
+Oral Roberts,Lamar
+Virginia,Virginia Tech
+Michigan,Purdue
+Col Charleston,Citadel
+Robert Morris,St Francis PA
+Wofford,Furman
+E Illinois,TN Martin
+Southern Utah,Portland St
+Richmond,VA Commonwealth
+UNLV,Wyoming
+Hartford,New Hampshire
+Sacred Heart,Bryant
+UCLA,Arizona
+Long Island,St Francis NY
+E Kentucky,Tennessee St
+CS Sacramento,North Dakota
+Murray St,Tennessee Tech
+South Alabama,W Kentucky
+Middle Tenn St,North Texas
+Lipscomb,Kennesaw
+Quinnipiac,Central Conn
+Jacksonville St,Austin Peay
+Troy,Arkansas St
+Nicholls St,TAM C. Christi
+CS Fullerton,UC Davis
+Mississippi,Tennessee
+SC Upstate,North Florida
+UT Arlington,Utah St
+CS Northridge,Santa Barbara
+Davidson,W Carolina
+NE Omaha,South Dakota
+Florida Intl,ULL
+California,Utah
+Cent Arkansas,McNeese St
+Montana St,Weber St
+Pacific,UC Riverside
+Texas St,Idaho
+Arizona St,USC
+SE Louisiana,Sam Houston St
+Pepperdine,Loy Marymount
+San Francisco,Portland
+Jacksonville,ETSU
+W Illinois,IPFW
+Edwardsville,SE Missouri St
+Florida St,Clemson
+Ark Little Rock,FL Atlantic
+UT San Antonio,Seattle
+Northern Arizona,N Colorado
+UNC Greensboro,Samford
+Appalachian St,Ga Southern
+Wagner,Mt St Mary's
+Belmont,Morehead St
+FL Gulf Coast,Stetson
+WI Green Bay,WI Milwaukee
+Iona,St Peter's
+Canisius,Rider
+Loyola MD,Manhattan
+Niagara,Siena
+Pittsburgh,DePaul
+Florida,Mississippi St
+Wichita St,Bradley
+TX Southern,Alabama A&M
+Cent Arkansas,Lamar
+Col Charleston,Wofford
+G Washington,Charlotte
+Baylor,TCU
+Wagner,St Francis PA
+Arkansas St,FL Atlantic
+Arizona,USC
+Davidson,Appalachian St
+Missouri,Vanderbilt
+Long Beach St,UC Irvine
+Lafayette,Lehigh
+South Carolina,Arkansas
+San Diego St,New Mexico
+Oral Roberts,McNeese St
+Ball St,Miami OH
+Duke,Maryland
+Georgia Tech,Wake Forest
+Northeastern,George Mason
+Middle Tenn St,W Kentucky
+UT Arlington,San Jose St
+Tennessee Tech,Austin Peay
+BYU,Portland
+New Hampshire,Binghamton
+Arizona St,UCLA
+E Michigan,N Illinois
+W Michigan,C Michigan
+Nevada,Boise St
+Delaware St,Bethune-Cookman
+Dayton,Duquesne
+S Dakota St,N Dakota St
+Texas,Texas Tech
+Nebraska,Northwestern
+Savannah St,S Carolina St
+SC Upstate,Jacksonville
+Ohio St,Penn St
+Virginia,Boston College
+Gardner Webb,VMI
+Oklahoma St,West Virginia
+Youngstown St,Cleveland St
+Gonzaga,San Francisco
+Santa Clara,San Diego
+ETSU,North Florida
+SE Louisiana,TAM C. Christi
+Colgate,Navy
+Coastal Car,Campbell
+Sacred Heart,Monmouth NJ
+Southern Utah,E Washington
+Kansas,Oklahoma
+Army,American Univ
+NJIT,TX Pan American
+Toledo,Bowling Green
+Yale,Brown
+St Mary's CA,Pepperdine
+Detroit,Loyola-Chicago
+Butler,Temple
+Ark Pine Bluff,Grambling
+Drexel,Georgia St
+UNC Asheville,High Point
+Presbyterian,Longwood
+Belmont,E Kentucky
+N Kentucky,Kennesaw
+Cal Poly SLO,CS Northridge
+Colorado St,Fresno St
+St Louis,St Bonaventure
+Stony Brook,Maine
+Marquette,Providence
+James Madison,Old Dominion
+St Joseph's PA,Xavier
+UCF,SMU
+Air Force,Wyoming
+NC Central,Coppin St
+Morehead St,Tennessee St
+Notre Dame,South Florida
+UNC Greensboro,Chattanooga
+NE Omaha,Missouri KC
+Chicago St,Utah Valley
+Robert Morris,Mt St Mary's
+NC State,North Carolina
+La Salle,VA Commonwealth
+Bucknell,Holy Cross
+Oakland,W Illinois
+Troy,ULM
+Georgia,Texas A&M
+Norfolk St,Hampton
+William & Mary,Towson
+Vermont,Albany NY
+Tulane,Rice
+UC Davis,UC Riverside
+CS Sacramento,N Colorado
+Ga Southern,W Carolina
+Boston Univ,MD Baltimore Co
+Iowa St,Kansas St
+UNC Wilmington,Hofstra
+IL Chicago,Wright St
+E Illinois,SE Missouri St
+Mercer,Lipscomb
+Houston,UAB
+Harvard,Dartmouth
+Kentucky,LSU
+Oregon,Washington
+Illinois St,Evansville
+Ark Little Rock,North Texas
+Hawaii,Santa Barbara
+Villanova,Syracuse
+Akron,Buffalo
+Alcorn St,Southern Univ
+Elon,Citadel
+Northwestern LA,SF Austin
+Charleston So,Liberty
+Pacific,CS Fullerton
+Idaho,UT San Antonio
+Fordham,Rhode Island
+Southern Miss,Tulsa
+Morgan St,NC A&T
+Washington St,Oregon St
+Nicholls St,Sam Houston St
+Jackson St,MS Valley St
+Cornell,Columbia
+TN Martin,Edwardsville
+Louisiana Tech,Utah St
+Texas St,Seattle
+Georgetown,Louisville
+North Dakota,Northern Arizona
+Montana St,Idaho St
+Central Conn,St Francis NY
+Quinnipiac,F Dickinson
+Mississippi,Auburn
+Prairie View,Alabama St
+Montana,Weber St
+Ohio,Kent
+Radford,Winthrop
+Memphis,Marshall
+Indiana St,Northern Iowa
+Wisconsin,Minnesota
+Tennessee,Alabama
+Long Island,Bryant
+UTEP,East Carolina
+Jacksonville St,Murray St
+Florida A&M,MD E Shore
+IPFW,IUPUI
+Stanford,Utah
+Creighton,S Illinois
+Miami FL,Florida St
+Michigan,Illinois
+Connecticut,Rutgers
+Manhattan,Rider
+Colorado,California
+Iona,Loyola MD
+Clemson,Virginia Tech
+Fairfield,St Peter's
+Missouri St,Drake
+Massachusetts,Richmond
+Indiana,Michigan St
+St John's,Seton Hall
+Siena,Marist
+Purdue,Iowa
+South Alabama,Florida Intl
+Niagara,Canisius
+TX Southern,Alabama St
+Prairie View,Alabama A&M
+SC Upstate,ETSU
+Jackson St,Ark Pine Bluff
+MS Valley St,Grambling
+Marquette,South Florida
+E Washington,Portland St
+Delaware St,Florida A&M
+NC Central,Morgan St
+James Madison,UNC Wilmington
+Kansas,West Virginia
+Louisville,Pittsburgh
+Delaware,Drexel
+Bethune-Cookman,MD E Shore
+NC A&T,Coppin St
+Minnesota,Nebraska
+Liberty,Campbell
+Stony Brook,Albany NY
+Indiana St,Wichita St
+Kentucky,Mississippi
+North Carolina,Boston College
+Ohio St,Wisconsin
+Bradley,Illinois St
+Clemson,Georgia Tech
+Virginia,NC State
+Evansville,Northern Iowa
+Tennessee,Vanderbilt
+Florida,South Carolina
+Indiana,Purdue
+Lafayette,Colgate
+High Point,Longwood
+Kansas St,Texas
+Stanford,Oregon
+Michigan,Northwestern
+Georgetown,Seton Hall
+Lehigh,Navy
+SF Austin,McNeese St
+Colorado St,Boise St
+Buffalo,C Michigan
+Army,Holy Cross
+Creighton,Missouri St
+Akron,Bowling Green
+Winthrop,Coastal Car
+Col Charleston,Appalachian St
+UNLV,Nevada
+Youngstown St,Valparaiso
+Air Force,Fresno St
+SMU,Marshall
+Loyola-Chicago,WI Milwaukee
+Rice,Houston
+Delaware,William & Mary
+Miami FL,Virginia Tech
+Georgia,Auburn
+Cincinnati,Rutgers
+UCF,Tulane
+Temple,Richmond
+Detroit,Wright St
+Memphis,East Carolina
+Toledo,Ball St
+UC Irvine,Cal Poly SLO
+VA Commonwealth,Rhode Island
+Vermont,Hartford
+Texas A&M,Mississippi St
+UAB,UTEP
+Georgia St,Northeastern
+Notre Dame,Villanova
+Duke,Wake Forest
+Drake,S Illinois
+St John's,DePaul
+Xavier,Dayton
+W Michigan,Miami OH
+St Joseph's PA,Fordham
+New Mexico,Wyoming
+Hampton,S Carolina St
+USC,UCLA
+New Hampshire,Maine
+Oklahoma,Baylor
+UNC Asheville,Presbyterian
+MD Baltimore Co,Binghamton
+LSU,Missouri
+N Illinois,Kent
+Towson,Old Dominion
+Oklahoma St,Iowa St
+Florida St,Maryland
+Long Beach St,Santa Barbara
+Massachusetts,La Salle
+VMI,Radford
+Gardner Webb,Charleston So
+Bucknell,American Univ
+Gonzaga,Loy Marymount
+N Dakota St,Missouri KC
+ULL,North Texas
+Santa Clara,Portland
+Northwestern LA,Lamar
+James Madison,Hofstra
+Central Conn,Monmouth NJ
+Davidson,Samford
+Long Island,St Francis PA
+Tennessee St,Tennessee Tech
+Belmont,Morehead St
+St Louis,Butler
+Bryant,F Dickinson
+Weber St,North Dakota
+N Colorado,Idaho St
+New Mexico St,Texas St
+FL Gulf Coast,North Florida
+Denver,UT San Antonio
+S Dakota St,South Dakota
+Montana,Portland St
+Canisius,Loyola MD
+SC Upstate,Lipscomb
+Arkansas St,South Alabama
+Oral Roberts,Nicholls St
+Southern Utah,CS Sacramento
+Utah St,Idaho
+St Francis NY,Robert Morris
+Iowa,Penn St
+Seattle,San Jose St
+Furman,Ga Southern
+NE Omaha,IPFW
+TN Martin,E Kentucky
+Elon,UNC Greensboro
+Wagner,Sacred Heart
+Citadel,Wofford
+CS Northridge,CS Fullerton
+Michigan St,Illinois
+FL Atlantic,ULM
+Arizona St,Washington St
+Arizona,Washington
+St Mary's CA,San Francisco
+Drexel,George Mason
+Mt St Mary's,Quinnipiac
+W Kentucky,Troy
+E Washington,Montana St
+Hawaii,UC Riverside
+Connecticut,Providence
+Niagara,Iona
+IL Chicago,WI Green Bay
+Alabama,Arkansas
+California,Oregon St
+BYU,Pepperdine
+N Kentucky,ETSU
+St Peter's,Marist
+Middle Tenn St,Florida Intl
+Jacksonville,Stetson
+SE Louisiana,Cent Arkansas
+Valparaiso,WI Milwaukee
+Mercer,Kennesaw
+Princeton,Cornell
+Brown,Dartmouth
+Detroit,Youngstown St
+Fairfield,Rider
+Penn,Columbia
+Harvard,Yale
+Siena,Manhattan
+Illinois St,S Illinois
+TX Southern,Prairie View
+St Mary's CA,Portland
+Albany NY,Binghamton
+S Dakota St,Missouri KC
+Memphis,Tulsa
+St Louis,Dayton
+Southern Univ,Grambling
+Maryland,Wake Forest
+Col Charleston,UNC Greensboro
+Belmont,Tennessee Tech
+Utah St,Seattle
+Weber St,N Colorado
+Georgia St,Old Dominion
+Duke,Florida St
+Colorado St,Wyoming
+N Dakota St,South Dakota
+Troy,ULL
+Montana,E Washington
+Colgate,Holy Cross
+BYU,Santa Clara
+North Dakota,Idaho St
+Creighton,Bradley
+UNC Asheville,Campbell
+Middle Tenn St,FL Atlantic
+Texas,TCU
+VA Commonwealth,Fordham
+East Carolina,Rice
+West Virginia,Texas Tech
+CS Northridge,UC Riverside
+Kent,E Michigan
+Northwestern,Purdue
+Denver,Texas St
+Delaware,UNC Wilmington
+Oakland,NE Omaha
+Bucknell,Navy
+Bryant,Monmouth NJ
+Akron,Ohio
+Missouri,Auburn
+Arizona,Washington St
+Florida,Mississippi
+SF Austin,Lamar
+William & Mary,Hofstra
+New Mexico,Nevada
+Arkansas,Tennessee
+New Mexico St,UT San Antonio
+Louisiana Tech,UT Arlington
+CS Bakersfield,Utah Valley
+Pacific,UC Davis
+Jackson St,Alcorn St
+North Carolina,Virginia Tech
+Georgetown,St John's
+UTEP,Tulane
+W Michigan,Buffalo
+Georgia,South Carolina
+Bowling Green,Ball St
+NC Central,Delaware St
+George Mason,James Madison
+Jacksonville St,Morehead St
+Davidson,Wofford
+Elon,Samford
+Gardner Webb,Longwood
+Cleveland St,IL Chicago
+Southern Utah,Northern Arizona
+Pittsburgh,Syracuse
+Winthrop,Liberty
+Savannah St,Howard
+Norfolk St,Coppin St
+High Point,Presbyterian
+Coastal Car,Radford
+La Salle,G Washington
+W Illinois,IUPUI
+Houston Bap,NJIT
+Mt St Mary's,Sacred Heart
+Appalachian St,W Carolina
+E Kentucky,SE Missouri St
+Dartmouth,Yale
+Central Conn,F Dickinson
+Miami OH,C Michigan
+Arkansas St,North Texas
+Hartford,Boston Univ
+Notre Dame,DePaul
+WI Green Bay,Loyola-Chicago
+San Francisco,Pepperdine
+St Bonaventure,Duquesne
+Iowa St,Baylor
+Indiana,Michigan
+Boston College,Clemson
+Murray St,Austin Peay
+Butler,Rhode Island
+Harvard,Brown
+Ohio St,Nebraska
+Northeastern,Drexel
+Cincinnati,Seton Hall
+Princeton,Columbia
+Oral Roberts,SE Louisiana
+Montana St,Portland St
+Toledo,N Illinois
+Quinnipiac,Wagner
+Oklahoma St,Kansas
+Citadel,Furman
+North Florida,Stetson
+N Kentucky,SC Upstate
+Boise St,UNLV
+Northern Iowa,Wichita St
+Marshall,UCF
+Sam Houston St,TAM C. Christi
+American Univ,Lafayette
+Houston,SMU
+Washington,Arizona St
+Alabama,Vanderbilt
+California,Oregon
+Kentucky,Texas A&M
+Ark Pine Bluff,Alabama St
+Southern Miss,UAB
+South Alabama,Ark Little Rock
+Edwardsville,E Illinois
+Utah,Colorado
+Air Force,San Diego St
+FL Gulf Coast,Jacksonville
+Cent Arkansas,Nicholls St
+Canisius,Iona
+Florida Intl,ULM
+TX Pan American,Chicago St
+Drake,Indiana St
+Idaho,San Jose St
+Robert Morris,Long Island
+St Francis PA,St Francis NY
+Stony Brook,New Hampshire
+Ga Southern,Chattanooga
+Loyola MD,Niagara
+ETSU,Lipscomb
+Bethune-Cookman,Florida A&M
+Hampton,Morgan St
+NC A&T,MD E Shore
+Kansas St,Oklahoma
+Long Beach St,Cal Poly SLO
+Cornell,Penn
+Hawaii,CS Fullerton
+UC Irvine,Santa Barbara
+Gonzaga,San Diego
+Richmond,Xavier
+MD Baltimore Co,Maine
+Charlotte,Massachusetts
+Missouri St,Evansville
+Miami FL,NC State
+LSU,Mississippi St
+St Joseph's PA,Temple
+Alabama A&M,MS Valley St
+Louisville,Marquette
+Northwestern LA,McNeese St
+Lehigh,Army
+Manhattan,St Peter's
+Stanford,Oregon St
+Rider,Marist
+Georgia Tech,Virginia
+Wisconsin,Illinois
+Connecticut,South Florida
+Providence,Villanova
+Minnesota,Iowa
+NC Central,MD E Shore
+Alcorn St,Grambling
+Southern Univ,Jackson St
+Iowa St,Oklahoma
+Syracuse,Notre Dame
+Towson,UNC Wilmington
+Howard,S Carolina St
+George Mason,Old Dominion
+Fairfield,Siena
+Pittsburgh,Seton Hall
+Delaware St,NC A&T
+Ark Pine Bluff,Alabama A&M
+Alabama St,MS Valley St
+Hampton,Coppin St
+Norfolk St,Morgan St
+Wright St,Loyola-Chicago
+West Virginia,Texas
+San Diego,Loy Marymount
+Northern Arizona,CS Sacramento
+North Carolina,Wake Forest
+Valparaiso,IL Chicago
+Villanova,DePaul
+Miami FL,Boston College
+Kentucky,South Carolina
+Akron,C Michigan
+Arkansas,Florida
+Northern Iowa,Missouri St
+Purdue,Penn St
+Kansas St,Texas Tech
+Boston Univ,Maine
+Cleveland St,Youngstown St
+Bradley,Evansville
+Liberty,Radford
+S Illinois,Wichita St
+Michigan,Ohio St
+Florida St,Georgia Tech
+VMI,Longwood
+Massachusetts,Rhode Island
+Ohio,Ball St
+Albany NY,MD Baltimore Co
+New Mexico,Air Force
+Marquette,South Florida
+G Washington,Duquesne
+Houston Bap,Missouri KC
+Louisville,Rutgers
+Coastal Car,Charleston So
+Towson,Delaware
+Butler,St Bonaventure
+NJIT,Colgate
+E Michigan,Buffalo
+Indiana St,Creighton
+Mississippi,Mississippi St
+Oregon St,Utah
+St Louis,Fordham
+Bowling Green,N Illinois
+Tulane,Marshall
+Vermont,New Hampshire
+Hartford,Binghamton
+UNC Asheville,Winthrop
+UTEP,Rice
+Robert Morris,St Francis PA
+Auburn,Alabama
+Michigan St,Minnesota
+James Madison,William & Mary
+Fresno St,UNLV
+Wagner,Mt St Mary's
+Memphis,SMU
+Illinois St,Drake
+Wyoming,CS Bakersfield
+UAB,Tulsa
+Arizona,Stanford
+TCU,Kansas
+Dayton,St Joseph's PA
+W Michigan,Kent
+High Point,Campbell
+St John's,Connecticut
+Georgia,Tennessee
+Northeastern,Hofstra
+Providence,Cincinnati
+UNC Wilmington,Georgia St
+Wisconsin,Iowa
+Colorado St,Nevada
+Presbyterian,Gardner Webb
+UCF,Southern Miss
+New Orleans,TX Pan American
+Oklahoma St,Baylor
+Toledo,Miami OH
+Temple,Charlotte
+LSU,Vanderbilt
+San Diego St,Boise St
+Marist,Iona
+Virginia,Clemson
+SF Austin,Cent Arkansas
+E Illinois,TN Martin
+Gonzaga,Pepperdine
+UT Arlington,Texas St
+Louisiana Tech,UT San Antonio
+FL Gulf Coast,ETSU
+UNC Greensboro,Furman
+St Mary's CA,Santa Clara
+Hawaii,Long Beach St
+Florida Intl,FL Atlantic
+W Illinois,NE Omaha
+Fairfield,St Peter's
+Denver,Seattle
+Quinnipiac,Monmouth NJ
+Davidson,W Carolina
+Manhattan,Canisius
+Chattanooga,Citadel
+Middle Tenn St,Arkansas St
+Duke,NC State
+Old Dominion,Drexel
+Northwestern LA,Oral Roberts
+W Kentucky,North Texas
+Wofford,Elon
+Ark Little Rock,ULM
+Montana,N Colorado
+Portland,Loy Marymount
+SE Missouri St,Edwardsville
+North Dakota,Montana St
+CS Northridge,UC Irvine
+North Florida,Kennesaw
+Detroit,WI Milwaukee
+UC Davis,Santa Barbara
+Stetson,SC Upstate
+Bryant,St Francis NY
+Sacred Heart,F Dickinson
+Northern Arizona,Portland St
+San Diego,BYU
+Long Island,Central Conn
+S Dakota St,IPFW
+Tennessee St,Austin Peay
+CS Sacramento,E Washington
+Murray St,Belmont
+Appalachian St,Ga Southern
+Maryland,Virginia Tech
+Cal Poly SLO,Pacific
+USC,Washington St
+Col Charleston,Samford
+Lamar,TAM C. Christi
+Arizona St,California
+South Alabama,Troy
+Oakland,N Dakota St
+Hampton,Savannah St
+Mercer,Jacksonville
+Rider,Niagara
+Illinois,Indiana
+Wright St,WI Green Bay
+Texas A&M,Missouri
+New Mexico St,Idaho
+UCLA,Washington
+Southern Utah,Idaho St
+Youngstown St,Loyola-Chicago
+McNeese St,Sam Houston St
+Colorado,Oregon
+Lipscomb,N Kentucky
+Princeton,Brown
+Loyola MD,Siena
+UNC Asheville,VMI
+Yale,Penn
+Dartmouth,Columbia
+Harvard,Cornell
+Notre Dame,Louisville
+Middle Tenn St,Troy
+Sam Houston St,Lamar
+La Salle,Fordham
+Davidson,Appalachian St
+Morgan St,Coppin St
+Wichita St,Missouri St
+Villanova,South Florida
+Baylor,Texas Tech
+Utah St,San Jose St
+Miami FL,North Carolina
+Wake Forest,Florida St
+Florida,Mississippi St
+FL Gulf Coast,SC Upstate
+Penn,Brown
+Lafayette,Navy
+Cornell,Dartmouth
+SMU,Rice
+San Diego St,Fresno St
+Murray St,Tennessee St
+Boston Univ,Binghamton
+E Kentucky,Morehead St
+Northwestern LA,Cent Arkansas
+Mercer,North Florida
+Montana,North Dakota
+Howard,MD E Shore
+Missouri,Mississippi
+Gonzaga,Loy Marymount
+Vanderbilt,Arkansas
+Massachusetts,St Joseph's PA
+Charleston So,Campbell
+Norfolk St,Delaware St
+Arkansas St,W Kentucky
+Weber St,Southern Utah
+Utah Valley,TX Pan American
+Denver,Idaho
+American Univ,Colgate
+Missouri KC,South Dakota
+Kent,C Michigan
+Columbia,Harvard
+Wright St,WI Milwaukee
+Louisiana Tech,Texas St
+Cal Poly SLO,UC Davis
+Maine,Albany NY
+Tennessee Tech,Jacksonville St
+Iowa,Northwestern
+UAB,Marshall
+Nebraska,Penn St
+UCLA,Washington St
+Memphis,Southern Miss
+Oklahoma St,Texas
+N Colorado,Montana St
+West Virginia,TCU
+SE Missouri St,E Illinois
+Michigan St,Purdue
+Belmont,Austin Peay
+Santa Barbara,Pacific
+Vermont,MD Baltimore Co
+San Francisco,BYU
+High Point,Coastal Car
+Samford,Citadel
+CS Fullerton,UC Riverside
+Radford,Presbyterian
+Marquette,DePaul
+SE Louisiana,Nicholls St
+Mt St Mary's,St Francis PA
+UCF,East Carolina
+St Louis,Richmond
+Pittsburgh,Cincinnati
+Georgia Tech,Virginia Tech
+NC A&T,Bethune-Cookman
+Kentucky,Auburn
+Prairie View,Grambling
+SF Austin,Oral Roberts
+North Texas,Florida Intl
+St Mary's CA,San Diego
+Ohio,Bowling Green
+WI Green Bay,Detroit
+Hofstra,UNC Wilmington
+UNLV,New Mexico
+Kansas St,Iowa St
+TN Martin,Edwardsville
+Wofford,UNC Greensboro
+W Carolina,Ga Southern
+Oregon,Utah
+Valparaiso,Cleveland St
+Toledo,E Michigan
+Towson,Georgia St
+NC Central,Florida A&M
+Xavier,Duquesne
+Delaware,George Mason
+TX Southern,Jackson St
+Houston Bap,New Orleans
+Kennesaw,Jacksonville
+NE Omaha,IUPUI
+Lehigh,Holy Cross
+Alabama St,Alabama A&M
+VA Commonwealth,Charlotte
+Iona,Rider
+Boise St,Wyoming
+St Bonaventure,Rhode Island
+Georgetown,Rutgers
+Longwood,Winthrop
+Oklahoma,Kansas
+Georgia,Texas A&M
+CS Sacramento,Portland St
+Hawaii,UC Irvine
+Hartford,Stony Brook
+Buffalo,N Illinois
+Oakland,S Dakota St
+MS Valley St,Alcorn St
+NJIT,Chicago St
+Nevada,Air Force
+Northeastern,Old Dominion
+UT Arlington,UT San Antonio
+Akron,Miami OH
+Tulsa,UTEP
+Pepperdine,Portland
+Elon,Furman
+Savannah St,S Carolina St
+Yale,Princeton
+N Dakota St,IPFW
+Monmouth NJ,F Dickinson
+Robert Morris,Wagner
+Butler,G Washington
+Wisconsin,Michigan
+Ark Pine Bluff,Southern Univ
+Tulane,Houston
+E Washington,Northern Arizona
+Ball St,W Michigan
+Stanford,Arizona St
+Gardner Webb,Liberty
+Col Charleston,Chattanooga
+Alabama,LSU
+TAM C. Christi,McNeese St
+New Mexico St,Seattle
+Illinois St,Creighton
+Long Beach St,CS Northridge
+Bucknell,Army
+Temple,Dayton
+South Alabama,FL Atlantic
+Indiana St,S Illinois
+ETSU,Stetson
+ULL,ULM
+Syracuse,St John's
+Indiana,Ohio St
+Drexel,James Madison
+Connecticut,Seton Hall
+Virginia,Maryland
+USC,Washington
+St Peter's,Siena
+Long Island,St Francis NY
+California,Arizona
+Canisius,Niagara
+Evansville,Drake
+Tennessee,South Carolina
+IL Chicago,Youngstown St
+Marist,Loyola MD
+Illinois,Minnesota
+Colorado,Oregon St
+Northern Iowa,Bradley
+NC State,Clemson
+Duke,Boston College
+Ark Pine Bluff,Alcorn St
+TX Southern,Grambling
+Oklahoma,TCU
+Norfolk St,MD E Shore
+Kansas,Kansas St
+Weber St,Idaho St
+Georgetown,Marquette
+NC A&T,Florida A&M
+NC Central,Bethune-Cookman
+Appalachian St,Furman
+Jackson St,Prairie View
+Northeastern,William & Mary
+Southern Univ,MS Valley St
+Chattanooga,Samford
+Delaware,Old Dominion
+Morgan St,Howard
+W Carolina,Wofford
+Hampton,Delaware St
+Detroit,Cleveland St
+Michigan St,Michigan
+Manhattan,Fairfield
+Virginia,Virginia Tech
+WI Milwaukee,Loyola-Chicago
+Cincinnati,Villanova
+Florida,Kentucky
+Holy Cross,Navy
+CS Bakersfield,UT San Antonio
+Valparaiso,Wright St
+Alabama,Georgia
+Boston Univ,Vermont
+Rutgers,Seton Hall
+Missouri St,Indiana St
+Missouri,Mississippi St
+High Point,Longwood
+Indiana,Nebraska
+Stony Brook,Binghamton
+Oklahoma St,Texas Tech
+Memphis,UCF
+Wyoming,Nevada
+Illinois St,Bradley
+Illinois,Purdue
+Baylor,West Virginia
+Long Beach St,CS Fullerton
+Ohio,C Michigan
+Houston,UTEP
+Georgia St,Hofstra
+Kent,Miami OH
+Army,Lafayette
+Buffalo,Toledo
+Wichita St,Drake
+Air Force,UNLV
+Lehigh,American Univ
+Xavier,Fordham
+East Carolina,UAB
+Oregon,Washington
+Tennessee,Vanderbilt
+Southern Miss,Tulane
+Bowling Green,W Michigan
+Providence,South Florida
+S Illinois,Evansville
+Bucknell,Colgate
+Connecticut,Syracuse
+Akron,E Michigan
+Arkansas,Auburn
+Coastal Car,Presbyterian
+Northern Iowa,Creighton
+New Hampshire,MD Baltimore Co
+St Joseph's PA,Richmond
+New Mexico,Fresno St
+William & Mary,UNC Wilmington
+Miami FL,Florida St
+Colorado St,San Diego St
+James Madison,Towson
+Winthrop,Charleston So
+Utah,Arizona St
+Duke,North Carolina
+Notre Dame,DePaul
+Charlotte,Butler
+Ball St,N Illinois
+UC Irvine,UC Riverside
+La Salle,St Bonaventure
+Radford,VMI
+Boston College,Wake Forest
+Rhode Island,Dayton
+Texas,Iowa St
+Maine,Hartford
+Liberty,Campbell
+Gardner Webb,UNC Asheville
+Delaware,Northeastern
+Texas A&M,Mississippi
+Marshall,Rice
+Oregon St,Washington St
+S Dakota St,IUPUI
+Idaho St,Montana St
+Chattanooga,Furman
+South Alabama,ULL
+St Francis NY,F Dickinson
+Arkansas St,Ark Little Rock
+Weber St,Montana
+UC Davis,Hawaii
+Fairfield,Siena
+Ga Southern,Citadel
+Portland St,Southern Utah
+Wagner,Central Conn
+LSU,South Carolina
+VA Commonwealth,Massachusetts
+Gonzaga,St Mary's CA
+Davidson,Col Charleston
+Rider,St Peter's
+Mt St Mary's,Bryant
+Long Island,Monmouth NJ
+Louisville,St John's
+W Illinois,N Dakota St
+California,UCLA
+Colorado,Arizona
+SF Austin,Nicholls St
+ULM,North Texas
+E Kentucky,Tennessee Tech
+Tennessee St,Belmont
+Mercer,SC Upstate
+Stetson,Lipscomb
+Ohio St,Northwestern
+Oral Roberts,Sam Houston St
+New Mexico St,San Jose St
+Santa Clara,San Diego
+ETSU,Kennesaw
+Troy,Florida Intl
+N Colorado,Northern Arizona
+FL Gulf Coast,N Kentucky
+Samford,Wofford
+Austin Peay,E Illinois
+TAM C. Christi,Cent Arkansas
+Pacific,CS Northridge
+George Mason,Drexel
+FL Atlantic,W Kentucky
+TX Pan American,CS Bakersfield
+Louisiana Tech,Seattle
+Minnesota,Wisconsin
+Edwardsville,Murray St
+IPFW,Missouri KC
+St Francis PA,Sacred Heart
+Morehead St,Jacksonville St
+Loyola MD,Canisius
+Clemson,Georgia Tech
+Elon,Appalachian St
+Northwestern LA,SE Louisiana
+Denver,Utah St
+UT Arlington,Idaho
+Pepperdine,Loy Marymount
+Portland,San Francisco
+W Carolina,UNC Greensboro
+Quinnipiac,Robert Morris
+Iowa,Penn St
+Savannah St,Florida A&M
+Duquesne,Temple
+North Dakota,CS Sacramento
+Oakland,South Dakota
+USC,Stanford
+Harvard,Penn
+Princeton,Dartmouth
+Youngstown St,WI Milwaukee
+Cornell,Yale
+Georgetown,Cincinnati
+WI Green Bay,Cleveland St
+Brown,Columbia
+Niagara,Marist
+Jacksonville,North Florida
+Manhattan,Iona
+Long Beach St,UC Riverside
+Jackson St,Grambling
+N Dakota St,IUPUI
+Iowa St,TCU
+Arkansas St,ULM
+Morgan St,MD E Shore
+Florida,Auburn
+Tennessee,Kentucky
+Indiana,Purdue
+VA Commonwealth,G Washington
+Albany NY,Hartford
+Kansas,Texas
+Long Island,F Dickinson
+Loyola MD,Siena
+UAB,Rice
+SE Missouri St,TN Martin
+Denver,San Jose St
+Kansas St,Baylor
+Wofford,Chattanooga
+UC Irvine,CS Fullerton
+Yale,Columbia
+Georgia St,George Mason
+St Louis,Charlotte
+Cal Poly SLO,Santa Barbara
+Providence,Notre Dame
+Akron,Bowling Green
+Stony Brook,Vermont
+Mercer,ETSU
+Quinnipiac,St Francis PA
+Stetson,N Kentucky
+Longwood,Radford
+UTEP,UCF
+Davidson,Citadel
+BYU,Portland
+Wagner,Bryant
+E Washington,Southern Utah
+Delaware St,Coppin St
+N Colorado,CS Sacramento
+E Kentucky,Jacksonville St
+IPFW,South Dakota
+Memphis,Marshall
+North Carolina,Virginia
+William & Mary,Old Dominion
+La Salle,St Joseph's PA
+Bradley,Indiana St
+SC Upstate,Kennesaw
+LSU,Mississippi St
+Oakland,Missouri KC
+Harvard,Princeton
+Austin Peay,Edwardsville
+UC Davis,CS Northridge
+Dayton,Xavier
+UT San Antonio,Texas St
+St Mary's CA,Loy Marymount
+Samford,Furman
+Tulane,SMU
+Syracuse,Seton Hall
+Marquette,Pittsburgh
+New Mexico,Boise St
+Gonzaga,San Francisco
+Santa Clara,Pepperdine
+Alabama,South Carolina
+Penn,Dartmouth
+Detroit,Valparaiso
+Mississippi,Georgia
+Lipscomb,FL Gulf Coast
+Washington,Oregon St
+Villanova,Connecticut
+S Dakota St,W Illinois
+Tulsa,Houston
+Canisius,St Peter's
+Loyola-Chicago,IL Chicago
+Campbell,VMI
+Col Charleston,Ga Southern
+Southern Univ,Alabama St
+Mt St Mary's,Central Conn
+E Illinois,Murray St
+Toledo,C Michigan
+Monmouth NJ,St Francis NY
+Michigan St,Nebraska
+Pacific,Hawaii
+Buffalo,Miami OH
+W Michigan,N Illinois
+Charleston So,UNC Asheville
+UCLA,Stanford
+NJIT,Utah Valley
+Savannah St,NC Central
+S Illinois,Missouri St
+Weber St,Montana St
+Towson,Hofstra
+Vanderbilt,Texas A&M
+Elon,W Carolina
+Presbyterian,Winthrop
+Gardner Webb,Coastal Car
+McNeese St,Lamar
+Northern Iowa,Drake
+Alabama A&M,Alcorn St
+Montana,Idaho St
+DePaul,Rutgers
+E Michigan,Ball St
+UNC Wilmington,Northeastern
+TX Southern,Ark Pine Bluff
+Louisiana Tech,Idaho
+Oklahoma St,Oklahoma
+Robert Morris,Sacred Heart
+Butler,Fordham
+Sam Houston St,Cent Arkansas
+Northwestern LA,Nicholls St
+Rhode Island,Duquesne
+High Point,Liberty
+Florida Intl,W Kentucky
+Middle Tenn St,Ark Little Rock
+Houston Bap,TX Pan American
+Oral Roberts,TAM C. Christi
+NC State,Virginia Tech
+Maine,Binghamton
+Wyoming,Fresno St
+Colgate,Lehigh
+SE Louisiana,SF Austin
+Southern Miss,East Carolina
+Utah St,New Mexico St
+Richmond,St Bonaventure
+Ohio,Kent
+Florida St,Boston College
+Creighton,Evansville
+Colorado St,Air Force
+Cornell,Brown
+Prairie View,MS Valley St
+Northern Arizona,North Dakota
+West Virginia,Texas Tech
+S Carolina St,NC A&T
+Arkansas,Missouri
+Maryland,Duke
+Oregon,Washington St
+Morehead St,Tennessee Tech
+North Texas,Troy
+UNLV,San Diego St
+UT Arlington,Seattle
+James Madison,Delaware
+Georgia Tech,Wake Forest
+Army,Navy
+Lafayette,Bucknell
+Temple,Massachusetts
+Florida A&M,Howard
+ULL,FL Atlantic
+Arizona St,Colorado
+Wisconsin,Ohio St
+Cleveland St,WI Milwaukee
+Iowa,Minnesota
+Illinois,Northwestern
+Louisville,South Florida
+WI Green Bay,Youngstown St
+Boston Univ,New Hampshire
+Michigan,Penn St
+Appalachian St,UNC Greensboro
+California,USC
+Niagara,Manhattan
+Arizona,Utah
+Rider,Marist
+American Univ,Holy Cross
+Miami FL,Clemson
+Wichita St,Illinois St
+Ark Pine Bluff,Prairie View
+NC Central,S Carolina St
+TX Southern,MS Valley St
+Bethune-Cookman,Howard
+Southern Univ,Alabama A&M
+William & Mary,Georgia St
+Kansas St,West Virginia
+Notre Dame,Pittsburgh
+Drexel,Hofstra
+Portland St,E Washington
+Alabama St,Alcorn St
+Villanova,Rutgers
+Savannah St,NC A&T
+Bucknell,Lehigh
+Norfolk St,Hampton
+Fairfield,Iona
+Delaware St,Morgan St
+MD E Shore,Coppin St
+Longwood,Liberty
+Stony Brook,MD Baltimore Co
+Oral Roberts,Cent Arkansas
+San Diego St,Wyoming
+Marquette,Seton Hall
+Butler,Duquesne
+NC State,Florida St
+Charleston So,Presbyterian
+St Louis,VA Commonwealth
+Creighton,S Illinois
+Gardner Webb,Winthrop
+North Carolina,Georgia Tech
+High Point,VMI
+Northwestern LA,TAM C. Christi
+Nicholls St,Lamar
+Boston College,Maryland
+Tennessee,LSU
+Texas,TCU
+Valparaiso,Loyola-Chicago
+McNeese St,SE Louisiana
+Campbell,Radford
+Northern Iowa,Missouri St
+Fresno St,Nevada
+Wichita St,Indiana St
+Indiana,Michigan St
+NE Omaha,Chicago St
+Miami FL,Virginia
+Missouri,Florida
+BYU,Utah St
+Coastal Car,UNC Asheville
+Murray St,Morehead St
+Gonzaga,Santa Clara
+E Kentucky,Austin Peay
+Davidson,Furman
+Belmont,E Illinois
+George Mason,Hofstra
+Wisconsin,Northwestern
+Ohio St,Minnesota
+Syracuse,Providence
+Georgetown,DePaul
+Old Dominion,UNC Wilmington
+Ohio,E Michigan
+Arizona,Washington
+Evansville,Illinois St
+CS Fullerton,Cal Poly SLO
+St John's,South Florida
+Oklahoma,Texas Tech
+UT Arlington,TX Pan American
+Army,Colgate
+Xavier,Rhode Island
+Marshall,UCF
+Vermont,Maine
+Boise St,Air Force
+Arizona St,Washington St
+WI Milwaukee,IL Chicago
+Boston Univ,Albany NY
+Tennessee St,Edwardsville
+East Carolina,Tulsa
+Wright St,Cleveland St
+Texas A&M,Auburn
+UC Irvine,Pacific
+UC Riverside,Santa Barbara
+G Washington,Fordham
+Alabama,Mississippi St
+Drake,Bradley
+Memphis,Houston
+Southern Miss,UTEP
+IPFW,Oakland
+Navy,American Univ
+SF Austin,Sam Houston St
+Long Beach St,UC Davis
+Hartford,New Hampshire
+St Bonaventure,Massachusetts
+Iowa St,Baylor
+Hampton,MD E Shore
+Kentucky,Vanderbilt
+Lafayette,Holy Cross
+Citadel,Appalachian St
+Col Charleston,W Carolina
+Northeastern,James Madison
+Jacksonville St,SE Missouri St
+North Dakota,N Colorado
+UNLV,Colorado St
+South Carolina,Mississippi
+Kansas,Oklahoma St
+CS Bakersfield,S Dakota St
+Middle Tenn St,South Alabama
+Duke,Virginia Tech
+Bowling Green,New Orleans
+UNC Greensboro,Chattanooga
+Mercer,Lipscomb
+Charleston So,VMI
+Bryant,Central Conn
+W Kentucky,ULM
+Tennessee Tech,TN Martin
+North Florida,ETSU
+Florida Intl,Ark Little Rock
+Mt St Mary's,Long Island
+Robert Morris,Monmouth NJ
+N Kentucky,Kennesaw
+ULL,Troy
+Colorado,Utah
+Stanford,Oregon St
+North Texas,FL Atlantic
+Temple,La Salle
+Connecticut,Cincinnati
+Quinnipiac,Sacred Heart
+St Mary's CA,BYU
+Wofford,Ga Southern
+St Francis PA,F Dickinson
+Illinois,Penn St
+Jacksonville,SC Upstate
+Portland,San Diego
+San Francisco,Loy Marymount
+Delaware,Drexel
+Arkansas,Georgia
+California,Oregon
+St Francis NY,Wagner
+Elon,Samford
+Princeton,Columbia
+Harvard,Brown
+Akron,N Dakota St
+Yale,Dartmouth
+Stetson,FL Gulf Coast
+Penn,Cornell
+SF Austin,Long Beach St
+St Louis,Butler
+Robert Morris,F Dickinson
+Middle Tenn St,ULM
+Vanderbilt,Mississippi St
+Marist,VMI
+Hawaii,Northern Arizona
+Mississippi,Auburn
+Gonzaga,San Diego
+Kansas,TCU
+Tulane,Rice
+North Florida,SC Upstate
+UNLV,Wyoming
+Valparaiso,E Kentucky
+Iowa St,Texas Tech
+NJIT,New Orleans
+Jackson St,MS Valley St
+Princeton,Cornell
+Belmont,Ohio
+Louisville,Seton Hall
+UT San Antonio,Nicholls St
+Richmond,Fordham
+Ga Southern,Furman
+Arizona,Washington St
+Mercer,N Kentucky
+Florida,Arkansas
+Columbia,Penn
+Drake,WI Green Bay
+Stony Brook,Maine
+Memphis,Southern Miss
+Oklahoma St,West Virginia
+Ark Pine Bluff,Grambling
+Niagara,Northwestern LA
+Wake Forest,Miami FL
+Lipscomb,Kennesaw
+Wichita St,Detroit
+Army,American Univ
+Oklahoma,Baylor
+FL Atlantic,Ark Little Rock
+Winthrop,SE Louisiana
+Maryland,Clemson
+Colgate,Navy
+Southern Univ,Alcorn St
+San Diego St,Nevada
+Toledo,McNeese St
+IPFW,Bowling Green
+Texas St,Lamar
+St Joseph's PA,G Washington
+Santa Clara,Portland
+South Alabama,North Texas
+Connecticut,DePaul
+Kansas St,Texas
+Evansville,Wright St
+E Illinois,N Illinois
+Quinnipiac,Bryant
+Georgetown,Syracuse
+North Carolina,NC State
+Hofstra,Old Dominion
+Oregon,Stanford
+W Kentucky,ULL
+Youngstown St,C Michigan
+Murray St,S Dakota St
+Massachusetts,Dayton
+Houston Bap,Utah Valley
+Bethune-Cookman,S Carolina St
+TN Martin,Longwood
+W Carolina,Coastal Car
+Boston Univ,MD Baltimore Co
+Boise St,Fresno St
+New Mexico,Colorado St
+Prairie View,Alabama St
+Brown,Dartmouth
+Washington,Arizona St
+Utah St,Illinois St
+UCF,Tulsa
+Georgia,South Carolina
+Lafayette,Lehigh
+Mt St Mary's,St Francis NY
+Central Conn,Sacred Heart
+Tennessee,Texas A&M
+Arkansas St,Troy
+Albany NY,Fairfield
+Vermont,Canisius
+NE Omaha,North Dakota
+Portland St,UC Riverside
+St Mary's CA,Creighton
+Coppin St,Howard
+St Bonaventure,Duquesne
+Kentucky,Missouri
+St Peter's,Hampton
+Kent,Loyola-Chicago
+WI Milwaukee,IUPUI
+Rider,Charleston So
+UC Irvine,UT Arlington
+Morgan St,High Point
+San Francisco,Pepperdine
+Harvard,Yale
+CS Fullerton,TAM C. Christi
+Davidson,Montana
+S Illinois,Miami OH
+Idaho,Idaho St
+Liberty,Austin Peay
+Savannah St,Campbell
+Cleveland St,W Illinois
+Tennessee Tech,Missouri KC
+Denver,Northern Iowa
+W Michigan,Pacific
+E Washington,Sam Houston St
+UAB,Marshall
+VA Commonwealth,Xavier
+NC Central,NC A&T
+Georgia St,James Madison
+Norfolk St,Delaware St
+Villanova,Marquette
+Chattanooga,Elon
+Samford,UNC Greensboro
+TX Pan American,Chicago St
+Providence,Rutgers
+New Mexico St,UTEP
+Nebraska,Iowa
+Weber St,Oral Roberts
+LSU,Alabama
+East Carolina,SMU
+ETSU,Jacksonville
+Missouri St,E Michigan
+Gardner Webb,Col Charleston
+Oakland,Morehead St
+Ball St,SE Missouri St
+Presbyterian,Citadel
+Cal Poly SLO,Loy Marymount
+Wagner,Long Island
+George Mason,William & Mary
+St Francis PA,Monmouth NJ
+TX Southern,Alabama A&M
+Jacksonville St,UNC Asheville
+Cent Arkansas,Edwardsville
+Loyola MD,Tennessee St
+Towson,Drexel
+California,Oregon St
+Delaware,UNC Wilmington
+Indiana St,Iona
+Manhattan,Buffalo
+Bradley,IL Chicago
+UC Davis,N Colorado
+Southern Utah,CS Northridge
+CS Sacramento,Santa Barbara
+Purdue,Northwestern
+Virginia,Georgia Tech
+Duke,Boston College
+Notre Dame,Cincinnati
+Temple,Charlotte
+Bucknell,Holy Cross
+Pittsburgh,St John's
+UCLA,USC
+Michigan,Illinois
+New Hampshire,Binghamton
+South Dakota,Montana St
+Virginia Tech,Florida St
+Ohio St,Michigan St
+Siena,Radford
+La Salle,Rhode Island
+MS Valley St,Grambling
+Kansas St,Texas Tech
+TX Southern,Alabama St
+Bryant,Sacred Heart
+Bethune-Cookman,Savannah St
+Houston Bap,New Orleans
+Kansas,Iowa St
+Hampton,Delaware St
+Howard,MD E Shore
+Prairie View,Alabama A&M
+Marquette,Syracuse
+Florida A&M,S Carolina St
+Central Conn,Quinnipiac
+Ark Pine Bluff,Jackson St
+Seton Hall,Villanova
+Wisconsin,Nebraska
+Alabama,Auburn
+VMI,Liberty
+WI Green Bay,WI Milwaukee
+Florida St,Wake Forest
+Valparaiso,Youngstown St
+E Illinois,Chicago St
+N Dakota St,Utah Valley
+Tennessee,Florida
+IL Chicago,Wright St
+Minnesota,Indiana
+Xavier,Memphis
+Detroit,Loyola-Chicago
+St Mary's CA,Pepperdine
+Illinois St,Missouri St
+Kentucky,Mississippi St
+Belmont,Edwardsville
+Lehigh,Navy
+Boise St,Nevada
+Dayton,Charlotte
+Louisville,DePaul
+Pittsburgh,South Florida
+Bucknell,American Univ
+Coastal Car,Winthrop
+Miami FL,Virginia Tech
+Morgan St,Coppin St
+NC State,Boston College
+Creighton,Bradley
+St Louis,St Joseph's PA
+Oklahoma St,TCU
+Lafayette,Colgate
+Longwood,Campbell
+E Michigan,N Illinois
+UNC Asheville,Presbyterian
+SMU,Rice
+USC,Arizona
+Drake,Indiana St
+UTEP,Houston
+Georgia Tech,Maryland
+Iowa,Purdue
+New Mexico,San Diego St
+Richmond,G Washington
+Mississippi,Texas A&M
+Bowling Green,Miami OH
+Akron,Ohio
+Army,Holy Cross
+Colorado St,Fresno St
+Penn St,Michigan
+Davidson,Elon
+Northeastern,Georgia St
+S Illinois,Northern Iowa
+Texas,Oklahoma
+Air Force,Wyoming
+Radford,High Point
+Gardner Webb,Charleston So
+Ball St,C Michigan
+LSU,Arkansas
+UAB,Tulane
+UCLA,Arizona St
+Towson,George Mason
+W Michigan,Toledo
+Evansville,Wichita St
+Baylor,West Virginia
+Kent,Buffalo
+Colorado,Stanford
+William & Mary,UNC Wilmington
+Delaware,Hofstra
+Georgetown,Connecticut
+Vanderbilt,Georgia
+Morehead St,Tennessee St
+Alabama A&M,Grambling
+N Kentucky,North Florida
+SE Missouri St,Austin Peay
+North Texas,Arkansas St
+Santa Clara,Loy Marymount
+Louisiana Tech,Utah St
+Missouri,South Carolina
+Cal Poly SLO,CS Northridge
+Wagner,F Dickinson
+South Dakota,IUPUI
+S Dakota St,NE Omaha
+UT San Antonio,Idaho
+California,Utah
+Vermont,Binghamton
+Stony Brook,Boston Univ
+E Kentucky,Tennessee Tech
+Weber St,CS Sacramento
+Mt St Mary's,Monmouth NJ
+Stetson,Kennesaw
+TAM C. Christi,SE Louisiana
+San Francisco,San Diego
+TX Southern,Southern Univ
+Hartford,MD Baltimore Co
+Canisius,St Peter's
+Quinnipiac,St Francis NY
+Citadel,Furman
+Ohio St,Northwestern
+Middle Tenn St,Troy
+Oregon,Oregon St
+Chattanooga,W Carolina
+Northern Arizona,Idaho St
+Rider,Niagara
+North Carolina,Clemson
+Florida Intl,ULM
+Ark Little Rock,ULL
+Pacific,CS Fullerton
+Ark Pine Bluff,MS Valley St
+N Colorado,E Washington
+North Dakota,Portland St
+Cent Arkansas,Lamar
+Albany NY,New Hampshire
+UT Arlington,San Jose St
+UC Davis,UC Riverside
+Ga Southern,UNC Greensboro
+W Kentucky,South Alabama
+Alcorn St,Prairie View
+Jackson St,Alabama St
+Col Charleston,Wofford
+Virginia,Duke
+Gonzaga,BYU
+Temple,Detroit
+Drexel,Old Dominion
+Lipscomb,Jacksonville
+Hawaii,Santa Barbara
+Central Conn,St Francis PA
+Appalachian St,Samford
+FL Gulf Coast,Mercer
+W Illinois,Missouri KC
+Nicholls St,Sam Houston St
+Long Island,Sacred Heart
+Robert Morris,Bryant
+Texas St,Seattle
+McNeese St,Oral Roberts
+TN Martin,Murray St
+Montana St,Southern Utah
+SC Upstate,ETSU
+Loyola-Chicago,Cleveland St
+Brown,Cornell
+Columbia,Yale
+Dartmouth,Penn
+Princeton,Harvard
+Iona,Loyola MD
+Manhattan,Fairfield
+Marist,Siena
+Davidson,Ga Southern
+La Salle,Duquesne
+Austin Peay,TN Martin
+VA Commonwealth,Butler
+Minnesota,Penn St
+Gonzaga,Portland
+Houston,Marshall
+Wright St,Youngstown St
+N Dakota St,NE Omaha
+Louisiana Tech,San Jose St
+St Joseph's PA,Fordham
+Appalachian St,Chattanooga
+Kansas,West Virginia
+Bryant,St Francis PA
+Col Charleston,Furman
+NC A&T,S Carolina St
+Southern Univ,Prairie View
+St Bonaventure,Charlotte
+Mt St Mary's,F Dickinson
+Kent,Miami OH
+Robert Morris,Central Conn
+Southern Miss,East Carolina
+Valparaiso,WI Green Bay
+Gardner Webb,Presbyterian
+C Michigan,N Illinois
+TX Southern,Alcorn St
+FL Gulf Coast,Kennesaw
+Oral Roberts,Lamar
+Texas A&M,South Carolina
+Liberty,Radford
+Oklahoma,Iowa St
+UNLV,Nevada
+Niagara,St Peter's
+FL Atlantic,Florida Intl
+Evansville,Indiana St
+California,Colorado
+Drexel,UNC Wilmington
+Bucknell,Navy
+Seattle,UT San Antonio
+SE Missouri St,Murray St
+Holy Cross,Colgate
+E Illinois,Edwardsville
+UT Arlington,Utah St
+Fresno St,Air Force
+Buffalo,Akron
+VMI,Longwood
+Ball St,Toledo
+Elon,UNC Greensboro
+Morgan St,MD E Shore
+Purdue,Wisconsin
+Ohio,Bowling Green
+St Mary's CA,Santa Clara
+Oklahoma St,Texas
+Missouri,LSU
+Arkansas,Kentucky
+Indiana,Iowa
+Boise St,Colorado St
+Georgetown,Rutgers
+Florida,Alabama
+Creighton,Wichita St
+Tulsa,Tulane
+Detroit,IL Chicago
+St Francis NY,Sacred Heart
+Mercer,Stetson
+Alabama St,Grambling
+UTEP,Rice
+New Mexico,Wyoming
+NJIT,Houston Bap
+Charleston So,Coastal Car
+Maryland,Wake Forest
+Georgia,Tennessee
+Wagner,Monmouth NJ
+N Colorado,Portland St
+Memphis,UCF
+Winthrop,UNC Asheville
+Hampton,Florida A&M
+Texas Tech,TCU
+Sam Houston St,SE Louisiana
+Yale,Cornell
+Idaho,Texas St
+Santa Barbara,CS Northridge
+St Louis,G Washington
+Northern Iowa,Illinois St
+Missouri St,Bradley
+Lafayette,American Univ
+Marquette,Notre Dame
+ULL,ULM
+Middle Tenn St,W Kentucky
+Virginia Tech,Clemson
+Old Dominion,Northeastern
+Illinois,Nebraska
+Utah Valley,Chicago St
+San Diego,Pepperdine
+Belmont,Jacksonville St
+Wofford,Citadel
+North Florida,Lipscomb
+Ark Little Rock,Arkansas St
+Vanderbilt,Auburn
+Temple,Rhode Island
+Lehigh,Army
+Long Island,Quinnipiac
+Mississippi St,Mississippi
+Denver,New Mexico St
+Tennessee Tech,Morehead St
+Louisville,Syracuse
+Cincinnati,Connecticut
+Massachusetts,Xavier
+Delaware,George Mason
+Princeton,Dartmouth
+UAB,SMU
+UCLA,Arizona
+Rider,Canisius
+Dayton,Richmond
+NC Central,Savannah St
+North Dakota,E Washington
+N Kentucky,Jacksonville
+Missouri KC,IUPUI
+South Alabama,Troy
+TAM C. Christi,Nicholls St
+Tennessee St,E Kentucky
+BYU,Loy Marymount
+Towson,Hofstra
+Penn,Harvard
+Delaware St,Howard
+Duke,Miami FL
+Brown,Columbia
+Kansas St,Baylor
+Providence,St John's
+S Illinois,Drake
+Jackson St,Alabama A&M
+Montana,Montana St
+UC Davis,CS Fullerton
+UC Irvine,Long Beach St
+Cal Poly SLO,Hawaii
+W Carolina,Samford
+W Illinois,South Dakota
+Weber St,Northern Arizona
+James Madison,William & Mary
+IPFW,Oakland
+Pacific,UC Riverside
+E Michigan,W Michigan
+Michigan,Michigan St
+USC,Arizona St
+Norfolk St,Bethune-Cookman
+High Point,Campbell
+Cent Arkansas,McNeese St
+SF Austin,Northwestern LA
+CS Sacramento,Idaho St
+North Carolina,Florida St
+Iona,Siena
+Stanford,Utah
+TX Pan American,New Orleans
+Marist,Fairfield
+NC State,Georgia Tech
+MD Baltimore Co,Binghamton
+South Florida,DePaul
+Pittsburgh,Villanova
+Stony Brook,Albany NY
+New Hampshire,Maine
+Washington,Washington St
+Hartford,Vermont
+Loyola MD,Manhattan
+Boston College,Virginia
+Kansas,Texas Tech
+Morgan St,Delaware St
+Louisville,Cincinnati
+Montana,Southern Utah
+Norfolk St,Florida A&M
+Hampton,Bethune-Cookman
+Texas,Baylor
+NC Central,S Carolina St
+Coppin St,MD E Shore
+NC A&T,Savannah St
+Missouri,Arkansas
+Duke,Virginia Tech
+Notre Dame,St John's
+Toledo,N Illinois
+IL Chicago,Cleveland St
+Liberty,Coastal Car
+WI Green Bay,WI Milwaukee
+Longwood,UNC Asheville
+Akron,Miami OH
+Kansas St,TCU
+Providence,Seton Hall
+Ohio St,Indiana
+Kent,Bowling Green
+Iowa,Illinois
+Campbell,Presbyterian
+Boston College,Clemson
+Marquette,Rutgers
+Ball St,W Michigan
+Mississippi,Alabama
+Ohio,Buffalo
+Memphis,UTEP
+C Michigan,E Michigan
+Winthrop,Radford
+Youngstown St,Loyola-Chicago
+St Joseph's PA,Rhode Island
+Mercer,Lipscomb
+Florida,Vanderbilt
+Lafayette,Holy Cross
+Houston,Rice
+Colorado St,Wyoming
+Wagner,Central Conn
+Syracuse,DePaul
+Army,American Univ
+Temple,Fordham
+Robert Morris,St Francis NY
+Bucknell,Navy
+NC State,Wake Forest
+La Salle,G Washington
+South Florida,Connecticut
+New Mexico,Nevada
+Oklahoma,West Virginia
+Stanford,California
+Dayton,St Bonaventure
+Washington St,UCLA
+Xavier,St Louis
+Iowa St,Oklahoma St
+North Carolina,Maryland
+VA Commonwealth,Richmond
+LSU,Texas A&M
+Loy Marymount,Portland
+Villanova,Georgetown
+FL Gulf Coast,North Florida
+SE Missouri St,E Illinois
+Washington,USC
+Long Island,Quinnipiac
+South Carolina,Mississippi St
+Tennessee,Auburn
+San Diego St,Air Force
+Lehigh,Colgate
+Morehead St,TN Martin
+SMU,Tulsa
+Mt St Mary's,Bryant
+Michigan,Purdue
+Marshall,Southern Miss
+UNLV,Boise St
+UCF,UAB
+East Carolina,Tulane
+Charlotte,Duquesne
+Georgia Tech,Miami FL
+Nebraska,Minnesota
+CS Bakersfield,Seattle
+Denver,UT Arlington
+Weber St,Portland St
+Nicholls St,Lamar
+Colorado,Oregon
+Stetson,ETSU
+New Mexico St,Louisiana Tech
+Savannah St,MD E Shore
+Utah St,Texas St
+Santa Barbara,CS Fullerton
+Northwestern LA,TAM C. Christi
+Michigan St,Wisconsin
+SF Austin,Sam Houston St
+Drake,Bradley
+E Kentucky,SE Missouri St
+E Washington,Idaho St
+Gardner Webb,Campbell
+SC Upstate,Jacksonville
+CS Northridge,Hawaii
+Tennessee St,Morehead St
+Butler,Massachusetts
+Morgan St,Florida A&M
+SE Louisiana,McNeese St
+Montana,CS Sacramento
+Utah,Oregon St
+Georgia,Kentucky
+Coppin St,Bethune-Cookman
+N Colorado,Southern Utah
+Pacific,UC Irvine
+Missouri St,S Illinois
+Penn St,Northwestern
+Norfolk St,NC A&T
+Charleston So,Winthrop
+Cal Poly SLO,UC Riverside
+Montana St,Northern Arizona
+NC Central,Hampton
+VMI,Longwood
+San Diego,Pepperdine
+S Carolina St,Delaware St
+Florida St,Virginia
+Long Beach St,UC Davis
+Liberty,High Point
+Loy Marymount,San Francisco
+ULL,North Texas
+Ga Southern,Wofford
+W Carolina,Citadel
+Dartmouth,Cornell
+W Kentucky,ULM
+FL Gulf Coast,Stetson
+Creighton,Drake
+Wichita St,Missouri St
+Belmont,Tennessee St
+Mercer,SC Upstate
+Murray St,E Kentucky
+Illinois St,Northern Iowa
+Wright St,Youngstown St
+Fairfield,St Peter's
+UNC Greensboro,Chattanooga
+Siena,Marist
+Yale,Princeton
+Rutgers,Seton Hall
+Harvard,Columbia
+Furman,Samford
+San Diego,BYU
+Penn,Brown
+Loy Marymount,Santa Clara
+Troy,FL Atlantic
+Indiana St,Evansville
+WI Green Bay,IL Chicago
+Davidson,Ga Southern
+Washington St,USC
+St Louis,La Salle
+Richmond,Duquesne
+Denver,Louisiana Tech
+Baylor,Kansas
+Texas St,San Jose St
+Stony Brook,Binghamton
+Georgetown,Syracuse
+Creighton,Indiana St
+Pacific,Long Beach St
+Utah St,UT San Antonio
+Vermont,New Hampshire
+Gonzaga,Loy Marymount
+TX Pan American,NJIT
+S Dakota St,IUPUI
+Purdue,Minnesota
+Louisville,Notre Dame
+Montana St,CS Sacramento
+Duke,North Carolina
+Memphis,UAB
+Pittsburgh,DePaul
+Arizona,Arizona St
+CS Bakersfield,Utah Valley
+Wichita St,Illinois St
+Florida Intl,Ark Little Rock
+Middle Tenn St,ULL
+Iowa,Nebraska
+Mississippi,LSU
+SE Louisiana,Lamar
+Yale,Penn
+Appalachian St,Furman
+Miami FL,Clemson
+UTEP,SMU
+Brown,Princeton
+Chicago St,Houston Bap
+Montana,Northern Arizona
+FL Gulf Coast,Mercer
+Lafayette,Lehigh
+Charlotte,St Joseph's PA
+Long Island,Wagner
+Niagara,Siena
+Bowling Green,Buffalo
+Toledo,E Michigan
+Arkansas,Texas A&M
+Northwestern LA,Sam Houston St
+Colorado St,Nevada
+Vanderbilt,South Carolina
+Utah,Oregon
+Santa Barbara,UC Riverside
+Massachusetts,Rhode Island
+Iowa St,West Virginia
+Fresno St,UNLV
+Harvard,Cornell
+SF Austin,TAM C. Christi
+Mt St Mary's,Robert Morris
+Southern Miss,UCF
+Cincinnati,South Florida
+Weber St,E Washington
+Bucknell,Army
+Col Charleston,W Carolina
+UCLA,Washington
+North Dakota,Southern Utah
+East Carolina,Marshall
+MD Baltimore Co,Hartford
+Elon,UNC Greensboro
+Tulsa,Rice
+Oklahoma St,Kansas St
+Oregon St,Colorado
+Dartmouth,Columbia
+Charleston So,VMI
+George Mason,Drexel
+Butler,Xavier
+Delaware,Hofstra
+James Madison,William & Mary
+Arkansas St,Troy
+Kent,Akron
+Connecticut,Providence
+Fordham,St Bonaventure
+Ohio,Miami OH
+Kentucky,Florida
+Florida St,NC State
+Boise St,San Diego St
+Idaho,Seattle
+Iona,Canisius
+W Michigan,C Michigan
+TCU,Oklahoma
+Alabama,Georgia
+McNeese St,Nicholls St
+Mississippi St,Auburn
+New Mexico St,UT Arlington
+UC Irvine,UC Davis
+Liberty,Gardner Webb
+W Kentucky,South Alabama
+Manhattan,Loyola MD
+St Mary's CA,San Diego
+Ball St,N Illinois
+Boston College,Georgia Tech
+Marquette,St John's
+Texas,Texas Tech
+Tennessee,Missouri
+Cent Arkansas,Oral Roberts
+Houston,Tulane
+Cal Poly SLO,CS Fullerton
+Wright St,Detroit
+Belmont,Murray St
+G Washington,Dayton
+Air Force,New Mexico
+Idaho St,Portland St
+Fairfield,Rider
+Albany NY,Maine
+Valparaiso,WI Green Bay
+W Illinois,South Dakota
+IPFW,Oakland
+Manhattan,Fairfield
+Ohio St,Illinois
+Vermont,MD Baltimore Co
+Wake Forest,Virginia Tech
+Liberty,Charleston So
+N Dakota St,Missouri KC
+Michigan St,Northwestern
+Temple,VA Commonwealth
+Col Charleston,Elon
+Iona,Niagara
+Florida Intl,Middle Tenn St
+Wisconsin,Penn St
+Virginia,Maryland
+Creighton,Wichita St
+Davidson,Appalachian St
+Northeastern,George Mason
+Albany NY,Stony Brook
+W Kentucky,Arkansas St
+Indiana,Michigan
+James Madison,Delaware
+Davidson,Col Charleston
+S Dakota St,IPFW
+Savannah St,MD E Shore
+Gonzaga,St Mary's CA
+James Madison,Northeastern
+N Dakota St,W Illinois
+Miami OH,Bowling Green
+Morgan St,S Carolina St
+Iona,Manhattan
+Buffalo,C Michigan
+W Kentucky,Florida Intl
+E Michigan,N Illinois
+Long Island,Mt St Mary's
+Rutgers,DePaul
+UT San Antonio,San Jose St
+Princeton,Penn
+Delaware St,Howard
+Texas St,Seattle
+Bethune-Cookman,Coppin St
+NC A&T,Florida A&M
+Valparaiso,Wright St
+S Dakota St,N Dakota St
+Seton Hall,South Florida
+Wyoming,Nevada
+Cincinnati,Providence
+UNLV,Air Force
+Buffalo,Ball St
+Villanova,St John's
+Texas,TCU
+New Mexico,Wyoming
+NC A&T,NC Central
+Syracuse,Seton Hall
+Mississippi St,South Carolina
+E Michigan,Miami OH
+Texas A&M,Auburn
+Bucknell,Lafayette
+Alabama A&M,Grambling
+Notre Dame,Rutgers
+Colorado St,Fresno St
+Colorado,Oregon St
+Sam Houston St,Cent Arkansas
+San Diego St,Boise St
+Houston,Rice
+McNeese St,Nicholls St
+Utah,USC
+Texas Tech,West Virginia
+Tulane,Marshall
+Washington,Washington St
+Bethune-Cookman,Norfolk St
+Arizona St,Stanford
+UAB,SMU
+Kansas,Texas Tech
+Weber St,Northern Arizona
+Cal Poly SLO,UC Davis
+Boston College,Georgia Tech
+SE Louisiana,McNeese St
+Georgetown,Cincinnati
+Louisville,Villanova
+Michigan,Penn St
+NC State,Virginia Tech
+North Dakota,Southern Utah
+Kansas St,Texas
+New Mexico St,Idaho
+Tennessee,Mississippi St
+Southern Miss,UAB
+W Michigan,E Michigan
+Iowa,Northwestern
+Maryland,Wake Forest
+N Colorado,Montana St
+Memphis,Tulane
+Missouri,Texas A&M
+UC Irvine,Hawaii
+UTEP,Houston
+Arizona,Colorado
+Utah,California
+Long Beach St,CS Fullerton
+Prairie View,Alcorn St
+Notre Dame,Marquette
+Iowa St,Oklahoma
+Jackson St,Alabama St
+Tulsa,East Carolina
+Butler,Dayton
+UT San Antonio,Louisiana Tech
+San Francisco,N Kentucky
+Charlotte,Richmond
+LSU,Georgia
+Massachusetts,G Washington
+UT Arlington,Utah St
+UCLA,Arizona St
+Florida St,Clemson
+Texas St,Denver
+Pacific,Santa Barbara
+Vanderbilt,Arkansas
+Morgan St,Savannah St
+Syracuse,Pittsburgh
+Delaware St,Hampton
+Sam Houston St,Oral Roberts
+Oregon,Washington
+Oklahoma St,Baylor
+Illinois,Minnesota
+Houston Bap,Utah Valley
+Nebraska,Purdue
+Kent,Buffalo
+St Joseph's PA,Xavier
+Florida,LSU
+Ohio St,Nebraska
+North Carolina,Florida St
+NC State,Virginia
+Oregon,Utah
+Southern Miss,UTEP
+St Louis,Charlotte
+Indiana,Illinois
+Vanderbilt,Kentucky
+UT Arlington,UT San Antonio
+Kansas,Iowa St
+Montana,N Colorado
+Southern Univ,Alabama A&M
+Prairie View,Jackson St
+Louisville,Notre Dame
+Miami FL,Boston College
+Butler,La Salle
+Morgan St,Bethune-Cookman
+SF Austin,SE Louisiana
+Memphis,Tulsa
+Ohio,W Michigan
+Kansas St,Oklahoma St
+New Mexico,San Diego St
+UNLV,Colorado St
+Alabama,Tennessee
+Wisconsin,Michigan
+Maryland,Duke
+New Mexico St,Texas St
+Chicago St,TX Pan American
+UC Irvine,Long Beach St
+NC A&T,Delaware St
+Massachusetts,Temple
+Akron,Kent
+VA Commonwealth,St Joseph's PA
+Syracuse,Georgetown
+Northwestern LA,Sam Houston St
+Michigan St,Iowa
+Weber St,North Dakota
+UCLA,Arizona
+Mississippi,Missouri
+Pacific,Cal Poly SLO
+Houston Bap,NJIT
+Akron,Ohio
+Louisville,Syracuse
+Kansas,Kansas St
+Chicago St,Houston Bap
+Wisconsin,Indiana
+Memphis,Southern Miss
+Mississippi,Vanderbilt
+St Louis,Butler
+Miami FL,NC State
+Florida,Alabama
+Oregon,UCLA
+VA Commonwealth,Massachusetts
+Pacific,UC Irvine
+New Mexico St,UT Arlington
+New Mexico,UNLV
+Albany NY,Vermont
+Ohio St,Michigan St
+North Carolina,Maryland
+NC A&T,Morgan St
+Montana,Weber St
+Northwestern LA,SF Austin
+Southern Univ,Prairie View
+Miami FL,North Carolina
+Ohio St,Wisconsin
+St Louis,VA Commonwealth
+Mississippi,Florida
