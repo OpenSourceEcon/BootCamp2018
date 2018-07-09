@@ -40,11 +40,11 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-9   | M   | DSGE | [Chase Coleman](http://www.chasegcoleman.com/) | DSGE notes | Econ Prob. Set 4 |
+7-9   | M   | DSGE | [Chase Coleman](http://www.chasegcoleman.com/) | [DSGE notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Chapter_DSGE.pdf) | Econ Prob. Set 4 |
 7-10  | T   |                         |                            |             |     |
-7-11  | W   | DSGE: Linear approx. | [Chase Coleman](http://www.chasegcoleman.com/) | Linear notes |   |
+7-11  | W   | DSGE: Linear approx. | [Chase Coleman](http://www.chasegcoleman.com/) | [Linear notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Chapter_Linear.pdf) |   |
 7-12  | Th  |                  |                            |            |     |
-7-13  | F   | DSGE: Perturbation  | [Chase Coleman](http://www.chasegcoleman.com/) | Perturb. notes |     |
+7-13  | F   | DSGE: Perturbation  | [Chase Coleman](http://www.chasegcoleman.com/) | [Perturb. notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Chapter_Perturb.pdf) |     |
 
 ### Week 5
 
@@ -53,7 +53,7 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 7-16  | M   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | MLE notebook | Econ Prob. Set 5 |
 7-17  | T   |                     |                            |  | due M, 7-23, 11pm |
 7-18  | W   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) | GMM notebook |  |
-7-19  | Th  |                     |                            | High performance computing |     |
+7-19  | Th  |               |             |  |     |
 7-20  | F   | Structural estimation: SMM | [Richard Evans](https://sites.google.com/site/rickecon/) | SMM notebook |  |
 
 ### Week 6
