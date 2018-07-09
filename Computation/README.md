@@ -71,7 +71,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 7-10 | T  | Sparse Grids | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) | Comp Prob Set 4  |
 |     |     |   |     |  | due T, 7-17, 11pm |
 7-11  | W  |     |     |     |    |
-7-12  | Th | High Performance Computing | Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) |  |
+7-12  | Th | High Performance Computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) |  |
 7-13  | F  |     |     |     |     |
 
 ### Week 5
@@ -79,10 +79,10 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-16  | M  |     |     |     |     |
-7-17 | T  | High Performance Computing | Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) | Comp Prob Set 5  |
+7-17 | T  | High Performance Computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) | Comp Prob Set 5  |
 |     |     |   |     |  | due T, 7-24, 11pm |
 7-18  | W  |     |     |     |    |
-7-19  | Th | High Performance Computing | Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) |  |
+7-19  | Th | High Performance Computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) |  |
 7-20  | F  |     |     |     |     |
 
 
