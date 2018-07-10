@@ -36,7 +36,7 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Matthew Jensen](http://www.aei.org/scholar/matthew-h-jensen/), Open Source Policy Center, American Enterprise Institute
 * [Laurence Kotlikoff](https://www.kotlikoff.net/), Boston University
 * Dinar Prihardini, The World Bank
-* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), University of Zurich and Hoover Institution
+* [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/), HEC Lausanne
 * [John Stachurski](http://johnstachurski.net/), Australia National University
 * [Matthew White](https://lerner.udel.edu/faculty-staff-directory/matthew-n-white/), University of Delaware
 

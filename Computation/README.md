@@ -67,19 +67,52 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-10  | M   |     |     |     |     |
-7-11  | T   | Matrix conditions | Jan Ertl |  | [Comp Prob Set 4](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/DifIntOpt_probset.pdf)  |
-|     |     | Numerical Diff. and Int. |           |  | due Th, 7-20, 6pm |
+7-9  | M  |     |     |     |     |
+7-10 | T  | Sparse Grids | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) | Comp Prob Set 4  |
+|     |     |   |     |  | due T, 7-17, 11pm |
+7-11  | W  |     |     |     |    |
+7-12  | Th | High Performance Computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) |  |
+7-13  | F  |     |     |     |     |
+
+### Week 5
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-16  | M  |     |     |     |     |
+7-17 | T  | High Performance Computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) | Comp Prob Set 5  |
+|     |     |   |     |  | due T, 7-24, 11pm |
+7-18  | W  |     |     |     |    |
+7-19  | Th | High Performance Computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC repo](https://github.com/sischei/OSM2018) |  |
+7-20  | F  |     |     |     |     |
+
+
+### Week 6
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-23  | M   |     |     |     |     |
+7-24  | T   | Matrix conditions | Jan Ertl |  | Comp Prob Set 6 |
+|     |     | Numerical Diff. and Int. |           |  | due T, 7-31, 6pm |
 |     |     |     |      | [ACME: Numerical Differentiation](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_NumDiff.pdf) |  |
 |     |     |     |      | [Evans: Numerical Integration](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/NumIntegr_Evans.pdf) |  |
-7-12  | W   |     |     |     |    |
-7-13  | Th  | Root finding | Jan Ertl | [ACME: Simplex Method](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_Simplex.pdf) |  |
+7-25  | W   |     |     |     |    |
+7-26  | Th  | Root finding | Jan Ertl | [ACME: Simplex Method](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_Simplex.pdf) |  |
 |     |     |     |      | [ACME: Line Search Methods](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_LineSrch.pdf) |  |
 |     |     |     |      | [ACME: Newton's Method](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_Newtons.pdf) |  |
 |     |     |     |      | [ACME: Iterative Solvers](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_IterSolvers.pdf) |  |
-7-14  | F   |     |     |     |     |
+7-27  | F   |     |     |     |     |
 
-### Week 5
+### Week 7
+
+| Date | Day | Topic | Instructor | Materials | Problem Set |
+|:---:|:---:|:--- |:--- |:--- | --- |
+7-30 | M  |     |          |     |                   |
+7-31 | T  |     | Jan Ertl |     | Comp. Prob. Set 7 |
+8-1  | W  |     |          |     | due F, 8-3, 11pm  |
+8-2  | Th |     | Jan Ertl |     |                   |
+8-3  | F  | Conclusion: Hwk due |          |     |                   |
+
+<!-- ### Week 5
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
@@ -87,30 +120,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 7-18  | T   | Minimization | Jan Ertl | [ACME: Interior Point, Linear Programs](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_IntPtLin.pdf) |  |
 |     |     |     |      | [ACME: Interior Point, Quadratic Programs](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_IntPtQuad.pdf) |  |
 |     |     |     |      | [ACME: Newton and Quasi Newton Methods](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_QuasNewt.pdf) |  |
-|     |     |     |      | [ACME: Scipy.optimize](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_ScipyOpt.pdf) |  |
-7-19  | W   |     |     |     |     |
-7-20  | Th  | Adaptive sparse grids, Smolyak | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC)  | Comp Prob Set 5 |
-7-21  | F   |     |     |     | due T, 7-25, 6pm    |
-
-### Week 6
-
-| Date | Day | Topic | Instructor | Materials | Problem Set |
-|:---:|:---:|:--- |:--- |:--- | --- |
-7-24  | M   |     |     |     |     |
-7-25  | T   | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC) | Comp Prob Set 6 |
-7-26  | W   |     |     |     | due T, 8-1, 6pm |
-7-27  | Th  | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC) |  |
-7-28  | F   |     |     |     |     |
-
-### Week 7
-
-| Date | Day | Topic | Instructor | Materials | Problem Set |
-|:---:|:---:|:--- |:--- |:--- | --- |
-7-31 | M   |      |     |     |     |
-8-1  | T   | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC) | Comp Prob Set 7  |
-8-2  | W   |      |     |     | due F, 8-4, 6pm |
-8-3  | Th  | HPC, parallel computing | [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) | [Simon's HPC Repo](https://github.com/OpenSourceMacro/Simon_HPC) |  |
-8-4  | F   | [Conclusion:](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Conclusion_BootCamp.pdf) Hwk due |  |  |  |
+|     |     |     |      | [ACME: Scipy.optimize](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_ScipyOpt.pdf) |  | -->
 
 
 ## References
