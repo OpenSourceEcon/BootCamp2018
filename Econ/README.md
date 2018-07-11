@@ -40,11 +40,11 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-9   | M   | DSGE | [Chase Coleman](http://www.chasegcoleman.com/) | [DSGE notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Chapter_DSGE.pdf) | [Econ Prob. Set 4](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/DSGE_probset.pdf) |
+7-9   | M   | DSGE | [Chase Coleman](http://www.chasegcoleman.com/) | [DSGE notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Notes/Chapter_DSGE.pdf) | [Econ Prob. Set 4](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/DSGE_probset.pdf) |
 7-10  | T   |     |   |     |  due M, 7-16, 11pm |
-7-11  | W   | DSGE: Linear approx. | [Chase Coleman](http://www.chasegcoleman.com/) | [Linear notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Chapter_Linear.pdf) |   |
+7-11  | W   | DSGE: Linear approx. | [Chase Coleman](http://www.chasegcoleman.com/) | [Linear notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Notes/Chapter_Linear.pdf) |   |
 7-12  | Th  |                  |                            |            |     |
-7-13  | F   | DSGE: Perturbation  | [Chase Coleman](http://www.chasegcoleman.com/) | [Perturb. notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Chapter_Perturb.pdf) |     |
+7-13  | F   | DSGE: Perturbation  | [Chase Coleman](http://www.chasegcoleman.com/) | [Perturb. notes](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk4_DSGE/Notes/Chapter_Perturb.pdf) |     |
 
 ### Week 5
 
