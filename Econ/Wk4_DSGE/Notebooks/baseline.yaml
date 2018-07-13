@@ -1,0 +1,50 @@
+name: BaselineModel
+
+model_type: dtcscc
+
+symbols:
+
+   exogenous: [e_z]
+   states: [k, z]
+   controls: [i, l]
+   parameters: [alpha, beta, chi, delta, gamma, tau, theta, rho_z, sig_z]
+
+definitions:
+    y: exp((1 - alpha)*z)*k^alpha*l^(1-alpha)
+    rk: alpha*y/k
+    w: (1-alpha)*y/l
+    T: tau * (w*l + (rk - delta)*k)
+    c: (1 - tau)*w*l + T - i
+
+equations:
+
+    arbitrage:
+        - 1 - beta*(c/c(1))^(gamma)*((rk(1) - delta)*(1 - tau) + 1)
+        - chi*l^theta - (1 - tau)*w*c^(-gamma)    | 0.0 <= l <= inf
+
+    transition:
+        - k = (1-delta)*k(-1) + i(-1)
+        - z = rho_z*z(-1) + e_z
+
+calibration:
+
+    # parameters
+    alpha : 0.4
+    beta : 0.98
+    chi : 0.5
+    delta : 0.10
+    gamma : 2.50
+    tau : 0.05
+    theta : 1.50
+    rho_z : 0.90
+    sig_z : 0.02
+
+    # Steady state
+    e_z: 0
+    z: 0
+    k: 0.75
+    l: 0.5
+    i: 0.10
+
+exogenous: !Normal
+    Sigma: [[sig_z**2]]
