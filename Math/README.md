@@ -41,7 +41,7 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-9  | M  | Opt. overview, convex analysis | Jan Ertl | HJ (2018, Chs. 6, 7) | Math Prob. Set 4  |
+7-9  | M  | Opt. overview, convex analysis | Jan Ertl | HJ (2018, Chs. 6, 7) | [Math Prob. Set 4](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk4_ConOpt/conopt-probset.pdf)  |
 7-10 | T  |                                |          |                      | due M, 7-16, 6pm  |
 7-11 | W  | Convex analysis | Jan Ertl | HJ (2018, Ch. 7) |  |
 7-12 | Th |                 |          |                  |  |
