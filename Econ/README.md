@@ -50,7 +50,7 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-16  | M   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/MLE/MLest.ipynb) | Econ Prob. Set 5 |
+7-16  | M   | Structural estimation: MLE | [Richard Evans](https://sites.google.com/site/rickecon/) | [MLE notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/MLE/MLest.ipynb) | [Econ Prob. Set 5](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/StrEst_probset.pdf) |
 7-17  | T   |                     |                            |  | due M, 7-23, 11pm |
 7-18  | W   | Structural estimation: GMM | [Richard Evans](https://sites.google.com/site/rickecon/) | [GMM notebook](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk5_StrEst/GMM/GMMest.ipynb) |  |
 7-19  | Th  |               |             |  |     |
