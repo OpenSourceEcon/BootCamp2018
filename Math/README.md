@@ -51,8 +51,8 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-16 | M  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) | Math Prob. Set 5  |
-7-17 | T  |                     |  |                  | due M, 7-23, 6pm  |
+7-16 | M  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) | [Math Prob. Set 5](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk5_LinProgr/LinProgr_probset.pdf)  |
+7-17 | T  |                     |  |                  | due M, 7-23, 11pm  |
 7-18 | W  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) |  |
 7-19 | Th |                     |  |                  |  |
 7-20 | F  | Linear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 8) |  |
