@@ -96,7 +96,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-10  | T   |                         |                            | High performance computing |     |
 7-11  | W   | Convex analysis  | DSGE |                     | [Lars Hansen](http://larspeterhansen.org/) |
 | |     |                  |      |                     | [Lars slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/hansen_LAB.pdf) |
-|     |                  |      |                     | [Joe slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Huang_Presentation.pdf) |
+| |     |                  |      |                     | [Joe slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Huang_Presentation.pdf) |
 7-12  | Th  |                  |                            | High performance computing |     |
 7-13  | F   | Convex analysis  | DSGE |                     |     |
 
@@ -107,7 +107,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-16  | M   | Linear optimization | Structural estimation: MLE |                  |     |
 7-17  | T   |                     |                            | High performance computing |     |
 7-18  | W   | Linear optimization | Structural estimation: GMM |                  | [John Diamond](https://www.bakerinstitute.org/experts/john-w-diamond/) |
-      |     |  |  |  | [paper](https://energypolicy.columbia.edu/research/report/effects-carbon-tax-policies-us-economy-and-welfare-households), [slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond_MacroDistEffectsOfCarbonTax.pdf) |
+| |     |  |  |  | [paper](https://energypolicy.columbia.edu/research/report/effects-carbon-tax-policies-us-economy-and-welfare-households), [slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond_MacroDistEffectsOfCarbonTax.pdf) |
 7-19  | Th  |                     |                            | High performance computing |     |
 7-20  | F   | Linear optimization | Structural estimation: SMM |                  |   |
 
