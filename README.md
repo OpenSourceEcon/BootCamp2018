@@ -95,8 +95,8 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
 7-10  | T   |                         |                            | High performance computing |     |
 7-11  | W   | Convex analysis  | DSGE |                     | [Lars Hansen](http://larspeterhansen.org/) |
-      |     |                  |      |                     | [Lars slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/hansen_LAB.pdf) |
-      |     |                  |      |                     | [Joe slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Huang_Presentation.pdf) |
+| |     |                  |      |                     | [Lars slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/hansen_LAB.pdf) |
+|     |                  |      |                     | [Joe slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Huang_Presentation.pdf) |
 7-12  | Th  |                  |                            | High performance computing |     |
 7-13  | F   | Convex analysis  | DSGE |                     |     |
 
