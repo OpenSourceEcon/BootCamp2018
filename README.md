@@ -30,6 +30,7 @@ Senior Instructors and Presenters (in alphabetical order)
 * [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/), Johns Hopkins University
 * [Scott Condie](https://economics.byu.edu/Pages/Faculty%20Pages/Scott-S.-Condie%2c-PhD.aspx), Brigham Young University
 * [Jason DeBacker](http://www.jasondebacker.com/), University of South Carolina
+* [John Diamond](https://www.bakerinstitute.org/experts/john-w-diamond/), Rice University, Baker Institute for Public Policy
 * [Richard Evans](https://sites.google.com/site/rickecon/), University of Chicago
 * [Lars Hansen](http://larspeterhansen.org/), University of Chicago
 * Sebastian James, The World Bank
@@ -94,6 +95,8 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-9   | M   | Optim. overview, convex analysis | DSGE |                     |     |
 7-10  | T   |                         |                            | High performance computing |     |
 7-11  | W   | Convex analysis  | DSGE |                     | [Lars Hansen](http://larspeterhansen.org/) |
+      |     |                  |      |                     | [Lars slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/hansen_LAB.pdf) |
+      |     |                  |      |                     | [Joe slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Huang_Presentation.pdf) |
 7-12  | Th  |                  |                            | High performance computing |     |
 7-13  | F   | Convex analysis  | DSGE |                     |     |
 
@@ -103,7 +106,8 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-16  | M   | Linear optimization | Structural estimation: MLE |                  |     |
 7-17  | T   |                     |                            | High performance computing |     |
-7-18  | W   | Linear optimization | Structural estimation: GMM |                  |     |
+7-18  | W   | Linear optimization | Structural estimation: GMM |                  | [John Diamond](https://www.bakerinstitute.org/experts/john-w-diamond/) |
+      |     |  |  |  | [paper](https://energypolicy.columbia.edu/research/report/effects-carbon-tax-policies-us-economy-and-welfare-households), [slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond_MacroDistEffectsOfCarbonTax.pdf) |
 7-19  | Th  |                     |                            | High performance computing |     |
 7-20  | F   | Linear optimization | Structural estimation: SMM |                  |   |
 
