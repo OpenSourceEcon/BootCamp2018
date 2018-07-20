@@ -109,7 +109,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 7-18  | W   | Linear optimization | Structural estimation: GMM |                  | [John Diamond](https://www.bakerinstitute.org/experts/john-w-diamond/) |
 | |     |  |  |  | [paper](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond/Paper_MacroDistEffectsOfCarbonTax.pdf), [slides](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Talks/Diamond/Slides_MacroDistEffectsOfCarbonTax.pdf) |
 7-19  | Th  |                     |                            | High performance computing |     |
-7-20  | F   | Linear optimization | Structural estimation: SMM |                  |   |
+7-20  | F   | Linear optimization | Structural estimation: SMM |  | [Student presentationas](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Talks/StudentPresents) |
 
 ### Week 6
 
@@ -117,7 +117,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-23  | M   | Nonlinear optimization | Asset Pricing |                      |     |
 7-24  | T   |                        |               | Simplex, line search, Newton's |     |
-7-25  | W   | Nonlinear optimization | Asset Pricing |                      |     |
+7-25  | W   | Nonlinear optimization | Asset Pricing |  | Sebastian James |
 7-26  | Th  |                        |               | Interior pt., quasi Newton |     |
 7-27  | F   | Nonlinear optimization | Asset Pricing |                      | TBA |
 
