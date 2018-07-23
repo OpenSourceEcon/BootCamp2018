@@ -61,8 +61,8 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-23 | M  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) | Math Prob. Set 6  |
-7-24 | T  |                        |  |                  | due M, 7-30, 6pm  |
+7-23 | M  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) | [Math Prob. Set 6](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Math/Wk6_Unconstr/Unconstr_probset.pdf)  |
+7-24 | T  |                        |  |                  | due M, 7-30, 11pm  |
 7-25 | W  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) |  |
 7-26 | Th |                        |  |                  |  |
 7-27 | F  | Nonlinear optimization | [Chris Rytting](https://chrisrytting.com/) | HJ (2018, Ch. 9) |  |
