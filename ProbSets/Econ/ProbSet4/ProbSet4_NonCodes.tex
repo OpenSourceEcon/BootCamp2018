@@ -1,0 +1,162 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lscape}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfsync}
+\usepackage{verbatim}
+\usepackage{placeins}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\synctex=1
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\renewcommand\theenumi{\roman{enumi}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+	
+	\title{Problem Set 4\\
+		Non-Code Part
+	}
+	\author{
+		Yung-Hsu Tsui\footnote{University of Chicago, Master of Art Program in Social Science, 1126 E. 59th Street, Chicago, Illinois, 60637, (773) 702-5079, \href{mailto:}{yhtsui@uchicago.edu}.} \footnote{I thank Jayhyung Kim for his great comments.}\\[-2pt]
+	}
+	\date{July 16 ,  2018 }
+	\vspace{-9mm}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\pagestyle{fancy}
+	\fancyhf{}
+	\rhead{OSM Boot Camp}
+	\chead{Economics}
+	\lhead{Yung-Hsu Tsui}
+	\cfoot{\thepage}
+	
+	\begin{spacing}{1.3}{}
+		\vspace{1 mm}
+
+\section*{Exercise 1}
+
+\vspace{5mm}
+
+\noindent\textbf{1.1}\\
+
+Note that the following is the Euler equation of Brock and Mirman's Neoclassical growth model; \\
+\begin{align*} 
+\frac{1}{C_t} = \beta \frac{\alpha e^{z_t} (K_{t+1})^{\alpha-1}}{C_{t+1}} 
+\end{align*}
+We are solving this problem with Guess-Verify approach. \\
+Using the resource constraint, $C_t + K_{t+1} = Y_t = e^{z_t} K_{t}^{\alpha}$, we assume that \\
+\begin{align*}
+  C_t =& \phi Y_t  \\
+  K_{t+1} =& (1-\phi) Y_t
+\end{align*}
+Then, using this rule, the Euler equation becomes ; \\
+\begin{align*}
+  \frac{1}{\phi Y_t} =& \beta \mathbb{E} \frac{\alpha e^{Z_{t+1}} K_{t+1}^{\alpha-1}}{\phi Y_{t+1}} \\
+ \leftrightarrow \frac{1}{\phi e^{Z_{t}} K_{t}}  =& \beta \mathbb{E} \frac{\alpha e^{Z_{t+1}} K_{t+1}^{\alpha-1}}{\phi e^{Z_{t+1}} K_{t+1}^{\alpha-1}}  \\
+ \leftrightarrow \frac{1}{\phi e^{Z_{t}} K_{t}}   =& \beta \alpha / K_{t+1} \\
+\end{align*}
+Thus, $K_{t+1} = \beta \alpha e^{Z_t} K_t^{\alpha}$ , and $C_t = (1-\beta \alpha) e^{Z_t} K_{t}^{\alpha}$ \\\\
+
+\noindent\textbf{1.2}\\
+
+The intra-temporal condition of this economy is;
+\[\frac{-a}{1-l_t} + \frac{w_t (1-\tau)}{c_t} = 0  \]
+The inter-temporal condition of this economy is;
+\[\frac{1}{c_t}  = \beta \mathbb{E}_t \{ \frac{(r_{t+1} - \delta)(1-\tau) + 1}{c_t} \} \]
+with $w_t = (1-\alpha) e^{z_t} K_{t}^{\alpha} L_{t}^{-\alpha} $ and $r_t= \alpha e^{z_t} K_{t}^{\alpha-1} L_{t}^{1-\alpha}$ \\
+The banlanced budget equation and the exogenous law of motion follows the same form in the section 3. \\\\
+
+\noindent\textbf{1.3}\\
+
+The intra-temporal condition of this economy is;
+\[\frac{-a}{1-l_t} + \frac{w_t (1-\tau)}{c_{t}^{\gamma}} = 0  \]
+The inter-temporal condition of this economy is;
+\[\frac{1}{c_{t}^{\gamma}}  = \beta \mathbb{E}_t \{ \frac{(r_{t+1} - \delta)(1-\tau) + 1}{c_{t+1}^{\gamma}} \} \]
+with $w_t = (1-\alpha) e^{z_t} K_{t}^{\alpha} L_{t}^{-\alpha} $ and $r_t= \alpha e^{z_t} K_{t}^{\alpha-1} L_{t}^{1-\alpha}$ \\
+The banlanced budget equation, the exogenous law of motion follows the same form in the section 3. \\\\
+\noindent\textbf{1.4}\\
+
+The intra-temporal condition of this economy is;
+\[\frac{-a}{(1-l_t)^{\xi}} + \frac{w_t (1-\tau)}{c_{t}^{\gamma}} = 0  \]
+The inter-temporal condition of this economy is;
+\[\frac{1}{c_{t}^{\gamma}}  = \beta \mathbb{E}_t \{ \frac{(r_{t+1} - \delta)(1-\tau) + 1}{c_{t+1}^{\gamma}} \} \]
+with $w_t = (1-\alpha) L_{t}^{\eta -1} \{ \alpha K_{t}^{\eta} + (1-\alpha) L_{t}^{\eta} \}^{1/\eta -1} $ and $r_t= \alpha K_{t}^{\eta -1} \{ \alpha K_{t}^{\eta} + (1-\alpha) L_{t}^{\eta} \}^{1/\eta -1}$ \\
+The banlanced budget equation, the exogenous law of motion follows the same form in the section 3. \\\\
+\noindent\textbf{1.5(part)}\\
+
+The inter-temporal condition of this economy is;
+\[\frac{1}{c_{t}^{\gamma}}  = \beta \mathbb{E}_t \{ \frac{(r_{t+1} - \delta)(1-\tau) + 1}{c_{t+1}^{\gamma}} \} \]
+with $w_t = (1-\alpha) e^{(1-\alpha)z_t} K_{t}^{\alpha} L_{t}^{-\alpha} $ and $r_t= \alpha e^{(1-\alpha)z_t} K_{t}^{\alpha-1} L_{t}^{1-\alpha}$ \\
+The banlanced budget equation, the exogenous law of motion follows the same form in the section 3. \\\\
+In the steady-state, the Euler equation above becomes the following;
+\[\frac{1}{c_{ss}^{\gamma}}  = \beta \{ \frac{(r_{ss} - \delta)(1-\tau) + 1}{c_{ss}^{\gamma}} \} \]
+Thus,
+\[r_{ss} = \alpha K_{ss}^{\alpha-1} = \frac{1/\beta -1}{1-\tau} + \delta \]
+\[K_{ss} =(( \frac{1/\beta -1}{1-\tau} + \delta)/\alpha)^{\frac{1}{\alpha-1}}\]
+With the paremeters $\beta = 0.98$, $\alpha = 0.4$, $\delta = 0.1$, $\bar{z} = 0$, $\tau = 0.05$, the steady-state capital is
+$K_{ss} = 7.2875$, $I_{ss} = \delta K_{ss} = 0.72875$, $Y_{ss} = K_{ss}^{\alpha}=2.213$ \\\\
+\noindent\textbf{1.6(part)}\\
+
+The characterizing equation of this economy is the same with Exercise 4. The steady-state version of this is just all the equations with $ss$ scripts. With python,
+$C_{ss} = 1.159$,$K_{ss} = 2.2574$,$L_{ss} = 0.3097$.
+Thus,
+\[Y_{ss} = K_{ss}^{\alpha} L_{ss}^{1-\alpha} = 0.6855 \]
+\[I_{ss} = \delta K_{ss} = 0.2257\]
+
+\section*{Exercise 2}
+\noindent\textbf{2.3(part)}\\
+\begin{align*}
+ & \mathbb{E}_t \{ F \tilde{X}_{t+1} + G \tilde{X}_t + H \tilde{X}_{t-1} + L \tilde{Z}_{t+1} + M \tilde{Z}_t\} = 0   \\
+  &\mathbb{E}_t \{ F (P \tilde{X}_{t} + Q \tilde{Z}_{t+1} ) + G (P \tilde{X}_{t-1} + Q \tilde{Z}_t) + H \tilde{X}_{t-1} + L (N \tilde{Z}_{t} + \varepsilon_{t+1}) + M \tilde{Z}_t\}=0 \\
+\end{align*}
+
+This leads to $  [(FP + G)P + H] \tilde{X}_{t-1} + Q [(FP + G)Q + (FQ + L)N + M] Z_t = 0$
+
+\end{spacing}
+\end{document}

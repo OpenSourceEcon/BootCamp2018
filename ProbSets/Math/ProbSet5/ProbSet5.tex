@@ -1,0 +1,529 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{\footnotesize\textsl{Page \thepage\ of \pageref{LastPage}}}
+\renewcommand\headrulewidth{0pt}
+\renewcommand\footrulewidth{0pt}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{listings}
+\lstset{frame=single,
+  language=Python,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{harvard}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\usepackage{mathrsfs}
+\let\vec\mathbf
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\newcommand\boldline{\arrayrulewidth{1pt}\hline}
+\newcolumntype{C}{>{$}c<{$}}
+\setlength{\parindent}{0pt}
+\begin{document}
+	\title{Problem Set 5\\
+}
+\author{
+	Yung-Hsu Tsui\footnote{University of Chicago, Master of Art Program in Social Science, 1126 E. 59th Street, Chicago, Illinois, 60637, (773) 702-5079, \href{mailto:}{yhtsui@uchicago.edu}.} \footnote{I thank Jayhyung Kim and Reiko Laski for their significant help.}\\[-2pt]
+}
+\date{July 23 ,  2018 }
+\vspace{-9mm}
+\maketitle
+\thispagestyle{empty}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{OSM Boot Camp}
+\chead{Mathematics}
+\lhead{Yung-Hsu Tsui}
+\cfoot{\thepage}
+
+\textbf{Exercise 8.3}
+\begin{align*}
+  &\text{maximize} \ \ 4b + 3j \\
+  &\text{subject to} \ \ 15b + 10j \leq 1800 \\
+  &\qquad \qquad \ \ \  2b + 2j \leq 300 \\
+  &\qquad \qquad \ \ \  j \leq 200 \\
+  &\qquad \qquad \ \ \  b, j \geq 0
+\end{align*}
+\textbf{Exercise 8.4}
+\begin{align*}
+  &\text{maximize} \ \ 2x_{AB} + 5x_{AD} + 5x_{BC} + 2x_{BD} + 7x_{BE} + 9x_{BF} + 2x_{CF} + 4x_{DE} + 3x_{EF} \\
+  &\text{subject to} \ \ x_{AB} + x_{AD} = 10 \\
+  &\qquad \qquad \ \ \ x_{BC} + x_{BD} + x_{BE} + x_{BF} - x_{AB} = 1 \\
+  &\qquad \qquad \ \ \ x_{CF} - x_{BC} = -2 \\
+  &\qquad \qquad \ \ \ x_{DE} - x_{AD} - x_{BD} = -3 \\
+  &\qquad \qquad \ \ \ x_{EF} - x_{BE} - x_{DE} = 4 \\
+  &\qquad \qquad \ \ \ -x_{BF} - x_{CF} - x_{EF} = -10 \\
+  &\qquad \qquad \ \ \ 0 \leq x_{AB}, x_{AD}, x_{BC}, x_{BD}, x_{BE}, x_{BF}, x_{CF}, x_{DE}, x_{EF} \leq 6
+\end{align*}
+\textbf{Exercise 8.5} \\
+(i)
+\begin{align*}
+  &\text{maximize} \ \ 3x_1 + x_2 \\
+  &\text{subject to} \ \ x_1 + 3x_2 + w_1 = 15 \\
+  &\qquad \qquad \ \ \  2x_1 + 3x_2 + w_2 = 18 \\
+  &\qquad \qquad \ \ \  x_1 - x_2 + w_3 = 4 \\
+  &\qquad \qquad \ \ \  x_1, x_2, w_1, w_2, w_3 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C }
+    \zeta & = & & & 3x_1 & + & x_2 \\
+    \hline
+    w_1 & = & 15 & - & x_1 & - & 3x_2 \\
+    w_2 & = & 18 & - & 2x_1 & - & 3x_2 \\
+    w_3 & = & 4 & - & x_1 & + & x_2 \\
+    \hline \hline
+    \zeta & = & 12 & + & 4x_2 & - & 3w_3 \\
+    \hline
+    w_1 & = & 11 & - & 4x_2 & + & w_3 \\
+    w_2 & = & 10 & - & 5x_2 & + & 2w_3 \\
+    x_1 & = & 4 & + & x_2 & - & w_3 \\
+    \hline \hline
+    \zeta & = & 20 & - & \tfrac{4}{5}w_2 & - & \tfrac{7}{5}w_3 \\
+    \hline
+    w_1 & = & 3 & + & \tfrac{4}{5}w_2 & - & \tfrac{3}{5}w_3 \\
+    x_2 & = & 2 & - & \tfrac{1}{5}w_2 & + & \tfrac{2}{5}w_3 \\
+    x_1 & = & 6 & - & \tfrac{1}{5}w_2 & - & \tfrac{3}{5}w_3\\
+    \hline
+  \end{tabular}
+\end{center}
+Optimizer: $(6, 2)$ \\
+Optimum value: $20$ \\
+(ii)
+\begin{align*}
+  &\text{maximize} \ \ 4x + 6y \\
+  &\text{subject to} \ \ -x + 3x_2 + w_1 = 11 \\
+  &\qquad \qquad \ \ \  x + y + w_2 = 27 \\
+  &\qquad \qquad \ \ \  2x + 5y + w_3 = 90 \\
+  &\qquad \qquad \ \ \  x, y, w_1, w_2, w_3 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C }
+    \zeta & = & & & 4x & + & 6y \\
+    \hline
+    w_1 & = & 11 & + & x & - & y \\
+    w_2 & = & 27 & - & x & - & y \\
+    w_3 & = & 90 & - & 2x & - & 5y \\
+    \hline \hline
+    \zeta & = & 66 & + & 10x & - & 6w_1 \\
+    \hline
+    y & = & 11 & + & x & - & w_1 \\
+    w_2 & = & 16 & - & 2x & + & w_1 \\
+    w_3 & = & 35 & - & 7x & + & 5w_1 \\
+    \hline \hline
+    \zeta & = & 116 & + & \tfrac{8}{7}w_1 & - & \tfrac{10}{7}w_3 \\
+    \hline
+    y & = & 16 & - & \tfrac{2}{7}w_1 & - & \tfrac{1}{7}w_3 \\
+    w_2 & = & 6 & - & \tfrac{3}{7}w_1 & + & \tfrac{2}{7}w_3 \\
+    x & = & 5 & + & \tfrac{5}{7}w_1 & - & \tfrac{1}{7}w_3 \\
+    \hline \hline
+    \zeta & = & 132 & - &\tfrac{8}{3}w_2 & - & \tfrac{2}{7}w_3 \\
+    \hline
+    y & = & 12 & + & \tfrac{2}{3}w_2 & - & \tfrac{1}{3}w_3 \\
+    w_1 & = & 14 & - & \tfrac{7}{3}w_2 & + & \tfrac{2}{3}w_3 \\
+    x & = & 15 & - & \tfrac{5}{3}w_2 & + & \tfrac{1}{3}w_3 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimizer: $(15, 12)$ \\
+Optimum value: $132$ \\
+\textbf{Exercise 8.6} \\
+\begin{align*}
+  &\text{maximize} \ \ 4b + 3j \\
+  &\text{subject to} \ \ 15b + 10j + w_1 = 1800 \\
+  &\qquad \qquad \ \ \  2b + 2j + w_2 = 300 \\
+  &\qquad \qquad \ \ \  j + w_3 = 200 \\
+  &\qquad \qquad \ \ \  b, j, w_1, w_2, w_3 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C }
+    \zeta & = & & & 4b & + & 3j \\
+    \hline
+    w_1 & = & 1800 & - & 15b & - & 10j \\
+    w_2 & = & 300 & - & 2b & - & 2j \\
+    w_3 & = & 200 & - & j \\
+    \hline \hline
+    \zeta & = & 450 & + & b & - & \tfrac{3}{2}w_2 \\
+    \hline
+    w_1 & = & 300 & - & 5b & + & 5w_2 \\
+    j & = & 150 & - & b & - & \tfrac{1}{2}w_2 \\
+    w_3 & = & 50 & + & b & + & \tfrac{1}{2}w_2 \\
+    \hline \hline
+    \zeta & = & 510 & - & \tfrac{1}{5}w_1 & - & \tfrac{1}{2}w_2 \\
+    \hline
+    b & = & 60 & - & \tfrac{1}{5}w_1 & + & w_2 \\
+    j & = & 90 & + & \tfrac{1}{5}w_1 & - & \tfrac{3}{2}w_2 \\
+    w_3 & = & 110 & - & \tfrac{1}{5}w_1 & + & \tfrac{3}{2}w_2 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimal choice: $60$ GI Barb soldiers, $90$ Joey dolls \\
+Maximal profit: $\$510$ \\
+\textbf{Exercise 8.7} \\
+(i)
+\begin{align*}
+  &\text{maximize} \ \ x_1 + 2x_2 \\
+  &\text{subject to} \ \ -4x_1 - 2x_2 + x_3 = -8 \\
+  &\qquad \qquad \ \ \  -2x_1 + 3x_2 + x_4 = 6 \\
+  &\qquad \qquad \ \ \  x_1 + x_5 = 3 \\
+  &\qquad \qquad \ \ \  x_1, x_2, x_3, x_4, x_5 \geq 0
+\end{align*}
+Auxiliary problem:
+\begin{align*}
+  &\text{maximize} \ \ -x_0 \\
+  &\text{subject to} \ \ -4x_1 - 2x_2 + x_3 - x_0 = -8 \\
+  &\qquad \qquad \ \ \ -2x_1 + 3x_2 + x_4 - x_0 = 6 \\
+  &\qquad \qquad \ \ \ x_1 + x_5 - x_0 = 3 \\
+  &\qquad \qquad \ \ \  x_0, x_1, x_2, x_3, x_4, x_5 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C C C C C }
+    \zeta & = & & & & & & - & x_0 \\
+    \hline
+    x_3 & = & -8 & + & 4x_1 & + & 2x_2 & + & x_0 \\
+    x_4 & = & 6 & + & 2x_1 & - & 3x_2 & + & x_0 \\
+    x_5 & = & 3 & - & x_1 & & & + & x_0 \\
+    \hline \hline
+    \zeta & = & -8 & + & 4x_1 & + & 2x_2 & - & x_3 \\
+    \hline
+    x_0 & = & 8 & - & 4x_1 & - & 2x_2 & + & x_3 \\
+    x_4 & = & 14 & - & 2x_1 & - & 5x_2 & + & x_3 \\
+    x_5 & = & 11 & - & 5x_1 & - & 2x_2 & + & x_3 \\
+    \hline \hline
+    \zeta & = & & & & & & - & x_0 \\
+    \hline
+    x_1 & = & 2 & - & \tfrac{1}{2}x_2 & + & \tfrac{1}{4}x_3 & - & \tfrac{1}{4}x_0 \\
+    x_4 & = & 10 & - & 4x_2 & + & \tfrac{1}{2}x_3 & + & \tfrac{1}{2}x_0 \\
+    x_5 & = & 1 & + & \tfrac{1}{2}x_2 & - & \tfrac{1}{4}x_3 & + & \tfrac{5}{4}x_0 \\
+    \hline \hline
+    \zeta & = & 2 & + & \tfrac{3}{2}x_2 & + & \tfrac{1}{4}x_3 \\
+    \hline
+    x_1 & = & 2 & - & \tfrac{1}{2}x_2 & + & \tfrac{1}{4}x_3 \\
+    x_4 & = & 10 & - & 4x_2 & + & \tfrac{1}{2}x_3 \\
+    x_5 & = & 1 & + & \tfrac{1}{2}x_2 & - & \tfrac{1}{4}x_3 \\
+    \hline \hline
+    \zeta & = & 3 & + & 2x_2 & - & x_5 \\
+    \hline
+    x_1 & = & 3 & & & - & x_5 \\
+    x_4 & = & 12 & - & 3x_2 & - & 2x_5 \\
+    x_3 & = & 4 & + & 2x_2 & - & 4x_5 \\
+    \hline \hline
+    \zeta & = & 11 & - & \tfrac{2}{3}x_4 & - & \tfrac{7}{3}x_5 \\
+    \hline
+    x_1 & = & 3 & & & - & x_5 \\
+    x_2 & = & 4 & - & \tfrac{1}{3}x_4 & - & \tfrac{2}{3}x_5 \\
+    x_3 & = & 4 & - &\tfrac{2}{3}2x_4 & - & \tfrac{16}{3}x_5 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimal point: $(3, 4)$ \\
+Optimal value: $11$ \\
+(ii)
+\begin{align*}
+  &\text{maximize} \ \ 5x_1 + 2x_2 \\
+  &\text{subject to} \ \ 5x_1 + 3x_2 + x_3 = 15 \\
+  &\qquad \qquad \ \ \  3x_1 + 5x_2 + x_4 = 15 \\
+  &\qquad \qquad \ \ \  4x_1 - 3x_2 + x_5 = -12 \\
+  &\qquad \qquad \ \ \  x_1, x_2, x_3, x_4, x_5 \geq 0
+\end{align*}
+Auxiliary problem:
+\begin{align*}
+  &\text{maximize} \ \ -x_0 \\
+  &\text{subject to} \ \ 5x_1 + 3x_2 + x_3 - x_0 = 15 \\
+  &\qquad \qquad \ \ \  3x_1 + 5x_2 + x_4 - x_0 = 15 \\
+  &\qquad \qquad \ \ \  4x_1 - 3x_2 + x_5 - x_0 = -12 \\
+  &\qquad \qquad \ \ \  x_0, x_1, x_2, x_3, x_4, x_5 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C C C C C }
+    \zeta & = & & & & & & - & x_0 \\
+    \hline
+    x_3 & = & 15 & - & 5x_1 & - & 3x_2 & + & x_0 \\
+    x_4 & = & 15 & - & 3x_1 & - & 5x_2 & + & x_0 \\
+    x_5 & = & -12 & - & 4x_1 & + & 3x_2 & + & x_0 \\
+    \hline \hline
+    \zeta & = &  -12 & - & 4x_1 & + & 3x_2 & - & x_5 \\
+    \hline
+    x_3 & = & 27 & - & x_1 & - & 6x_2 & + & x_5 \\
+    x_4 & = & 27 & + & x_1 & - & 8x_2 & + & x_5 \\
+    x_0 & = & 12 & + & 4x_1 & - & 3x_2 & + & x_5 \\
+    \hline \hline
+    \zeta & = & -\tfrac{15}{8} & - & \tfrac{29}{8}x_1 & - & \tfrac{3}{8}x_4 & - & \tfrac{5}{8}x_5 \\
+    \hline
+    x_3 & = & \tfrac{27}{4} & - & \tfrac{7}{4}x_1 & + & \tfrac{3}{4}x_4 & + & \tfrac{1}{4}x_5 \\
+    x_2 & = & \tfrac{27}{8} & + & \tfrac{1}{8}x_1 & - & \tfrac{1}{8}x_4 & + & \tfrac{1}{8}x_5 \\
+    x_0 & = & \tfrac{15}{8} & + & \tfrac{29}{8}x_1 & + & \tfrac{3}{8}x_4 & + & \tfrac{5}{8}x_5 \\
+    \hline
+  \end{tabular}
+\end{center}
+The original problem has no feasible solutions. \\
+(iii)
+\begin{align*}
+  &\text{maximize} \ \ -3x_1 + x_2 \\
+  &\text{subject to} \ \ x_2 + x_3 = 4 \\
+  &\qquad \qquad \ \ \  -2x_1 + 3x_2 + x_4 = 6 \\
+  &\qquad \qquad \ \ \  x_1, x_2, x_3, x_4 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C C }
+    \zeta & = & & - & 3x_1 & + & x_2 \\
+    \hline
+    x_3 & = & 4 & & & - & x_2 \\
+    x_4 & = & 6 & + & 2x_1 & - & 3x_2 \\
+    \hline \hline
+    \zeta & = & 2 & - & \tfrac{7}{3}x_1 & - & \tfrac{1}{3}x_4 \\
+    \hline
+    x_3 & = & 2 & - & \tfrac{2}{3}x_1 & + & \tfrac{1}{3}x_4 \\
+    x_2 & = & 2 & + & \tfrac{2}{3}x_1 & - &
+    \tfrac{1}{3}x_4 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimal point: $(0, 2)$ \\
+Optimal value: $2$ \\
+\textbf{Exercise 8.8} \\
+Give an example of a three-dimensional linear problem where the feasible region is closed and unbounded, but where the objective function still has a unique feasible maximizer.
+\begin{align*}
+  &\text{maximize} \ \ - x - y - z \\
+  &\text{subject to} \ \  x, y, z \geq 0
+\end{align*}
+Maximizer: $(0, 0, 0)$ \\
+\textbf{Exercise 8.9} \\
+Give an example of a three-dimensional linear problem where the feasible region is closed and unbounded and where the objective function has no maximizer.
+\begin{align*}
+  &\text{maximize} \ \ x + y + z \\
+  &\text{subject to} \ \  x, y, z \geq 0
+\end{align*}
+\textbf{Exercise 8.10} \\
+Give an example of a three-dimensional linear problem where the feasible region is empty.
+\begin{align*}
+  &\text{maximize} \ \ x + y + z \\
+  &\text{subject to} \ \ x + y + z \leq -1 \\
+  &\qquad \qquad \ \ \ x, y, z \geq 0
+\end{align*}
+\textbf{Exercise 8.11} \\
+Give an example of a three-dimensional linear problem where the feasible region is nonempty, closed, and bounded, but $\vec{0}$ is not feasible.
+\begin{align*}
+  &\text{maximize} \ \ x + y + z \\
+  &\text{subject to} \ \ x + y + z \geq 1 \\
+  &\qquad \qquad \ \ \ x + y + z \leq 3 \\
+  &\qquad \qquad \ \ \ x, y, z \geq 0
+\end{align*}
+Auxiliary problem:
+\begin{align*}
+  &\text{maximize} \ \ -w \\
+  &\text{subject to} \ \ -x - y - z - w \leq -1 \\
+  &\qquad \qquad \ \ \ x + y + z - w \leq 3 \\
+  &\qquad \qquad \ \ \ x, y, z, w \geq 0
+\end{align*}
+\textbf{Exercise 8.12} \\
+\begin{align*}
+  &\text{maximize} \ \ 10x_1 - 57x_2 - 9x_3 -24x_4 \\
+  &\text{subject to} \ \ 0.5x_1 - 1.5x_2 - 0.5x_3 + x_4 + x_5 = 0 \\
+  &\qquad \qquad \ \ \  0.5x_1 - 5.5x_2 - 2.5x_3 + 9x_4 + x_6 = 0 \\
+  &\qquad \qquad \ \ \  x_1 + x_7 = 0 \\
+  &\qquad \qquad \ \ \  x_1, x_2, x_3, x_4, x_5, x_6, x_7 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C C C C C C C }
+    \zeta & = & & & 10x_1 & - & 57x_2 & - & 9x_3 & - & 24x_4 \\
+    \hline
+    x_5 & = & & - & 0.5x_1 & + & 1.5x_2 & + &  0.5x_3 & - & x_4 \\
+    x_6 & = & & - & 0.5x_1 & + & 5.5x_2 & + & 2.5x_3 & - & 9x_4 \\
+    x_7 & = & 1 & - & x_1 \\
+    \hline \hline
+    \zeta & = & & - & 27x_2 & + & x_3 & - & 44x_4 & - & 20x_5 \\
+    \hline
+    x_1 & = & & & 3x_2 & + & x_3 & - & 2x_4 & - & 2x_5 \\
+    x_6 & = & & & 4x_2 & + & 2x_3 & - & 8x_4 & + & x_5 \\
+    x_7 & = & 1 & - & 3x_2 & - & x_3 & + & 2x_4 & + & 2x_5 \\
+    \hline \hline
+    \zeta & = & 1 & - & 30x_2 & - & 42x_4 & - & 18x_5 & - & x_7 & \\
+    \hline
+    x_1 & = & 1 & & & & & & & - & x_7 \\
+    x_6 & = & 2 & - & 2x_2 & - & 4x_4 & + & 5x_5 & - & 2x_7\\
+    x_3 & = & 1 & - & 3x_2 & + & 2x_4 & + & 2x_5 & - & x_7 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimal point: $(1, 0, 1, 0)$
+Optimum value: $1$ \\
+\textbf{Exercise 8.15} \\
+If $\vec{x} \in \mathbb{R}^n$ is feasible for the primal and $\vec{y} \in \mathbb{R}^m$ is feasible for the dual, then $\vec{c}^T\vec{x} \leq \vec{b}^T\vec{y}$. \\
+\textit{Proof:} \\
+Let $\vec{x} \in \mathbb{R}^n$ be feasible for the primal and $\vec{y} \in \mathbb{R}^m$ be feasible for the dual. Then we know that $A\vec{x} \leq \vec{b}$ and $A^T\vec{y} \leq \vec{c}$, so
+\begin{align*}
+  A\vec{x} &\leq \vec{b} \\
+  \vec{x}^TA^T &\leq \vec{b}^T \\
+  \vec{x}^TA^T\vec{y} &\leq \vec{b}^T\vec{y} \\
+  \vec{x}^T\vec{c} &\leq \vec{b}^T\vec{y} \\
+  \vec{c}^T\vec{x} &\leq \vec{b}^T\vec{y}
+\end{align*}
+\textbf{Exercise 8.17} \\
+For a linear optimization problem in standard form, the dual of the dual optimization problem is again the primal problem. \\
+\textit{Proof:} \\
+Consider the primal problem:
+\begin{align*}
+  &\text{maximize} \ \ \vec{c}^T\vec{x} \\
+  &\text{subject to} \ A\vec{x} \preceq \vec{b} \\
+  &\qquad \qquad \ \ \ \vec{x} \succeq \vec{0}
+\end{align*}
+with the dual problem:
+\begin{align*}
+  &\text{minimize} \ \ \vec{b}^T\vec{y} \\
+  &\text{subject to} \ A^T\vec{y} \succeq \vec{c} \\
+  &\qquad \qquad \ \ \ \vec{y} \succeq \vec{0}
+\end{align*}
+The dual in standard form becomes:
+\begin{align*}
+  &\text{maximize} \ \ (-\vec{b}^T)\vec{y} \\
+  &\text{subject to} \ (-A)^T\vec{y} \preceq -\vec{c} \\
+  &\qquad \qquad \ \ \ \vec{y} \succeq \vec{0}
+\end{align*}
+and the dual of the dual is:
+\begin{align*}
+  &\text{minimize} \ \ (-\vec{c}^T)\vec{x} \\
+  &\text{subject to} \ ((-A)^T)^T\vec{x} \succeq -\vec{b} \\
+  &\qquad \qquad \ \ \ \vec{x} \succeq \vec{0}
+\end{align*}
+In standard form, this is:
+\begin{align*}
+  &\text{maximize} \ \ \vec{c}^T\vec{x} \\
+  &\text{subject to} \ A\vec{x} \preceq \vec{b} \\
+  &\qquad \qquad \ \ \ \vec{x} \succeq \vec{0}
+\end{align*}
+which is the original primal problem. \\
+\textbf{Exercise 8.18} \\
+Primal:
+\begin{align*}
+  &\text{maximize} \ \ x_1 + x_2 \\
+  &\text{subject to} \ \ 2x_1 + x_2 + w_1 = 3 \\
+  &\qquad \qquad \ \ \ x_1 + 3x_2 + w_2 = 5 \\
+  &\qquad \qquad \ \ \  2x_1 + 3x_2 + w_3 = 4 \\
+  &\qquad \qquad \ \ \  x_1, x_2, w_1, w_2, w_3 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C C C C C C C }
+    \zeta & = & & & x_1 & + & x_2 \\
+    \hline
+    w_1 & = & 3 & - & 2x_1 & - & x_2 \\
+    x_2 & = & 5 & - & x_1 & - & 3x_2 \\
+    x_5 & = & 4 & - & 2x_1 & - & 3x_2 \\
+    \hline \hline
+    \zeta & = & \tfrac{3}{2} & + & \tfrac{1}{2}x_2 & - & \tfrac{1}{2}w_1 \\
+    \hline
+    x_1 & = & \tfrac{3}{2} & - & \tfrac{1}{2}x_2 & - & \tfrac{1}{2}w_1 \\
+    w_2 & = & \tfrac{7}{2} & - & \tfrac{5}{2}x_2 & + & \tfrac{1}{2}w_1 \\
+    w_3 & = & 1 & - & 2x_2 & + & w_1 \\
+    \hline \hline
+    \zeta & = & \tfrac{7}{4} & - & \tfrac{1}{4}w_1 & - & \tfrac{1}{4}w_1 \\
+    \hline
+    x_1 & = & \tfrac{5}{4} & - & \tfrac{3}{4}w_1 & + & \tfrac{1}{4}w_3 \\
+    w_2 & = & \tfrac{9}{4} & - & \tfrac{3}{4}w_1 & + & \tfrac{5}{4}w_3 \\
+    x_2 & = & \tfrac{1}{2} & + & \tfrac{1}{2}w_1 & - & \tfrac{1}{2}w_3 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimal point: $(\tfrac{5}{4}, \tfrac{1}{2})$ \\
+Optimum value: $\tfrac{7}{4}$ \\
+Dual:
+\begin{align*}
+  &\text{minimize} \ \ 3y_1 + 5y_2 + 4y_3 \\
+  &\text{subject to} \ \ 2y_1 + y_2 + 2y_3 \geq 1 \\
+  &\qquad \qquad \ \ \ y_1 + 3y_2 + 3y_3 \geq 1 \\
+  &\qquad \qquad \ \ \  y_1 + 3y_2 + 3y_3 \geq 1 \\
+  &\qquad \qquad \ \ \  y_1, y_2, y_3 \geq 0
+\end{align*}
+Dual in standard form:
+\begin{align*}
+  &\text{maximize} \ \ -3y_1 - 5y_2 - 4y_3 \\
+  &\text{subject to} \ \ -2y_1 - y_2 - 2y_3 + v_1 - v_0 = -1 \\
+  &\qquad \qquad \ \ \ -y_1 - 3y_2 - 3y_3 + v_2 - v_0 = -1 \\
+  &\qquad \qquad \ \ \  y_1, y_2, y_3, v_1, v_2 \geq 0
+\end{align*}
+\begin{center}
+  \def\arraystretch{1.2}
+  \begin{tabular}{ C C C C C C C C C C C C C }
+    \zeta & = & & & & & & & & - & v_0 \\
+    \hline
+    v_1 & = & -1 & + & 2y_1 & + & y_2 & + & 2y_3 & + & v_0 \\
+    v_2 & = & -1 & + & y_1 & + & 3y_2 & + & 3y_3 & + & v_0 \\
+    \hline \hline
+    \zeta & = & -1 & + & 2y_1 & + & y_2 & + & 2y_3 & - & v_1 \\
+    \hline
+    v_0 & = & 1 & - & 2y_1 & - & y_2 & - & 2y_3 & + & v_1 \\
+    v_2 & = & & - & y_1 & + & 2y_2 & + & y_3 & + & v_1 \\
+    \hline \hline
+    \zeta & = & & & & & & & & - & v_0 \\
+    \hline
+    y_2 & = & 1 & - & 2y_1 & - & 2y_3 & + & v_1 & - & v_0 \\
+    v_2 & = & 2 & - & 5y_1 & - & 3y_3 & + & 3v_1 & - & 2v_0 \\
+    \hline \hline
+    \zeta & = & -2 & + & y_1 & - & 3y_2 & - & 2v_1 \\
+    \hline
+    y_3 & = & \tfrac{1}{2} & - & y_1 & - & \tfrac{1}{2}y_2 & + & \tfrac{1}{2}v_1 \\
+    v_2 & = & \tfrac{1}{2} & - & 2y_1 & + & \tfrac{3}{2}y_2 & + & \tfrac{3}{2}v_1 \\
+    \hline \hline
+    \zeta & = & -\tfrac{7}{4} & - & \tfrac{3}{2}y_2 & - & \tfrac{5}{4}v_1 & - & \tfrac{1}{2}v_2 \\
+    \hline
+    y_3 & = & \tfrac{1}{4} & - & 2\tfrac{3}{2}y_2 & - & \tfrac{1}{4}v_1 & + & \tfrac{1}{2}v_2 \\
+    y_1 & = & \tfrac{1}{4} & + & \tfrac{3}{2}y_2 & + & \tfrac{3}{4}v_1 & - & \tfrac{1}{2}v_2 \\
+    \hline
+  \end{tabular}
+\end{center}
+Optimal point: $(\tfrac{1}{4}, 0, \tfrac{1}{4})$ \\
+Optimum value: $\tfrac{7}{4}$
+\end{document}

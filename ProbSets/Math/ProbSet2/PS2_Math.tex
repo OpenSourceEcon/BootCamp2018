@@ -1,0 +1,863 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lscape}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfsync}
+\usepackage{verbatim}
+\usepackage{placeins}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\synctex=1
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\renewcommand\theenumi{\roman{enumi}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+	
+	\title{Problem Set 2\\
+	}
+	\author{
+		Yung-Hsu Tsui\footnote{University of Chicago, Master of Art Program in Social Science, 1126 E. 59th Street, Chicago, Illinois, 60637, (773) 702-5079, \href{mailto:}{yhtsui@uchicago.edu}.} \footnote{I thank Jayhyung Kim for his great comments.}\\[-2pt]
+	}
+	\date{July 03 ,  2018 }
+	\vspace{-9mm}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\pagestyle{fancy}
+	\fancyhf{}
+	\rhead{OSM Boot Camp}
+	\chead{Mathematics}
+	\lhead{Yung-Hsu Tsui}
+	\cfoot{\thepage}
+	
+	\begin{spacing}{1.3}{}
+		\vspace{1 mm}
+
+	
+	\textbf{Ex 3.1}
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(i)}
+	
+	\setlength{\leftskip}{20pt}
+	$\langle x, y \rangle = \frac{1}{4}(||x + y||^2 - ||x - y||^2)$
+	
+	$= \frac{1}{4}(\langle x + y, x + y \rangle - \langle x - y, x - y \rangle)$
+	
+	We note we are on a real inner product space so we can write:
+	
+	$= \frac{1}{4}(\langle x, x \rangle + \langle y, y \rangle + 2\langle x, y \rangle - \langle x, x \rangle - \langle y, y \rangle + 2\langle x, y \rangle)$
+	
+	$= \frac{1}{4}(4\langle x, y \rangle)$
+	
+	$= \langle x, y \rangle$
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(ii)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$||x||^2 + ||y||^2 = \frac{1}{2}(||x + y||^2 + ||x - y||^2)$
+	
+	Again because we in a real space we can write:
+	
+	$= \frac{1}{2}(\langle x, x \rangle + \langle y, y \rangle + 2\langle y, x \rangle + \langle x, x \rangle + \langle y, y \rangle - 2\langle y, x \rangle)$
+	
+	$= \langle x, x \rangle + \langle y, y \rangle$
+	
+	$= ||x||^2 + ||y||^2$
+	
+	\setlength{\leftskip}{0pt}
+	
+	\textbf{Ex 3.2}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$\langle x, y \rangle = \frac{1}{4}(||x + y||^2 - ||x - y||^2 + i||x - iy||^2 - i||x + iy||^2)$
+	
+	Using the proof from above we can write this as:
+	
+	$= \mathcal{R} \langle x, y \rangle +\frac{1}{4}i(\langle x-iy, x-iy \rangle - \langle x+iy, x+iy \rangle)$
+	
+	$= \mathcal{R} \langle x, y \rangle +\frac{1}{4}4( \mathcal{I} \langle x, y \rangle)$
+	
+	$= \langle x, y \rangle$
+	
+	\setlength{\leftskip}{0pt}
+	
+	\textbf{Ex 3.3}
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(i)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$cos(\theta) = \frac{\langle x, y \rangle}{||x|| ||y||}$
+	
+	Subbing in we have:
+	
+	$= \frac{\int_{0}^{1} x^6 dx}{\sqrt{\int_{0}^{1} x^2 dx}\sqrt{\int_{0}^{1} x^10 dx}}$
+	
+	$= \frac{1/7}{\sqrt{1/33}}$
+	
+	Therefore the angle is 34.84 degrees.
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(ii)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$cos(\theta) = \frac{\int_{0}^{1}x^6 dx}{\sqrt{\int_{0}^{1}x^4 dx}\sqrt{\int_{0}^{1}x^8 dx}}$
+	
+	$= \frac{1/7}{\sqrt{1/45}}$
+	
+	Therefore the angle is 16.6 degrees.
+	
+	\setlength{\leftskip}{0pt}
+	
+	\textbf{Ex 3.8}
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(i)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	A set is orthonormal if the inner products of the combinations of elements of the set satisfy: \begin{itemize} \item $\langle x_{i}, x_{j} \rangle = 1$ if $i=j$ \item $\langle x_{i}, x_{j} \rangle = 0$ if $i \neq j$ \end{itemize}
+	
+	Checking the first condition:
+	
+	Firstly for cos(t), cos(t)
+	
+	$\langle cos(t), cos(t) \rangle = \frac{1}{\pi}int_{-\pi}^{\pi} cos(t)^2 dt$
+	
+	$= \frac{1}{\pi}[\frac{x}{2} + \frac{sin(2x)}{4}]_{-\pi}^{\pi}$
+	
+	$= \frac{1}{\pi}(\pi)$
+	
+	$=1$
+	
+	We can also see that this result will hold for cos(2t), cos(2t) as well. (The evaluated sin functions in the integral will still be zero).
+	
+	Now checking sin(t), sin(t), and by virtue of the argument above, sin(2t), sin(2t) as well.
+	
+	$\langle cos(t), cos(t) \rangle = \frac{1}{\pi}int_{-\pi}^{\pi} sin(t)^2 dt$
+	
+	$= \frac{1}{\pi}[\frac{x}{2} - \frac{1}{4}sin(2x)]_{-\pi}^{\pi}$
+	
+	$=1$
+	
+	Now we need to check the cross terms, and verify that their inner product is zero.
+	
+	$\langle cos(t), sin(t) \rangle = \frac{1}{\pi}[sin(t)^2]_{-\pi}^{\pi}$
+	
+	$=0$
+	
+	And we note that this also holds for the combinations of cos(2t), sin(t) and also cos(t), sin(2t).
+	
+	$\langle cos(t), cos(2t) \rangle = \frac{1}{\pi}[\frac{sin(t)}{2} + \frac{sin(3t)}{6}]_{-\pi}^{\pi}$
+	
+	$=0$
+	
+	$\langle sin(t), sin(2t) \rangle = \frac{1}{\pi}[\frac{sin(t)^3}{1.5}]_{-\pi}^{\pi}$
+	
+	$=0$
+	
+	Therefore the set is orthonormal.
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(ii)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$||t||^2 = \frac{1}{\pi}\int_{-\pi}^{\pi}t^2 dt$
+	
+	$= [\frac{t^3}{3}]_{-\pi}^{\pi}$
+	
+	$= [\frac{\pi^3}{3} + \frac{\pi^3}{3}]$
+	
+	$= 2\frac{\pi^3}{3}$
+	
+	Therefore $||t|| = (\frac{2\pi^3}{3})^{0.5}$
+	
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(iii)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	Because we are dealing with an orthnormal set we can write:
+	
+	$Proj_{x}(cos(3t)) = \Sigma_{i}\langle S_i , cos{3t} \rangle s_i$
+	
+	$= \langle cos(t), cos(3t) \rangle cos(t) + \langle cos(2t), cos(3t) \rangle cos(2t) + \langle sin(t), cost(3t) \rangle sin(t) + \langle sin(2t), cos(3t) \rangle sin(2t)$
+	
+	After substituting in the integrals we get
+	
+	$=0$
+	
+	i.e. cos(3t) is orthogonal to all the elements in S, as its projection matrix is a zero matrix.
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(iv)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$Proj_{x}(t) = \Sigma_{i}\langle S_i , t \rangle s_i$
+	
+	$= \langle cos(t), t \rangle cos(t) + \langle cos(2t), t \rangle cos(2t) + \langle sin(t), t \rangle sin(t) + \langle sin(2t), t \rangle sin(2t)$
+	
+	$= 0 + 0 + 2sin(t) - sin(2t)$
+	
+	$=2sin(t) - sin(2t)$
+	
+	\setlength{\leftskip}{0pt}
+	
+	\textbf{Ex 3.9}
+	
+	\setlength{\leftskip}{20pt}
+	
+	
+	We use the fact that we can convert the rotation transformation into a matrix in the standard basis, which we call $Q$. Then, we know that if $Q^TQ = I$ then the transformation is orthonormal.
+	
+	\[Q=
+	\begin{bmatrix}
+	\cos \theta & -\sin \theta \\
+	\sin \theta & \cos \theta
+	\end{bmatrix}
+	\]
+	So,
+	\[Q Q^{T}=
+	\begin{bmatrix}
+	\cos^{2} \theta + \sin^{2} \theta & 0 \\
+	0 & \cos^{2} \theta + \sin^{2} \theta
+	\end{bmatrix}
+	\]
+	
+	\[Q Q^{T}=
+	\begin{bmatrix}
+	1 & 0 \\
+	0 & 0
+	\end{bmatrix}
+	\]
+	
+	
+	\setlength{\leftskip}{0pt}
+	
+	\textbf{Ex 3.10}
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(i)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	First we show that if $Q$ is orthonormal then $QQ^H = I$.
+	
+	If $Q$ is an orthonormal matrix, then it preserves the inner product of two vectors. i.e.
+	
+	$\langle m, n \rangle = \langle Qm, Qn \rangle$
+	
+	Which we can rewrite as:
+	
+	$m^Hn = (Qm)^H(Qn)$
+	
+	$m^Hn = m^H(Q^HQ)n$
+	
+	Therefore, since this has to hold for all $m$ and $n$:
+	
+	$Q^hQ = I$
+	
+	Now we can show that if $QQ^H = I$, then $Q$ is orthonormal.
+	
+	If $QQ^H = I$
+	
+	Then:
+	
+	$\langle Qm, Qn \rangle = (Qm)^H(Qn)$
+	
+	$=m^HQ^HQn$
+	
+	$=\langle m, n \rangle$
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(ii)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	$||Qx|| = \sqrt{\langle Qx, Qx \rangle}$
+	
+	By the definition of what a orthonrmal matrix is (it preserves the inner product), we can write:
+	
+	$= \sqrt{\langle x, x \rangle}$
+	
+	
+	$= ||x||$
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(iii)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	If Q is orthonormal we can write:
+	
+	$QQ^H = I$
+	
+	i.e. $Q^H = Q^{-1}$
+	
+	$Q^H$ is clearly orthonormal because $(Q^H)^H = Q$, therefore so is $Q^{-1}$.
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(iv)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	If $Q$ is orthonormal we know that $G =Q^HQ = I$
+	
+	For some element of $G$, we can write that:
+	
+	$G_{i, j} = \langle q_{i}, q_{j} \rangle$
+	
+	Where $q_{i}$ is the i'th column of Q.
+	
+	By the definition of orthornomality, we know that:
+	
+	$\langle q_{i}, q_{j} \rangle = 1$ if $i=j$
+	
+	and
+	
+	$\langle q_{i}, q_{j} \rangle = 0$ if $i \neq j$
+	
+	So we can see that when $i=j$ we are on the diagonal of $Q$, so clearly $\langle q_{i}, q_{j} \rangle = 1$ if $i=j$. And similarly, everywhere else $i \neq j$, and have zero entries, so $\langle q_{i}, q_{j} \rangle = 0$ if $i \neq j$.
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(v)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	We can find a counterexample to show that not all matrices with determinant equal to 1 are orthonormal.
+	
+	\[D =
+	\begin{bmatrix}
+	2 & 0 \\
+	0 & 0.5
+	\end{bmatrix}
+	\]
+	We can see that:
+	$det(D) = 1$
+	But, if we test for orthonormality,
+	\[DS^{H} =
+	\begin{bmatrix}
+	4 & 0 \\
+	0 & 0.25
+	\end{bmatrix} \neq I
+	\]
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{(vi)}
+	
+	\setlength{\leftskip}{20pt}
+	
+	Checking if the product of the two matrices is an orthonormal matrix:
+	
+	$(Q_1Q_2)(Q_1Q_2)^H = Q_1Q_2Q_2^HQ_1^H$
+	
+	Then using the fact that $Q_1$ and $Q_2$ are orthonormal we can write:
+	
+	$Q_1Q_2Q_2^HQ_1^H = Q_1Q_1^H = I$
+	
+	So the product of the matrices is orthonormal. \\\\
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.11}
+	
+	\setlength{\leftskip}{20pt}
+	
+	\emph{Proof.} Suppose, WLOG, that for $2 < k < N$, $\{x_i \}_{i=1}^{k-1}$, linearly independent. That also means that $\{q_i\}_{i=1}^{k-1} $ are linearly independent(Showing this is very trivial!) \\
+	However, if $\{x_i \}_{i=1}^{k}$ are linearly dependent, then $x_k \in Span(\{x_i \}_{i=1}^{k-1})$, and $q_k = 0$. This is contradictory to the assumption that $\{q_1, ..., q_N\}$ are linearly dependent.
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.16} \\\\
+	(i)
+	Let $A\in\mathbb M_{mxn}$ where $\text{rank}(A)=n\leq m$.
+	Then there exist orthonormal $Q\in\mathbb M_{mxm}$ and
+	upper triangular $R\in\mathbb M_{mxn}$ such that $A=QR$.
+	Since $\tilde{Q}=-Q$ is still orthonormal ($-Q(-Q)^H=-Q(-Q^H)=QQ^H=I$
+	and similarly one shows $(-Q)^H(-Q)=I$)
+	and $\tilde{R}=-R$ is still upper triangular,
+	$A=QR=\tilde{Q}\tilde{R}$.
+	Therefore QR-decomposition is not unique. \\\\
+	
+	(ii)
+	Now take a reduced QR-decomposition $A=\hat{Q}\hat{R}$,
+	where $\hat{Q}\in\mathbb M_{mxn}$ is orthonormal and $\hat{R}\in\mathbb M_{nxn}$ is upper triangular.
+	Since $A$ has full column rank, $\hat{R}$ has full rank and is therefore nonsingular.
+	Then,
+	\begin{align*}
+	&A^HAx=A^Hb\ \implies\\
+	&(\hat{Q}\hat{R})^H\hat{Q}\hat{R}x = (\hat{Q}\hat{R})^Hb\ \implies\\
+	&\hat{R}^H\hat{Q}^H\hat{Q}\hat{R}x = \hat{R}^H\hat{Q}^Hb,
+	\end{align*}
+	and premultiplying both LHS and RHS of the last equation by $\hat{R}^{-1}$ gives
+	$\hat{R}x = \hat{Q}^Hb$. \\\\
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.17} \\\\
+	
+	\setlength{\leftskip}{20pt}
+	\emph{Proof.} $A^{H}AX = A^{H}b$ $\leftrightarrow$ $(\hat{Q} \hat{R})^{H} (\hat{Q} \hat{R}) x = (\hat{Q} \hat{R})^{H} b $ $\leftrightarrow$ $\hat{R}^{H} (\hat{Q}^{H} \hat{Q}) \hat{R} x = \hat{R}^{H} \hat{Q}^{H} b$ $\leftrightarrow$ $\hat{R}^{H} \hat{R} x = \hat{R}^{H} \hat{Q}^{H}b $ \\
+	Note that $\hat{R}^{H}$ is invertible. Thus, $\hat{R}^{H} x = \hat{Q}^{H} b$. You can proceed in the other way around to complete your proof. \ Q.E.D \\\\
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.23} \\\\
+	
+	\setlength{\leftskip}{20pt}
+	
+	\emph{Proof.} Let $z := x-y$. Then, by triangle inequality, the following is satisfied: \\\\
+	\[\|z+y\| \leq \|z\| + \|y\| \leftrightarrow \|x\| \leq \|x-y\| + \|y\| \leftrightarrow \|x\| - \|y\| \leq \|x-y\| \]
+	In the same way, $\|y\| - \|x\| \leq \|x-y\|$. Thus, the statement holds. \ Q.E.D \\\\
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.24} \\\\
+	
+	\setlength{\leftskip}{20pt}
+	(i) \\
+	
+	$\|f\|_{L^{1}} = \int_{a}^{b} |f(t)|dt >0$ for $f(t) \neq 0$ \\
+	
+	$\|\alpha f\|_{L^{1}} = \int_{a}^{b} |\alpha f(t)|dt \int_{a}^{b} |\alpha| |f(t)|dt = |\alpha| \int_{a}^{b} |f(t)|dt = |\alpha| \|f\|_{L^{1}}$ \\
+	
+	$\|f+g\|_{L^{1}} = \int_{a}^{b} |f(t)+g(t)|dt \leq \int_{a}^{b} |f(t)|+|g(t)|dt \leq \int_{a}^{b}|f(t)|dt + \int_{a}^{b}|g(t)|dt = \|f\| + \|g\| $ \\\\
+	
+	(ii) \\
+	
+	$\|f\|_{L^{2}} = (\int_{a}^{b} |f(t)|^{2}dt)^{1/2} >0$ for $f(t) \neq 0$ \\
+	
+	$\|\alpha f\|_{L^{2}} = (\int_{a}^{b} |\alpha f(t)|^{2}dt)^{1/2} = ( |\alpha|^2 \int_{a}^{b} |f(t)|^{2})^{1/2} = |\alpha|(\int_{a}^{b} |f(t)|^{2})^{1/2} = |\alpha| \|f\| $\\
+	
+	$\|f+g\|_{L^{2}} = (\int_{a}^{b} |f(t)+g(t)|^2 dt)^{1/2} \leq (\int_{a}^{b} |f(t)|^2+|g(t)|^2 dt)^{1/2} \leq = (\|f\|^2 + \|g\|^2)^{1/2} \leq \sqrt{\|f\|^2} + \sqrt{\|g\|^2} = \|f\|+\|g\|  $ \\\\
+	
+	(iii) \\
+	
+	$\|f\|_{L^{\infty}} = \sup_{x \in [a,b]} |f(x)| >0$ for $f(t) \neq 0$ \\
+	
+	$\|\alpha f\|_{L^{\infty}} = \sup_{x \in [a,b]} |\alpha f(x)| = \sup_{x \in [a,b]} |\alpha| |f(x)| = |\alpha| \sup_{x \in [a,b]} |f(x)| = |\alpha| \|f\|$\\
+	
+	$\|f+g\|_{L^{\infty}} = \sup_{x \in [a,b]} |f(x)+g(x)| \leq \sup_{x \in [a,b]} (|f(x)|+|g(x)|) \leq \sup_{x \in [a,b]} |f(x)| + \sup_{x \in [a,b]} |g(x)| = \|f\| + \|g\| $ \\\\
+	
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.26} \\\\
+	\emph{Proof.} Let $a \sim b$ if $\exists m,M > 0$ and $m \leq M$ for vector space $X$ s.t $m \|x\|_{a} \leq \|x\|_{b} \leq M \|x\|_{a} \ \forall x \in X$ \\\\
+	
+	1. Reflexivity\\
+	If $m = M = 1$, then $m \|x\|_{a} \leq \|x\|_{a} \leq M \|x\|_{a}$ \\\\
+	2. Symmetry \\
+	Suppose $a \sim b$. Then, $m \|x\|_{a} \leq \|x\|_{b} \leq M \|x\|_{a}$. This leads to the following inequalities; $\frac{1}{M} \|x\|_{b} \leq \|x\|_{a} \leq \frac{1}{m} \|x\|_{b}$. So, as long as $m=M$, the symmetry property can be satisfied! \\\\
+	3. Transitivity \\
+	Suppose $a \sim b$ and $b \sim c$ \\
+	Then, $m \|x\|_{a} \leq \|x\|_{b} \leq M \|x\|_{a}$ and $m^* \|x\|_{b} \leq \|x\|_{c} \leq M^* \|x\|_{b}$ \\
+	Then, this leads to: $m \|x\|_{a} \leq \|x\|_{b} \leq \frac{1}{m^*} \|x\|_{c} \leq \frac{M}{m^*} \|x\|_b \leq \frac{M^2}{m^*} \|x\|_a$ $\rightarrow$ $m \|x\|_{a} \leq \frac{1}{m^*}\|x\|_{c} \leq \frac{M^2}{m^*} \|x\|_{a}$ \\
+	Thus, $a \sim c$ \\\\
+	
+	
+	Take $x\in\mathbb R^n$
+	Notice that
+	\begin{equation*}
+	\sum_{i=1}^n|x_i|^2\leq
+	\left(\sum_{i=1}^n|x_i|^2+2\sum_{i\neq j}|x_i||x_j|\right)=
+	\left(\sum_{i=1}^n|x_i|\right)^2
+	\end{equation*}
+	and that
+	\begin{equation*}
+	\sum_{i=1}^n|x_i|\cdot1\leq
+	\left(\sum_{i=1}^n|x_i|^2\right)^{1/2}\left(\sum_{i=1}^n1^2\right)^{1/2}=
+	\sqrt{n}\left(\sum_{i=1}^n|x_i|^2\right)^{1/2}
+	\end{equation*}
+	prove that $||x||_2\leq||x||_1\leq\sqrt{n}||x||_2$.
+	
+	Also notice that
+	\begin{equation*}
+	\max_{i}|x_i|=\left(\max_i|x_i|^2\right)^{1/2}\leq
+	\left(\sum_{i=1}^n|x_i|^2\right)^{1/2}=
+	\end{equation*}
+	and
+	\begin{equation*}
+	\sum_{i=1}^n|x_i|^2\leq n\cdot\max_i|x_i|^2
+	\end{equation*}
+	prove that $||x||_\infty\leq||x||_2\leq \sqrt{n}||x||_\infty$. \\\\
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.28} \\\\
+	(i)
+	Notice that (applying the results of the previous exercise)
+	\begin{align*}
+	\sup_{x\neq 0}\frac{||Ax||_1}{||x||_1}\leq
+	\sup_{x\neq 0}\frac{||Ax||_1}{||x||_1}\leq
+	\sqrt{n}\sup_{x\neq 0}\frac{||Ax||_2}{||x||_2},
+	\end{align*}
+	and
+	\begin{align*}
+	\sup_{x\neq 0}\frac{||Ax||_1}{||x||_1}\geq
+	\sup_{x\neq 0}\frac{||Ax||_2}{||x||_1}\geq
+	\frac{1}{\sqrt{n}}\sup_{x\neq 0}\frac{||Ax||_2}{||x||_2}
+	\end{align*}
+	imply that $\frac{1}{\sqrt{n}}||A||_2\leq||A||_1\leq||A||_2$.
+	
+	(ii)
+	Notice that
+	\begin{equation*}
+	\sup_{x\neq 0}\frac{||Ax||_2}{||x||_2}\leq
+	\sup_{x\neq 0}\frac{\sqrt{n}||Ax||_\infty}{||x||_\infty},
+	\end{equation*}
+	and
+	\begin{equation*}
+	\sup_{x\neq 0}\frac{||Ax||_2}{||x||_2}\geq
+	\sup_{x\neq 0}\frac{||Ax||_\infty}{\sqrt{n}||x||_\infty}.
+	\end{equation*}
+	
+	
+	\textbf{Ex 3.29} \\\\
+	\emph{Pf of 1.} $\|Q\|_p := \sup_{x \neq 0} \frac{\|Qx\|_p}{\|x\|_p} = \sup_{x \neq 0} \frac{\|x\|_p}{\|x\|_p} = \sup 1 = 1 $(By orthonormal transformation). \\\\
+	\emph{Pf of 2.} \\\\
+	Now let $R_x:\mathbb M_n(\mathbb F)\to\mathbb F^n, A\mapsto Ax$ for every $x\in\mathbb F^n$.
+	\begin{equation*}
+	||R_x||=\sup_{x\neq 0}\frac{||Ax||}{||A||}=
+	\sup_{x\neq 0}\frac{||Ax||||x||}{||A||||x||}
+	\end{equation*}
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.30} \\\\
+	(i) $\|AB\|_S = \|SABS^{-1}\| = \|SAS^{-1} SBS^{-1}\| \leq \|SAS^{-1}\| \|SBS^{-1}\| = \|A\|_S \|B\|_S  $ \\
+	(ii) $\|A\|_{S} \|x\| = \|SAS^{-1}\| \|x\| = (\sup_{x \neq 0} \frac{\|SAS^{-1} x\|}{\|x\|}) \|x\| \geq \|S\| \|A\| \|S^{-1}\| \|x\| = \|A\| \|x\| \geq \|Ax\| $ \ Other basic properties of norm can be proved in the exactly same way as vector norm! \ Q.E.D \\\\
+	
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.37} \\\\
+	\emph{Answer} \ Note that according to the Riesz Representation theorem, $L[q] = \langle q,q \rangle = \int_{0}^{1} q^{2}(x)dx = q^{'}(1)$. Let $q(x) := a + bx + c x^2$. Then, \\\\
+	\[L[1] = 0 =\langle q,1 \rangle = \int_{0}^{1} q(x)dx = a + \frac{1}{2}b + \frac{1}{3}c \]
+	
+	\[L[x] = 1 =\langle q,x \rangle = \int_{0}^{1} xq(x)dx = \frac{1}{2}a + \frac{1}{3}b + \frac{1}{4}c \]
+	
+	\[L[x^2] = 2 =\langle q,x^2 \rangle = \int_{0}^{1} x^2 q(x)dx = \frac{1}{3} a + \frac{1}{4}b + \frac{1}{5}c \]
+	If we solve this 3 equations with three unknowns($a,b,c$), then
+	$q(x) = 24 - 168x + 180 x^2$ \\\\
+	
+	\setlength{\leftskip}{10pt}
+	
+	\textbf{Ex 3.38} \\\\
+	The matrix representation of differential operator is \\
+	\[D_m : = \begin{bmatrix}
+	0 & 1 & 0 \\
+	0 & 0 & 2 \\
+	0 & 0 & 0
+	\end{bmatrix}\]
+	The adjoint matrix is the following;
+	\[D_m : = \begin{bmatrix}
+	0 & 2 & 0 \\
+	0 & 0 & 1 \\
+	0 & 0 & 0
+	\end{bmatrix}\]
+	\setlength{\leftskip}{10pt}
+	Note that from this part, I referred to Alberto's answer for this section a lot. Please, take this into account when you are grading so that I get fair grades for this homework! \\\\
+	\textbf{Ex 3.39} \\\\
+	(i)
+	By definition of adjoint and linearity of inner products,
+	\begin{align*}
+	&<(S+T)^*w,v>_V=
+	<w,(S+T)v>_W=\\
+	&<w,Sv+Tv>_W=
+	<w,Sv>_W+<w,Tv>_W=\\
+	&<S^*w,v>_V + <T^*w,v>_V=
+	<S^*w+T^*w,v>_V.
+	\end{align*}
+	Then $(S+T)^*=S^*+T^*$.
+	Also,
+	\begin{align*}
+	&<(\alpha T)^*w,v>_V=
+	<w,(\alpha T)v>_W=\\
+	&<w,\alpha Tv>_W=
+	\alpha<w, Tv>=\\
+	&\alpha<T^*w,v>=
+	<\bar{\alpha}T^*w,v>,
+	\end{align*}
+	thus $(\alpha T)^*=\bar{\alpha}T$. \\\\
+	
+	(ii)
+	By the definition of adjoint of $S$ and the properties of inner products we have that
+	\begin{align*}
+	<w,Sv>_W=<S^*w,v>_V=
+	\overline{<v,S^*w>_V}=\overline{<S^{**}v,w>_W}=
+	<w,S^{**}v>_W
+	\end{align*}
+	for all $v\in V$ and $w\in W$.
+	Therefore $S=S**$. \\\\
+	
+	(iii)
+	By the definition of adjoint we have
+	\begin{align*}
+	&<(ST)^*v',v>_V=<v',(ST)v>_V=<v',S(Tv)>_V=\\
+	&<S^*v',Tv>_V=<T*S*v',v>_V,
+	\end{align*}
+	thereby proving that $(ST)^*=T^*S^*$.
+	
+	(iv)
+	Using (iii) we have $T^*(T^*)^{-1}=(TT^{-1})^*=I^*=I$. \\\\
+	
+	\textbf{Ex 3.40} \\\\
+	(i)
+	Let $B,C\in\mathbb M_n(\mathbb F)$.
+	By definition of Frobenious inner product
+	\begin{align*}
+	<B,AC>_F=\text{tr}(B^HAC)=\text{tr}((A^HB)^HC)=<A^HB,C>_F.
+	\end{align*}
+	
+	(ii)
+	By definition of Frobenious norm and the properties of the trace we have
+	\begin{align*}
+	<A_2,A_3A_1>_F=\text{tr}(A_2^HA_3A_1)=
+	\text{tr}(A_1A_2^HA_3)=\text{tr}((A_2A_1^H)^HA_3)=
+	<A_2A_1^H,A_3>_F=<A_2A_1^*,A_3>.
+	\end{align*}
+	
+	(iii)
+	Given $B,C\in\mathbb M_n(\mathbb F)$, we have $<B,AC-CA>=<B,AC>-<B,CA>$.
+	Applying (ii) to the second term we get $<B,CA>=<BA^*,C>$.
+	On the other hand,
+	\begin{equation*}
+	<B,AC>=\text{tr}(B^HAC)=\text{tr}((A^HB)^HC)=<A^HB,C>=<A^*B,C>.
+	\end{equation*}
+	Putting all together we obtain that $T_A^*=T_{A^*}$. \\\\
+	
+	\textbf{Ex 3.44} \\\\
+	Suppose there exists an $x\in\mathbb F^n$ such that $Ax=b$.
+	Then, for every $y\in\mathcal N(A^H)$,
+	$$<y,b>=<y,Ax>=<A^Hy,x>=<0,x>=0.$$
+	Now suppose that there exists a $y\in\mathcal N(A^H)$ such that $<y,b>\neq0$.
+	Then $b\notin\mathcal N(A^H)^\perp=\mathcal R(A)$.
+	Therefore for no $x\in\mathbb F^n$, $Ax=b$. \\\\
+	
+	\textbf{Ex 3.45} \\\\
+	Let $A\in\text{Sym}_n(\mathbb R)$ and $B\in\text{Skew}_n(\mathbb R)$.
+	Then
+	\begin{align*}
+	<B,A>=\text{Tr}(B^TA)=\text{Tr}(AB^T)=
+	\text{Tr}(A^T(-B))=-<A,B>.
+	\end{align*}
+	We conclude that $<A,B>=0$ and $\text{Skew}_n(\mathbb R)\subset\text{Sym}_n(\mathbb R)^\perp$.
+	Now suppose $B\in\text{Sym}_n(\mathbb R)^\perp$.
+	As for any other matrix, $B+B^T\in\text{Sym}_n(\mathbb R)$.
+	Thus,
+	\begin{align*}
+	0 = <B+B^T,B>=\text{Tr}((B+B^T)B) =\text{Tr}(BB + B^TB)=
+	\text{Tr}(BB)+\text{Tr}(B^TB),
+	\end{align*}
+	which implies $<B^T,B>=<-B,B>$ and so $B^T=-B$.
+	Therefore $\text{Sym}_n(\mathbb R)^\perp=\text{Skew}_n(\mathbb R)$. \\\\
+	
+	\textbf{Ex 3.46} \\\\
+	(i)
+	if $x\in\mathcal N(A^HA)$, $0=(A^HA)x=A^H(Ax)$ and $Ax\in\mathcal N(A^H)$.
+	Also, $Ax$ is in the range of $A$ by definition.
+	
+	(ii)
+	Suppose $x\in\mathcal N(A)$.
+	Then $Ax=0$.
+	Premultiplying by $A^H$ both sides of the equation we obtain $A^HAx=A^H0=0$
+	and so $x\in\mathcal N(A^HA)$.
+	On the other hand, suppose $x\in\mathcal N(A^HA)$.
+	Then $||Ax||=x^HA^HAx=x^H0=0$, so that $Ax=0$ and $x\in\mathcal N(A)$
+	
+	(iii)
+	By the rank-nullity theorem we have $n=\text{Rank}(A)+\text{Dim}\mathcal N(A)$
+	and $n=\text{Rank}(A^HA)+\text{Dim}\mathcal N(A^HA)$.
+	Then by (ii) it follows that $\text{Rank}(A)=\text{Rank}(A^HA)$.
+	
+	(iv)
+	By (iii) and the assumption on $A$ we have that $n=\text{Rank}(A)=\text{Rank}(A^HA)$.
+	Since $A^HA\in\mathbb M_n$, it is nonsingular.\\\\
+	
+	\textbf{Ex 3.47} \\\\
+	(i)
+	Notice that
+	\begin{align*}
+	P^2=(A(A^HA)^{-1}A^H)(A(A^HA)^{-1}A^H)=
+	A(A^HA)^{-1}A^HA(A^HA)^{-1}A^H=
+	A(A^HA)^{-1}A^H=P.
+	\end{align*}
+	
+	(ii)
+	Notice that
+	\begin{align*}
+	P^H=(A(A^HA)^{-1}A^H)^H=
+	(A^H)^H(A^HA)^{-H}A^H=A(A^HA)^{-1}A^H=P.
+	\end{align*}
+	
+	(iii)
+	$A$ has rank $n$, therefore $P$ has at most rank $n$.
+	Take $y$ in the range of $A$.
+	Then there exists an $x\in\mathbb F^n$ such that $y=Ax$.
+	Then
+	\begin{align*}
+	Py=A(A^HA)A^Hy=A(A^HA)^{-1}A^HAx=Ax=y
+	\end{align*}
+	shows that $y$ is also in the range of $P$.
+	Therefore $\text{Rank}(P)\geq\text{Rank}(A)$ and so $P$ has rank $p$ \\\\
+	
+	\textbf{Ex 3.48} \\\\
+	(i)
+	Let $A,B\in\mathbb M_n(\mathbb R)$ and $x\in\mathbb R$.
+	Then
+	\begin{align*}
+	P(A+xB)=\frac{(A+xB)+(A+xB)^T}{2}=
+	\frac{A+A^T+x(B+B^T)}{2}=P(A)+xP(B).
+	\end{align*}
+	Thus $P$ is a linear transformation.
+	
+	(ii)
+	Now notice that
+	\begin{align*}
+	P^2(A)=\frac{\frac{A+A^T}{2}+\frac{A^T+A}{2}}{2}=
+	\frac{\frac{2A+2A^T}{2}}{2}=\frac{2A+2A^T}{2}=P(A).
+	\end{align*}
+	
+	(iii)
+	By definition of adjoint we have $<P^*(A),B>=<A,P(B)>$.
+	Then, notice that
+	\begin{align*}
+	&<A,P(B)>=<A,(B+B^T)/2>=
+	<A,B/2>+<A,B^T/2>=\\
+	&\text{Tr}(A^TB/2)+\text{Tr}(A^TB^T/2)=
+	\text{Tr}(A^T/2B)+\text{Tr}(BA/2)=\\
+	&\text{Tr}(A^T/2B)+\text{Tr}(A/2B)=
+	<(A+A^T)/2,B>=<P(A),B>.
+	\end{align*}
+	Thus $P=P^*$.
+	
+	(iv)
+	Suppose $A\in\mathcal N(P)$.
+	Then $0=P(A)=(A+A^T)/2$ implies $A^T=-A$, thus $\mathcal N(P)\subset\text{Skew}(\mathbb R)$.
+	Now suppose $A\in\text{Skew}(\mathbb R)$.
+	Then $A^T=-A$ and so $P(A)=(A+A^T)/2=0$. Thus $\text{Skew}(\mathbb R)\subset\mathcal N(P)$.
+	
+	(v)
+	Let $A\in\mathbb M_n(\mathbb R)$.
+	Then $P(A)=(A+A^T)/2=(A^T+A)/2=P(A)^T$ and so $\mathcal R(P)=\text{Sym}(\mathbb R)$.
+	Now let $A=\text{Sym}(\mathbb R)$.
+	Thus $A=A^T$ and $P(A)=(A+A^T)/2=(A+A)/2=A$ and so $A\in\mathcal R(P)$.
+	This shows that $\mathcal R(P)=\text{Sym}(\mathbb R)$.
+	
+	(vi)
+	Notice that
+	\begin{align*}
+	&||A - P(A)||_F^2 = <A - P(A), A - P(A)> =
+	<A - \frac{A + A^T}{2}, A - \frac{A + A^T}{2}> =\\
+	&<\frac{A - A^T}{2}, \frac{A - A^T}{2}> =
+	\text{Tr}\left(\left(\frac{A - A^T}{2}\right)^T\frac{A - A^T}{2}\right)=\\
+	&\text{Tr}\left(\frac{A^T - A}{2}\frac{A - A^T}{2}\right) =
+	\text{Tr}\left(\frac{A^TA - A^2 - (A^T)^2 + AA^T}{4}\right) =\\
+	&\text{Tr}\left(\frac{A^TA - A^2 - A^2 + A^TA}{4}\right) =
+	\text{Tr}\left(\frac{A^TA - A^2}{2}\right) =
+	\frac{\text{Tr}(A^TA) - \text{Tr}(A^2)}{2}.
+	\end{align*}
+	Therefore $||A - P(A)||_F = \sqrt{\frac{\text{Tr}(A^TA) - \text{Tr}(A^2)}{2}}$. \\\\
+	
+	\textbf{Ex 3.50} \\\\
+	We want to estimate $y^2=1/s+rx^2/s$ via OLS.
+	We rewrite the model in the form $Ax=b$ where
+	$b_i=y_i^2$, $A_i=(1\ x_i)$ and $x=(\beta_1\ \beta_2)^T$ where $\beta_1=1/s$ and $\beta_2=r/s$.
+	Then the normal equations are $A^HA\hat{x}=A^Hb$, where
+	\begin{align*}
+	A^HA\hat{x} =
+	\begin{bmatrix}
+	\sum_i 1 & \sum_ix_i^2\\
+	\sum_ix_i^2& \sum_ix_i^4
+	\end{bmatrix}
+	\begin{bmatrix}
+	\hat{\beta}_1\\ \hat{\beta}_2
+	\end{bmatrix} =
+	\begin{bmatrix}
+	n\hat{\beta}_1 - \hat{\beta}_2\sum_i x_i^2\\
+	\hat{\beta}_1\sum_ix_i^2 - \hat{\beta}_2\sum_ix_i^4
+	\end{bmatrix}
+	\end{align*}
+	and
+	\begin{align*}
+	A^Hb=
+	\begin{bmatrix}
+	\sum_i y_i^2\\
+	\sum_i x_i^2y_i^2
+	\end{bmatrix}.
+	\end{align*}
+	
+	
+
+ \end{spacing}
+\end{document}
+
