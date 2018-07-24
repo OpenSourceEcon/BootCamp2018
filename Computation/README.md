@@ -91,7 +91,7 @@ The computational methods lab sessions for the OSM Lab will be held from 8:00-11
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
 7-23  | M   |     |     |     |     |
-7-24  | T   | Matrix conditions | Jan Ertl |  | Comp Prob Set 6 |
+7-24  | T   | Matrix conditions | Jan Ertl |  | [Comp Prob Set 6](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Computation/Wk6_DifIntLin/DifIntOpt_probset.pdf) |
 |     |     | Numerical Diff. and Int. |           |  | due T, 7-31, 6pm |
 |     |     |     |      | [ACME: Numerical Differentiation](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/ACME_NumDiff.pdf) |  |
 |     |     |     |      | [Evans: Numerical Integration](https://github.com/OpenSourceMacro/BootCamp2017/blob/master/Computation/Wk4_DifIntOpt/NumIntegr_Evans.pdf) |  |
