@@ -70,8 +70,8 @@ The economics lectures for the OSM Lab will be held from 10:00-11:50am, Monday, 
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-30 | M  | Heterogeneous agent models | [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/) |  | Econ Prob. Set 7 |
-7-31 | T  |              |                            |             | due F, 8-3, 11pm |
+7-30 | M  | Heterogeneous agent models | [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/) | [Notes](https://github.com/econ-ark/TITLARK/blob/master/Courses/Lectures-04/HA-Macro-OSM/syllabus/syllabus.pdf) | Econ Prob. Set 7 |
+7-31 | T  |              |                            |             | due Th, 8-2, 6pm |
 8-1  | W  | Heterogeneous agent models | [Christopher Carrol](http://econ.jhu.edu/directory/christopher-carroll/) |  |  |
 8-2  | Th | Heterogeneous agent models | [Matthew White](https://lerner.udel.edu/faculty-staff-directory/matthew-n-white/) |  |  |
 8-3  | F  | Conclusion: Hwk due |  |  |  |
