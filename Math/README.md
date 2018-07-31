@@ -71,8 +71,8 @@ The math lectures for the OSM Lab will be held from 8:00-9:50am, Monday, Wednesd
 
 | Date | Day | Topic | Instructor | Materials | Problem Set |
 |:---:|:---:|:--- |:--- |:--- | --- |
-7-30 | M   | CGE modeling | Dinar Prihardini |  | Math Prob. Set 7 |
-7-31 | T   |              |                  |  | due F, 8-3, 6pm  |
+7-30 | M   | CGE modeling | Dinar Prihardini | [Notes](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ/Wk7_CGE) | [Math Prob. Set 7](https://github.com/OpenSourceMacro/BootCamp2018/blob/master/Econ/Wk7_CGE/CGE_probset.pdf) |
+7-31 | T   |              |                  |  | due Th, 8-2, 6pm  |
 8-1  | W   | CGE modeling | Dinar Prihardini |  |                  |
 8-2  | Th  | CGE modeling | Dinar Prihardini |  |                  |
 8-3  | F   | Conclusion: Hwk due | [Richard Evans](https://sites.google.com/site/rickecon/) |  |  |
