@@ -83,9 +83,9 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-3) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-3) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-2  | M   | Spectral theory     | Overlapping generations models |   |     |
-7-3  | T   |                     |                                | QR decomposition, SVD  |     |
+7-3  | T   |                     |                                | QR, SVD decomposition, SVD  |     |
 7-4  | W   | NO CLASSES: HOLIDAY | NO CLASSES: HOLIDAY            |                      |     |
-7-5  | Th  |                     |                                | Numerical diff., integr. |     |
+7-5  | Th  |                     |                                | Drazin inv., page rank |     |
 7-6  | F   | Spectral theory     | Overlapping generations models |                      |   |
 
 ### Week 4
@@ -116,9 +116,9 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-6) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-6) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-23  | M   | Nonlinear optimization | Asset Pricing |                      |     |
-7-24  | T   |                        |               | Simplex, line search, Newton's |     |
+7-24  | T   |                        |               | Num. diff. and integr. |     |
 7-25  | W   | Nonlinear optimization | Asset Pricing |  | Sebastian James |
-7-26  | Th  |                        |               | Interior pt., quasi Newton |     |
+7-26  | Th  |                        |               | Simplex, line search, Newton's |     |
 7-27  | F   | Nonlinear optimization | Asset Pricing |                      | TBA |
 
 ### Week 7
@@ -126,7 +126,7 @@ Below is a summary schedule of topics. More detailed schedules are on the respec
 | Date | Day | [Math](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Math#week-7) (8-10am) | [Econ](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Econ#week-7) (10am-noon) | [Computation](https://github.com/OpenSourceMacro/BootCamp2018/tree/master/Computation#schedule) (8am-noon) | Lunch speaker |
 |:---:|:---:|:--- |:--- |:--- |:--- |
 7-30 | M  | CGE modeling | Heterogeneous agent models |                     |     |
-7-31 | T  |              |                            | Interpolation       |     |
+7-31 | T  |              |                            | Newton's, quasi Newton       |     |
 8-1  | W  | CGE modeling | Heterogeneous agent models |                     |     |
 8-2  | Th | CGE modeling | Heterogeneous agent models |                     |     |
 8-3  | F  | Conclusion: Hwk due | Conclusion: Hwk due | Conclusion: Hwk due | TBA |
