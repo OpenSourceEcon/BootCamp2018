@@ -1,0 +1,238 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lscape}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfsync}
+\usepackage{verbatim}
+\usepackage{placeins}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\synctex=1
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\renewcommand\theenumi{\roman{enumi}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+	
+	\title{Problem Set 1\\
+	}
+	\author{
+		Yung-Hsu Tsui\footnote{University of Chicago, Master of Art Program in Social Science, 1126 E. 59th Street, Chicago, Illinois, 60637, (773) 702-5079, \href{mailto:}{yhtsui@uchicago.edu}.} \footnote{I thank Jayhyung Kim, Suleyman Gozen and Peiyao Sun for their great comments.}\\[-2pt]
+	}
+	\date{June 25 ,  2018 }
+	\vspace{-9mm}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\pagestyle{fancy}
+	\fancyhf{}
+	\rhead{OSM Boot Camp}
+	\chead{Mathematics}
+	\lhead{Yung-Hsu Tsui}
+	\cfoot{\thepage}
+	
+	
+	\begin{spacing}{1.3}{}
+		\vspace{2 mm}
+
+
+\textbf{Exercise 1.3.}
+
+\begin{itemize}
+\item $\mathcal{G}_{1} = \{A : A \subset \mathbb{R}, \text{A open}\}$
+\end{itemize}
+
+Since $A^{c} = X - A \notin \mathcal{G}_{1}$, $\mathcal{G}_{1}$ is neither an algebra nor $\sigma$-algebra.
+
+\begin{itemize}
+\item $\mathcal{G}_2 = \{A: A $ is a finite union of intervals of the form (a,b], (-$\infty$, b], and (a,$\infty$) $\}$
+\end{itemize}
+
+$\mathcal{G}_2$ is algebra because 
+
+\begin{enumerate}
+\item $\emptyset \in \mathcal{G}_2$
+\item $\mathcal{G}_2$ is closed under complements and finite unions, i.e. if $A \in  \mathcal{G}_2$, then $A^c = X-A \in  \mathcal{G}_2$, and if $A_1, A_2, \cdots, A_N \in  \mathcal{G}_2$, then $\bigcup_{n=1}^{N} A_n \in  \mathcal{G}_2$
+\end{enumerate}
+
+$\mathcal{G}_2$ is not $\sigma$-algebra because it is not closed under countable unions.
+
+\begin{itemize}
+\item $\mathcal{G}_3 = \{A: A $ is a countable union of (a,b], (-$\infty$, b], and (a,$\infty$) $\}$
+\end{itemize}
+
+$\mathcal{G}_3$ is both algebra and $\sigma$-algebra because 
+
+\begin{enumerate}
+\item $\emptyset \in \mathcal{G}_3$
+\item $\mathcal{G}_3$ is closed under complements and finite unions, i.e. if $A \in  \mathcal{G}_2$, then $A^c = X-A \in  \mathcal{G}_3$, and if $A_1, A_2, \cdots, A_N \in  \mathcal{G}_3$, then $\bigcup_{n=1}^{N} A_n \in  \mathcal{G}_3$
+\item $\mathcal{G}_3$ is closed under countable unions, i.e. if $A_1, A_2, \cdots \in \mathcal{G}_3$, then $\bigcup_{n=1}^{\infty} A_n \in \mathcal{G}_3$
+\end{enumerate}
+
+\textbf{Exercise 1.7.}
+
+Since $\emptyset \in \mathcal{A}$ and the complement of $\emptyset$ ($X$) is in $\mathcal{A}$, $\mathcal{A}$ is smallest possible $\sigma$-algebra. On the other hand, since power set $\mathcal{P}(X)$ is the largest $\sigma$-algebra for a given set and it is literally everything (so includes everything for its complements), $\mathcal{A}$ is largest possible $\sigma$-algebra.
+
+\textbf{Exercise 1.10.}
+
+Let $\sum^{*} = \bigcap_\alpha \mathcal{S}_\alpha$. Since $X$ is in every $\{\mathcal{S}_\alpha\}$, $\sum^{*}$ is not empty. Closure under complement and countable unions for every  $\{\mathcal{S}_\alpha\}$ implies the same must be true for $\sum^{*}$.  Therefore,  $\sum^{*}$ is $\sigma$-algebra.
+
+\textbf{Exercise 1.17.}
+
+\begin{itemize}
+\item $\mu$ is monotone: A and B $\setminus$ A are disjoint with $B = A \cup (B \setminus A)$ so $\mu(A) + \mu (B \setminus A) = \mu(B)$. So rearranging gives the desired result where $\mu(A) \leq \mu(B)$  .
+
+\item  $\mu$ is countably subadditive: Let $A_{i}^{'} = A_{i} \cap A$. Then let $B = {A_{1}}^{'}$ and $B_{i} = A_{i}^{'} \setminus \cup_{n=1}^{i-1} A_{n}^{'}$ for $i>1$. Since $B_{i}$ are disjoint, using monotonicity property we have union A and $B_{n} \subseteq A_{n}$. Then we have $\mu(A) = \sum_{n=1}^{\infty} \mu({B_{n}}) \leq  \sum_{n=1}^{\infty} \mu({A_{n}})$.
+
+\end{itemize}
+
+\textbf{Exercise 1.18.}
+\begin{itemize}
+\item $\lambda(A) \geq 0$ for every $A \in X$.
+\item $\lambda(\cup_{n \in \mathbb{N}} A_{n}) = \sum_{n \in \mathbb{N}} \lambda(A_{n})$ because of the fact that 
+\begin{align*}
+\lambda(\cup_{n \in \mathbb{N}} A_{n}) & = \mu((\cup_{n \in \mathbb{N}} A_{n}) \cap B) \quad (\text{Definition of $\lambda$})\\ & = \mu((\cup_{n \in \mathbb{N}} A_{n} \cap B)) \quad (\text{Intersection Distributes over Union})\\ & = \sum_{n \in \mathbb{N}} \mu(A_{n} \cap B)  \quad \quad (\text{$\mu$ is a measure}) \\ & = \sum_{n \in \mathbb{N}} \lambda(A_{n}) \quad \quad \quad \quad (\text{Definition of $\lambda$})\\
+\end{align*}
+\item  $\lambda(\emptyset) = 0$ because by intersection with empty set we have $\emptyset \cap A = \emptyset$, hence $\lambda(\emptyset) = \mu(\emptyset \cap A) =  \mu(\emptyset) = 0$.
+
+\end{itemize}
+
+\textbf{Exercise 1.20.}
+
+Consider the increasing sequence $\{B_{i}\}_{i \in \mathbb{N}}  \in \mathcal{S}$ given by $B_{i} = A_{1} \setminus A_{i}$.  By De Morgan laws, finiteness of $\mu(A_1)$ and property (i) in the theorem, we have
+
+\begin{align*}
+\mu(A_1) - \mu(\cap_{i=1}^\infty A_i) = \mu(A_1 \setminus (\cap_{i=1}^\infty A_i))  & = \mu(\cup_{i} B_{i}) \\ & = \lim_{n\rightarrow \infty} \mu(B_n) \\ & =\lim_{n\rightarrow \infty} \mu(A_1 \setminus (\cap_{i=1}^\infty A_i)) \\ & = \mu(A_1) - \lim_{n\rightarrow \infty} \mu(A_n)
+\end{align*}
+
+Hence we have $\mu(\cap_{i=1}^\infty A_i) =  \lim_{n\rightarrow \infty} \mu(A_n) $.
+
+\textbf{Exercise 2.10.}
+
+The definition says that a set is measurable if we can use it to cut any other set in two parts without introducing any further irregularities - hence all parts of its boundary must be reasonably regular.
+
+Formally, we can show this equality based on the fact that since $ A = (A \cap E) \cup (A \cap E^{c})$, subadditivity tells us that we always have 
+
+$$\mu^{*} (A \cap E) + \mu^{*} (A \cap E^{c}) \geq \mu^{*} (A) $$ 
+
+\textbf{Exercise 2.14.}
+
+Since the Borel algebra is a $\sigma$-algebra, we could of course restrict Lebesgue measure to the Borel algebra. However, this measure is not complete, since there exist Borel sets of measure zero (such as the Cantor set) whose subsets are not all Borel.
+
+\textbf{Exercise 3.1.}
+
+Let $\{x_{i}\}_{i=1}^{\infty}$ be an enumeration of the elements of countable set $X$. For any positive number $\epsilon$, define $A_{i} = (x_{i} - 2^{-i}\epsilon, x_{i} + 2^{-i}\epsilon)$. Then $X \subseteq \cup_{i=1}^{\infty} A_{i}$ and $\mu(\cup A_i) \leq \sum_{i=1}^{\infty} 2^{-i}\epsilon = 2\epsilon$. Since Since our choice of $\epsilon$ was arbitrary, for any positive real $z$
+we can construct a set $Y$ such that $X \subseteq Y$ and $\mu(Y) \leq z$. Hence countable set $X$ has zero measure. 
+
+\textbf{Exercise 3.4.}
+
+We know that the Borel $\sigma$-algebra on $\mathbb{R}$ is generated by any of the following collections of intervals
+$$
+\{(-\infty,b) : b \in \mathbb{R}\}, \{(-\infty,b] : b  \in \mathbb{R}\}, \{(a,\infty) :  a \in \mathbb{R}\}, \{[a, \infty) : a  \in \mathbb{R}\}
+$$
+We also know that 
+$$ \{ x \in X : f(x) < b\} = f^{-1} ((-\infty,b))$$
+$$ \{ x \in X : f(x) \leq b\} = f^{-1} ((-\infty,b]) $$
+$$ \{ x \in X : f(x) > a\} = f^{-1} ((a,\infty]) $$
+$$ \{ x \in X : f(x) \geq a\} = f^{-1} ([a,\infty])$$
+
+ Then the result follows immediately from Definition 3.2..
+ 
+ \textbf{Exercise 3.7.}
+ 
+ \emph{Proof.} Note that $F_1(f,g) = f+g, F_2(f,g) = f-g, F_3(f,g) = max(f,g), F_4(f,g) = min(f,g), F_5(f^{+},f^{-}) = f^{+} + f^{-} = \|f\|$ are all trivially continuous functions. Also, for any measurable functions $f$, we can set a sequence of measurable functions$\{f_n\}_{n \in \mathbb{N}}$ such that $f:= \sup_{n \in \mathbb{N} f_n}$. Thus, $F_1, F_3, F_3, F_4, F_5$ are all measurable function, which implies that the statement 1 in the theorem 3.6 holds. \   \\
+ 
+  \textbf{Exercise 3.14.}
+
+ Note that for each positive integer $n$
+ and each real number $t$ corresponds to a unique integer $k= k_n(t)$ that satisfies \\
+ \[k 2^{-n} \leq t < (k+1) 2^{-n}\]
+ Define
+ \[
+  S_n(t) = \left.
+  \begin{cases}
+    k_n(t) 2^{-n}, & 0 \leq t < n \\
+    n, & n < t \leq \infty \\
+  \end{cases}
+  \right\}
+\]
+Note that $k 2^{-n} \leq t < (k+1) 2^{-n}$ implies $t - 2^{-n} < S_n(t) \leq t$ if $0 \leq t \leq n$. Thus, $0 \leq S_1 \leq S_2 \leq ... \leq t$, and $S_n(t) \rightarrow t$ as $n \rightarrow \infty$ for every $t \in [0,\infty)$.
+
+For arbitrary $\varepsilon > 0$, choose sufficiently large $N \in \mathbb{N}$, s.t $|f(x)| < N$ for $\forall n \geq N$, and $2^{-n} < N$. Then, define $\phi_n(x) = S_n(f(x))$. Then, $f(x) - 2^{-n} < \phi_n(x) \leq f(x)$. Thus, this leads to the following;
+\[|\phi_n(x) - f(x)| \leq 2^{-n} < \varepsilon\]
+This implies that as $n \rightarrow \infty$, $|\phi_n(x) - f(x)| \rightarrow 0$, $\forall x \in X$(This is the definition of uniform convergence.) 
+
+\textbf{Exercise 4.13.}
+
+Since $|f| = f^{+} + f^{-} < M$ on $E$, which means it is bounded on E, so $f^{+}$ and $f^{-}$ is bounded on E. Then $\int_{E}f^{+}du$ and $\int_{E}f^{-}du$ are finite, therefore $f \in L^{1}(\mu, E)$.
+
+\textbf{Exercise 4.14.}
+
+Let $E_n = f^{-1}((n,\infty))$. Then $n\mu(E_n) \leq \int_{E_n} fd\mu$. So we have
+
+$$ \mu(E_n) \leq \frac{1}{n} \int_{E_n}  fd\mu \leq  \frac{1}{n} \int_{E}  fd\mu  $$
+
+Since  $\int_{E}  fd\mu < \infty$, this implies $\mu(E_n) \rightarrow 0$ as $n \rightarrow 0$. Since $f^{-1}(\{\infty\}) = \cap_{n=1}^{\infty}E_{n}$, we have $E_{n} \supset E_{n+1}$ and $\mu(E_n) < \infty$ for some $N$. Lastly, by continuity from above we have
+
+$$\mu(f^{-1}(\{\infty\})) = \lim_{n \rightarrow \infty} \mu(E_n) = 0$$
+
+It follows that f is finite a.e.
+
+\textbf{Exercise 4.15.}
+
+f, g are measurable on E. According to Proposition 4.7, $\int_{E}f du \leq \int_{E}g du$
+
+\textbf{Exercise 4.16.}
+
+Since $A \subset E$, therefore $\int_{A}f^{+} du$ and $\int_{A}f^{-} du$ are finite, so $f \in L^{1}(\mu, A)$.
+
+\textbf{Exercise 4.21.}
+ 
+ \emph{Proof. } We use the theorem 4.19 to prove this corollary. Define $\lambda (E) := \int_{E} f d\mu$ where $E \in \mathcal{M}$. Then, by the theorem 4.19, $\lambda(.)$ is a measure of $\mathcal{M}$. Using the property of measure, $\int_{A} f d \mu = \lambda(A) = \lambda(B \cup (A \cap B^{c})) = \lambda(B) + \lambda(A \cap B^{c})$. Note that $\lambda(A \cap B^{c}) = \int_{A \cap B^{c}} f d\mu =0$ by the proposition 4.6. Then, $\lambda(A) = \lambda(B)$. This also implies that $\int_{A}f d\mu = \int_{B}f d\mu$, which eventually means that $\int_{A}f d\mu \leq \int_{B}f d\mu$. \  \\
+ \end{spacing}
+\end{document}
+

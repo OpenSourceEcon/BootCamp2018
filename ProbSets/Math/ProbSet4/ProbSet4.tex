@@ -1,0 +1,337 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{threeparttable}
+\usepackage{geometry}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in}
+\usepackage[format=hang,font=normalsize,labelfont=bf]{caption}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{delarray}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lscape}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{float,color}
+\usepackage[pdftex]{graphicx}
+\usepackage{pdfsync}
+\usepackage{verbatim}
+\usepackage{placeins}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\synctex=1
+\usepackage{hyperref}
+\hypersetup{colorlinks,linkcolor=red,urlcolor=blue,citecolor=red}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition} % Number definitions on their own
+\newtheorem{derivation}{Derivation} % Number derivations on their own
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition} % Number propositions on their own
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\bibliographystyle{aer}
+\newcommand\ve{\varepsilon}
+\renewcommand\theenumi{\roman{enumi}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+\begin{document}
+	
+	\title{Problem Set 4\\
+	}
+	\author{
+		Yung-Hsu Tsui\footnote{University of Chicago, Master of Art Program in Social Science, 1126 E. 59th Street, Chicago, Illinois, 60637, (773) 702-5079, \href{mailto:}{yhtsui@uchicago.edu}.} \footnote{I thank Alberto Quaini for his great comments.}\\[-2pt]
+	}
+	\date{July 16 ,  2018 }
+	\vspace{-9mm}
+	\maketitle
+	\thispagestyle{empty}
+	
+	\pagestyle{fancy}
+	\fancyhf{}
+	\rhead{OSM Boot Camp}
+	\chead{Mathematics}
+	\lhead{Yung-Hsu Tsui}
+	\cfoot{\thepage}
+	
+	\begin{spacing}{1.3}{}
+		\vspace{1 mm}
+
+	
+	\subsection*{Ex 6.1}
+	Let $f(w):=-e^{-w^Tx}$, $G(w):=w^TAw - w^TAy - w^Tx$,
+	and $H(w)=y^Tw-w^Tx$. 
+	Then the problem can be written in the following standard form:
+	\begin{align*}
+	&\min_{w} \quad\ f(w)\\
+	&s.t. \text{     }G(w)\leq a, \quad\ H(w)=b.
+	\end{align*}
+	
+	\subsection*{Ex 6.6}
+	The gradient is $Df(x,y)=(6xy+4y^2+y, 3x^2+8xy+x)$ and the hessian is
+	\begin{align*}
+	D^2f(x,y) = 
+	\begin{bmatrix}
+	6y & 6x+8y+1\\ 6x+8y+1 & 8x
+	\end{bmatrix}.
+	\end{align*}
+	The first order conditions read $Df(x,y)=(0,0)$ and yield the following critical points:
+	$A=(-1/3,0)$, $B=(-1/9, -1/12)$, $C=(0,0)$ and $D=(0,-1/4)$.\\
+	
+	The eigenvalues of the hessian for $A$ are approximately $0.3$ and $-3$, thus $A$ is a saddle point. The eigenvalues of the hessian for $B$ are approximately $-0.3$ and $-1.1$, thus $B$ is a local maximizer.\\
+	
+	The eigenvalues of the hessian for $C$ are approximately $1$ and $-1.1$, thus $C$ is a saddle point. The eigenvalues of the hessian for $D$ are approximately $-2$ and $0.5$, thus $D$ is a saddle point.\\
+	
+	\subsection*{Ex 6.7}
+	(i)
+	
+	Notice that $Q^T = (A^T + A)^T = A^T+ A = A + A^T = Q$.
+	Also, $x^TAx = \sum_{i=1}^na_{ij}x_ix_j = \sum_{i=1}^na_{ji}x_ix_j = x^TA^Tx$.
+	Therefore $x^TQx = 2x^TAx$ and $(6.17)$ is equivalent to
+	\begin{align*}
+	f(x) = x^TQx/2 - b^Tx +c.
+	\end{align*}
+	
+	(ii)
+	
+	The first order necessary conditions for a minimizer imply
+	$Q^Tx^* = b$, since $f'(x) = Q^Tx-b$.
+	
+	(iii)
+	
+	If $Q$ is positive definite, then $f''(x)>0$ for any $x$.
+	Also, $Q$ is invertible and by $(6.19)$ we have 
+	that $x^*=Q^{-1}b$ is such that $f'(x^*)=0$.
+	Then by the second order sufficient condition, $x^*$ is the unique minimizer of $f$.
+	Now assume $x^*$ is the unique minimizer of $f$.
+	Then by the second order necessary condition, $Q$ is positive semi-definite.
+	Also, $x^*$ is a solution to $Q^Tx^*=b$.
+	If $Q$ has at least one zero eigenvalue, then $x^*$ is not unique.
+	Therefore $Q$ must be positive definite.
+	
+	\subsection*{Ex 6.11}
+	Notice that $f'(x)=2ax+b$, $f''(x)=2a$, and that the first Newton's Method iteration is 
+	$x_1=x_0-f'(x_0)/f''(x_0)$.
+	Notice that 
+	\begin{align*}
+	f'(x_1)=2a(x_0-(2ax_0+b)/2a)+b=0
+	\end{align*}
+	and
+	\begin{align*}
+	f''(x_0)=2a>0.
+	\end{align*}
+	Therefore, $x_1$ is a local minimizer.
+	Since $f$ is quadratic, it is the unique minimizer.
+	
+	\subsection*{Ex 7.1}
+	Take $x,y\in\text{conv}(S)$.
+	Then $x=\sum_{i=1}^{k_x}\lambda^x_is_i$ where $s_i$ are elements of $S$,
+	$k_x\in\mathbb N$ and $\lambda^x_i$ are nonnegative and sum to $1$.
+	Do the same for $y$ and set $k=\max\{k_x,k_y\}$.
+	Also, let $\lambda\in[0,1]$.
+	Then
+	\begin{align*}
+	\lambda x+(1-\lambda)y = \sum_{i=1}^k(\lambda\lambda^x_i+(1-\lambda)\lambda^y_i)s_i
+	\end{align*}
+	where $(\lambda\lambda^x_i+(1-\lambda)\lambda^y_i)$ are nonnegative and
+	\begin{align*}
+	\sum_i\lambda\lambda^x_i+(1-\lambda)\lambda^y_i=
+	\lambda\sum_i\lambda^x_i+(1-\lambda)\sum_i\lambda^y_i=1.
+	\end{align*}
+	Thus $\lambda x+(1-\lambda y)\in S$ and $S$ is convex.
+	
+	\subsection*{Ex 7.2}
+	(i)
+	Let $P=\{x\in V\ :\ <a,x>=b\}$ for some $a\in V$, $a\neq 0$ and some real $b$.
+	Let $x,y\in P$ and $0\leq\lambda\leq 1$.
+	Then
+	\begin{align*}
+	<a,\lambda x+(1-\lambda)y>=\lambda<a,x>+(1-\lambda)<a,y>=\lambda b + (1-\lambda)b=b.
+	\end{align*}
+	Thus $P$ is convex.
+	
+	(ii)
+	Let $H=\{x\in\mathbb R^n\ :\ <a,x>\leq b\}$ where again $a\in V$, $a\neq 0$ and some real $b$.
+	Let $x,y\in H$ and $0\leq\lambda\leq 1$.
+	Then 
+	\begin{align*}
+	<a,\lambda x+(1-\lambda)y>=\lambda<a,x>+(1-\lambda)<a,y>\leq\lambda b + (1-\lambda)b=b.
+	\end{align*}
+	Thus $H$ is convex.
+	
+	\subsection*{Ex 7.4}
+	(i)
+	Note that
+	\begin{align*}
+	||x-y||^2 &=||(x-p)+(p-y)||^2\\
+	&=<(x-p)+(p-y),(x-p)+(p-y)>\\
+	&=||x-p||^2+||p-y||^2+2<x-p,p-y>.
+	\end{align*}
+	
+	(ii)
+	Take an arbitrary $y\neq p$. Then $||p-y||^2> 0$.
+	Suppose $<x-p,p-y>\geq0$. Then it is clear by (i)
+	that $||x-y||>||x-p||$.
+	
+	(iii)
+	Let $z=\lambda y+(1-\lambda)p$, where $0\leq\lambda\leq1$.
+	Then by (i) where we use $z$ instead of $y$ we get
+	\begin{align*}
+	    ||x-z||^2 & = ||x-p||^2+||\lambda y-\lambda p||^2 + <x-p,\lambda p-\lambda y>\\
+	&= ||x-p||^2+2\lambda<x-p,p-y>+\lambda^2||y-p||^2.
+	\end{align*}
+	
+	(iv)
+	In (7.15), put $\lambda=1$, so $z=y$.
+	Then we know that
+	\begin{align*}
+	0&\leq||x-y||^2-||x-p||^2\\
+	&=2\lambda<x-p,p-y>+\lambda^2||y-p||^2.
+	\end{align*}
+	Dividing by $\lambda$ you get $0\leq2\lambda<x-p,p-y>+\lambda^2||y-p||^2$.
+	Take $y=p$, then $0\leq\lambda<x-p,p-y>$.
+	
+	The if statment of the theorem follows by (iv).
+	The only if statment of the theore follows by (ii).
+	
+	\subsection*{Ex 7.8}
+	Let $x, y\in\mathbb R^n$, with $x\neq y$, and $\lambda\in[0,1]$.
+	Then
+	\begin{align*}
+	g(\lambda x+(1-\lambda)y)&= f(\lambda Ax + (1-\lambda)Ay + b)\\
+	 &= f(\lambda(Ax+b) + (1-\lambda)(Ay+b))\\
+	&\leq\lambda f(Ax+b) + (1-\lambda)f(Ay+b)\\
+	& = \lambda g(x) + (1-\lambda)g(y)
+	\end{align*}
+	shows that $g$ is convex.
+	
+	\subsection*{Ex 7.12}
+	(i)
+	
+	Take $X,Y\in PD_n(\mathbb R)$ and $\lambda\in[0,1]$.
+	Then for every $v\in\mathbb R^n$ we have that
+	\begin{align*}
+	v^T(\lambda X+(1-\lambda)Y)v=
+	\lambda(v^TXv)+(1-\lambda)(v^TYv)>0,
+	\end{align*}
+	because $X$ and $Y$ are positive definite.
+	
+	(ii)
+	
+	(a)
+	Take $t_1, t_2\in\mathbb R$ and $\lambda\in[0,1]$.
+	On the one hand, 
+	\begin{align*}
+	\lambda g(t_1) + (1-\lambda)g(t_2) =
+	\lambda f(t_1A+(1-t_1)B) + (1-\lambda)f(t_2A+(1-t_2)B).
+	\end{align*}
+	On the other, 
+	\begin{align*}
+	g(\lambda t_1 + (1-\lambda)t_2) &=
+	f((\lambda t_1+(1-\lambda)t_2)A + (1-\lambda t_1+(1-\lambda)t_2)B)\\
+	&=f(\lambda(t_1A+(1-t_1)B)+(1-\lambda)(t_2A+(1-t_2)B)).
+	\end{align*}
+	Since $g$ is convex we get
+	\begin{align*}
+	f(\lambda X+(1-\lambda)Y)\leq\lambda f(X)+(1-\lambda)f(Y),
+	\end{align*}
+	with $X=t_1A+(1-t_1)B$ and $Y=t_2A+(1-t_2)B$.
+	Since the choice of $t$ was arbitrary and this holds for any $A,B\in PD_n(\mathbb R)$,
+	we conclude that $f$ is convex.
+	
+	(b)
+	By Proposition $(4.5.7)$, we know that if $A$ is posititve definite, then there exits a nonsingular matrix
+	$S$ such that $A=S^HS$. Then, $tA+(1-t)B=S^H(tI+(1-t)(S^H)^{-1}BS^{-1})S$,
+	and so
+	\begin{align*}
+	g(t) = -\log(\text{det}(tA+(1-t)B))=
+	-\log(\text{det}(S^H(tI+(1-t)(S^H)^{-1}BS^{-1})S)).
+	\end{align*}
+	By the fact that $\text{det}(AB)=\text{det}(A)\text{det}(B)$ and the properties of logarithms,
+	we obtain
+	\begin{align*}
+	&-\log(\text{det}(S^H(tI+(1-t)(S^H)^{-1}BS^{-1})S))\\
+	&= -\log(\text{det}(S^H)) - \log(\text{det}(tI+(1-t)(S^H)^{-1}BS^{-1})) - \log(\text{det}(S))\\
+	&=-\log(\text{det}(S^H)\text{det}(S)) - \log(\text{det}(tI+(1-t)(S^H)^{-1}BS^{-1}))\\
+	&=-\log(\text{det}(A))- \log(\text{det}(tI+(1-t)(S^H)^{-1}BS^{-1})).
+	\end{align*}
+	
+	(c)
+	
+	Since $A,B\in PD_n(\mathbb R)$, then $B^{-1}\in PD_n(\mathbb R)$ and
+	$((S^H)^{-1}BS^{-1})^{-1} = SB^{-1}S^H$ is positive definite since
+	\begin{align*}
+	x^HSB^{-1}S^Hx=
+	(S^Hx)^HB^{-1}(xS)>0.
+	\end{align*}
+	Therefore $(S^H)^{-1}BS^{-1}$ is positive definite.
+	Now let $\{\lambda_i\}_i$ be the collection of eigenvalues of $((S^H)^{-1}BS^{-1})$
+	and $\{x_i\}_i$ the corresponding collection of eigenvectors. Then for every $i$:
+	\begin{align*}
+	&(tI+(1-t)(S^H)^{-1}BS^{-1})x_i\\
+	&=tx_i + (1-t)\lambda_ix_i\\
+	&=(t+(1-t)\lambda_i)x_i.
+	\end{align*}
+	Thus, $\{t + (1-t)\lambda_i\}_i$ are the eigenvalues of $(tI+(1-t)(S^H)^{-1}BS^{-1})$ 
+	corresponding to the $\{x_i\}_i$, and we can conclude that
+	\begin{align*}
+	&-\log(\text{det}(A))- \log(\text{det}(tI+(1-t)(S^H)^{-1}BS^{-1}))\\
+	&=-\log(\text{det}(A))- \log(\Pi_{i=1}^n(t + (1-t)\lambda_i))\\
+	&=-\log(\text{det}(A))- \sum_{i=1}^n\log((t + (1-t)\lambda_i)).
+	\end{align*}
+	
+	(d)
+	
+	By using the expression of $g(t)$ in part (c) we can see that
+	$g'(t)\sum_{i=1}^n(1-\lambda_i)/(t+(1-t)\lambda_i)$ and
+	$g''(t)=\sum_{i=1}^n(1-\lambda_i)^2/(t+(1-t)\lambda_i)^2$, 
+	which is clearly nonnegative for all $t\in[0,1]$.
+	
+	\subsection*{Ex 7.13}
+	Suppose $f(x)<M$ for all $x$ for some real $M$ and $f$ is convex and not constant. 
+	Then, there exist $x,y\in\mathbb R^n$ such that $f(x)\neq f(y)$.
+	But then the line between $(x,f(x))$ and $(y,f(y))$ intersects $f(\cdot)=M$.
+	Since $f$ must lie on or above this line, at some point it must cross $f(\cdot)=M$ as well, which is a contraddiction.
+	
+	\subsection*{Ex 7.20}
+	Take $x,y\in\mathbb R^n$, with $x\neq y$, and $\lambda\in[0,1]$.
+	Since $f$ is convex we have $f(\lambda x+(1-\lambda)y)\leq\lambda f(x)+(1-\lambda)f(y)$.
+	Since $-f$ is convex, the opposite hold.
+	Therefore we must have $f(\lambda x+(1-\lambda) y) = \lambda f(x)+(1-\lambda)f(y)$.
+	Therefore $f$ is affine.
+	
+	\subsection*{Ex 7.21}
+	Let $x^*\in\mathbb R^n$ be a local minimizer of $f$.
+	Then $f(x^*)\leq f(x)$ for all $x\in\mathcal N_r(x^*)$,
+	where $\mathcal N_r(x^*)$ is an open ball around $x^*$ of radius $r>0$.
+	Since $\phi$ is monothonically increasing, $\phi(f(x^*))\leq\phi(f(x))$ for all $x\in\mathcal N_r(x^*)$.
+	Thus, $x^*$ is a local minimizer of $\phi\circ f$.
+	Now let $x^*$ be a local minimizer of $\phi\circ f$.
+	Then $\phi(f(x^*))\leq\phi(f(x))$ for all $x\in\mathcal N_r(x^*)$,
+	and since $\phi$ is monothonically increasing, this implies that
+	$f(x^*)\leq f(x)$ for all $x\in\mathcal N_r(x^*)$.
+	Thus, $x^*$ is a local minimizer of $f$.
+
+\end{spacing}
+\end{document}
